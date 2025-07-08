@@ -34,3 +34,15 @@ blah
 blah
 
 blah
+
+***                                                       
+
+<b><i>Continuing the course?</b>
+</br>
+[Click here for the Next Lab](/courseFiles/Conclusion/conclusion.md)</i>
+
+<b><i>Want to go back?</b>
+</br>
+[Click here for the Previous Lab](/courseFiles/blockingAttacks/blockingAttacks.md)
+
+<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
