@@ -44,3 +44,6 @@
 - [Spread the Word!](courseFiles/Conclusion/conclusion.md#spread-the-word)
 - [What's Next?](courseFiles/Conclusion/conclusion.md#whats-next)
 
+***
+
+<i>[Course Homepage](/README.md)</i>
