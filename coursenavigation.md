@@ -6,43 +6,83 @@
 - [Getting Support](courseFiles/welcome/welcome.md#getting-support)
 
 ***
-### [Setting Up the Lab Environment](/courseFiles/setupLabEnvironment/setupLabEnvironment.md)
+### [Log Analysis Basics](/courseFiles/logAnalysis_Basics/logAnalysis_basics.md)
 
-- [Creating a LimaCharlie Account](courseFiles/setupLabEnvironment/setupLabEnvironment.md#creating-a-lima-charlie-account)
-- [Setting Up a Windows VM](courseFiles/setupLabEnvironment/setupLabEnvironment.md#setting-up-a-windows-vm)
-- [Setting Up the Attack VM](courseFiles/setupLabEnvironment/setupLabEnvironment.md#setting-up-the-attack-vm)
-- [Exploring EDR Telemetry](courseFiles/setupLabEnvironment/setupLabEnvironment.md#exploring-edr-telemetry)
-
-***
-### [Attack and Detect](/courseFiles/attackAndDetect/attackAndDetect.md)
-
-- [Intro](courseFiles/attackAndDetect/attackAndDetect.md#intro)
-- [Generating an Attack](courseFiles/attackAndDetect/attackAndDetect.md#generating-an-attack)
-- [Detecting an Attack](courseFiles/attackAndDetect/attackAndDetect.md#detecting-an-attack)
+- [Windows Event Logs](courseFiles)
+- [Sysmon Logs](courseFiles)
+- [Authentication Logs](courseFiles)
+- [Tools to Learn](courseFiles)
 
 ***
-### [Blocking Attacks](/courseFiles/blockingAttacks/blockingAttacks.md)
+### [Security Tools & Foundational Platforms](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)
 
-- [Intro](courseFiles/blockingAttacks/blockingAttacks.md#intro)
-- [Generating an Attack](courseFiles/blockingAttacks/blockingAttacks.md#generating-an-attack)
-- [Craft a Blocking Rule](courseFiles/blockingAttacks/blockingAttacks.md#craft-a-blocking-rule)
-- [Generate an Attack - With Blocking](courseFiles/blockingAttacks/blockingAttacks.md#generating-an-attack---with-blocking)
-- [Bonus Content](courseFiles/blockingAttacks/blockingAttacks.md#bonus-content)
-
-***
-### [Threat Hunting](/courseFiles/threatHunting/threatHunting.md)
-
-- [Intro](courseFiles/threatHunting/threatHunting.md#intro)
-- [Implementing YARA Rules](courseFiles/threatHunting/threatHunting.md#implementing-yara-rules)
-- [Testing our YARA Rules](courseFiles/threatHunting/threatHunting.md#testing-our-yara-rules)
-- [Enabling Automatic YARA Scans](courseFiles/threatHunting/threatHunting.md#enabling-automatic-yara-scans)
-- [Testing Automated YARA Scans](courseFiles/threatHunting/threatHunting.md#testing-automated-yara-scans)
+- [Intro](courseFiles)
+- [LimaCharlie Hands-On](courseFiles)
+- [Elastic SIEM Hands-On](courseFiles)
+- [Viewing Alerts & Logs]
+- [Writing & Modifying Basic Detection Rules]
+- [Telemetry Searching]
 
 ***
-### [Conclusion](/courseFiles/Conclusion/conclusion.md)
+### [Introduction to Detection & Threat Behavior](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
-- [Spread the Word!](courseFiles/Conclusion/conclusion.md#spread-the-word)
-- [What's Next?](courseFiles/Conclusion/conclusion.md#whats-next)
+- [Intro](courseFiles)
+- [The MITRE ATT&CK Framework](courseFiles)
+- [Mapping Log Events to ATT&CK Techniques](courseFiles)
+- [Open Source Projects](courseFiles)
+
+***
+### [Scripting for SOC Tasks](/courseFiles/socScripting/socScripting.md)
+
+- [Intro](courseFiles)
+- [Python Scripting Basics](courseFiles)
+- [Powershell Basics](courseFiles)
+
+***
+### [Networking & Telemetry 101](/courseFiles/networkingAndTelemetry/networkingAndTelemetry.md)
+
+- [Understanding Key Network Protocols](courseFiles)
+- [Identifying Network Logs](courseFiles)
+- [Examining Packet Captures]
+- [Metadata NetFlow vs Full Packet Capture]
+
+***
+### [Browser & Cloud Security Fundamentals]
+
+- [Browser Extension Attacks]
+- [OAuth & SSO Attacks]
+- [Azure Logs]
+- [M365 Audit Logs]
+
+***
+### [Deception Systems]
+
+- [Intro to Deception Techniques]
+- [Generating Traps]
+- [Active Defense & Cyber Deception]
+
+***
+### [Email Fundamentals]
+
+- [Identifying Phishing]
+- [Common Email-Based Attacks]
+- [Email Security Solutions]
+- [Projects to Try]
+
+***
+### [Documentation & Case Notes]
+
+- [Writing an Incident Timeline]
+- [Writing an Alert Triage Summary]
+- [Real-World Examples]
+
+***
+### [Soft Skills]
+
+- [Ask Questions]
+- [Explain Your Process]
+- [Start a Blog]
+- [Learn & Teach]
 
 ***
 
