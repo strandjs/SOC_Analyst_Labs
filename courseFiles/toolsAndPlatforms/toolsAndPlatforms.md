@@ -1,4 +1,4 @@
-# Attack and Detect
+# Security Tools & Foundational Platforms
 
 blah blah blah blah
 
@@ -11,19 +11,38 @@ blah blah blah
 blah blah
 blah
 
-## Generating an Attack
+## LimaCharlie Hands-On
 blah blah blah
 
 blah blah
 
 blah
 
-## Detecting an Attack
+## Elastic SIEM Hands-On
 
 blah blah blah
 
 blah
 blah
+
+blah
+
+## Viewing Alerts & Logs
+blah blah
+
+blah blah
+
+blah
+
+## Writing & Modifying Basic Detection Rules
+blah
+blah
+
+blah
+
+## Telemetry Searching
+
+Blah
 
 blah
 
@@ -31,11 +50,11 @@ blah
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/blockingAttacks/blockingAttacks.md)</i>
+[Click here for the Next Lab](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/setupLabEnvironment/setupLabEnvironment.md)
+[Click here for the Previous Lab](/courseFiles/logAnalysis_Basics/logAnalysis_basics.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
 

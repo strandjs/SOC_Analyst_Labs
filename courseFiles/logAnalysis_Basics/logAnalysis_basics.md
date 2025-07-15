@@ -1,4 +1,4 @@
-# Windows Event Logs
+# Log Analysis Basics
 
 Blah blah blah blah blah blah blah blah
 blahjblah
