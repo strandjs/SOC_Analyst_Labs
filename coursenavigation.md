@@ -1,4 +1,4 @@
-[<< Back to Course Home Page](/README.md)
+[<< <i>Back to Course Home Page</i>](/README.md)
 ***
 
 # Course Navigation
@@ -89,4 +89,4 @@
 
 ***
 
-<i>[Course Homepage](/README.md)</i>
+<i>[<< Back to Course Home Page](/README.md)</i>
