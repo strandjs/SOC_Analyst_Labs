@@ -70,11 +70,11 @@
 - [Projects to Try](courseFiles/emailFundamentals/emailFundamentals.md#projects-to-try)
 
 ***
-### [Documentation & Case Notes]
+### [Documentation & Case Notes](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md)
 
-- [Writing an Incident Timeline]
-- [Writing an Alert Triage Summary]
-- [Real-World Examples]
+- [Writing an Incident Timeline](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
+- [Writing an Alert Triage Summary](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
+- [Real-World Examples](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
 
 ***
 ### [Soft Skills]
