@@ -77,12 +77,12 @@
 - [Real-World Examples](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
 
 ***
-### [Soft Skills]
+### [Soft Skills](courseFiles/softSkills/softSkills.md)
 
-- [Ask Questions]
-- [Explain Your Process]
-- [Start a Blog]
-- [Learn & Teach]
+- [Ask Questions](courseFiles/softSkills/softSkills.md#ask-questions)
+- [Explain Your Process](courseFiles/softSkills/softSkills.md#explain-your-process)
+- [Start a Blog](courseFiles/softSkills/softSkills.md#start-a-blog)
+- [Learn & Teach](courseFiles/softSkills/softSkills.md#learn--teach)
 
 ***
 
