@@ -1,4 +1,4 @@
-# Threat Hunting
+# Scripting for SOC Tasks
 
 blah blah 
 blah
@@ -11,25 +11,13 @@ blah
 
 blah
 
-## Implementing YARA Rules
+## Python Scripting Basics
 
 blah
 
 blah
 
-## Testing our YARA Rules
-
-blah
-
-blah
-
-## Enabling Automatic YARA Scans
-
-blah
-
-blah
-
-## Testing Automated YARA Scans
+## Powershell Basics
 
 blah
 
@@ -39,10 +27,10 @@ blah
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/Conclusion/conclusion.md)</i>
+[Click here for the Next Lab](/courseFiles/networkingAndTelemetry/networkingAndTelemetry.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/blockingAttacks/blockingAttacks.md)
+[Click here for the Previous Lab](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

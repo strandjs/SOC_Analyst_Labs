@@ -34,17 +34,17 @@
 ***
 ### [Scripting for SOC Tasks](/courseFiles/socScripting/socScripting.md)
 
-- [Intro](courseFiles)
-- [Python Scripting Basics](courseFiles)
-- [Powershell Basics](courseFiles)
+- [Intro](courseFiles/socScripting/socScripting.md#intro)
+- [Python Scripting Basics](courseFiles/socScripting/socScripting.md#python-scripting-basics)
+- [Powershell Basics](courseFiles/socScripting/socScripting.md#powershell-basics)
 
 ***
 ### [Networking & Telemetry 101](/courseFiles/networkingAndTelemetry/networkingAndTelemetry.md)
 
-- [Understanding Key Network Protocols](courseFiles)
-- [Identifying Network Logs](courseFiles)
-- [Examining Packet Captures]
-- [Metadata NetFlow vs Full Packet Capture]
+- [Understanding Key Network Protocols](courseFiles/networkingAndTelemetry/networkingAndTelemetry.md#understanding-key-network-protocols)
+- [Identifying Network Logs](courseFiles/networkingAndTelemetry/networkingAndTelemetry.md#identifying-network-logs)
+- [Examining Packet Captures](courseFiles/networkingAndTelemetry/networkingAndTelemetry.md#examining-packet-captures)
+- [Metadata NetFlow vs Full Packet Capture](courseFiles/networkingAndTelemetry/networkingAndTelemetry.md#metadata-netflow-vs-full-packet-capture)
 
 ***
 ### [Browser & Cloud Security Fundamentals]
