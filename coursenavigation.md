@@ -8,10 +8,10 @@
 ***
 ### [Log Analysis Basics](/courseFiles/logAnalysis_Basics/logAnalysis_basics.md)
 
-- [Windows Event Logs](courseFiles)
-- [Sysmon Logs](courseFiles)
-- [Authentication Logs](courseFiles)
-- [Tools to Learn](courseFiles)
+- [Windows Event Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#windows-event-logs)
+- [Sysmon Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#sysmon-logs)
+- [Authentication Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#authentication-logs)
+- [Tools to Learn](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
 
 ***
 ### [Security Tools & Foundational Platforms](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)

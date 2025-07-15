@@ -1,41 +1,35 @@
-# Setting Up the Lab Environment
+# Windows Event Logs
 
 Blah blah blah blah blah blah blah blah
 blahjblah
 
 blah
 
-## Creating a Lima Charlie Account
+## Sysmon Logs
 blah blah blah blah
 
 blah blah
 blah
 
-## Setting Up a Windows VM
+## Authentication Logs
 blah blah
 blah 
 
 blah blha blah
 blah
 
-## Setting Up the Attack VM
+## Tools to Learn
 blah blah
 
 blah blah
 
 blah
 
-## Exploring EDR Telemetry
-
-Blah. Blah blah blah.
-
-Blah blah blah.
-
 ***                                                       
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/attackAndDetect/attackAndDetect.md)</i>
+[Click here for the Next Lab](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
