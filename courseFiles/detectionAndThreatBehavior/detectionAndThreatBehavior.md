@@ -1,4 +1,4 @@
-# Blocking Attacks
+# Introduction to Detection & Threat Behavior
 blah 
 blahblah
 
@@ -13,29 +13,21 @@ blah
 
 blah
 
-## Generating an Attack
+## The MITRE ATT&CK Framework
 
 blah
 blah
 
 blah
 
-## Craft a Blocking Rule
+## Mapping Log Events to ATT&CK Techniques
 
 blah
 blah
 
 blah
 
-## Generating an Attack - With Blocking
-blah
-
-blah
-
-blah
-
-## Bonus Content
-
+## Open Source Projects
 blah
 
 blah
@@ -46,10 +38,10 @@ blah
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/threatHunting/threatHunting.md)</i>
+[Click here for the Next Lab](/courseFiles/socScripting/socScripting.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/attackAndDetect/attackAndDetect.md)
+[Click here for the Previous Lab](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

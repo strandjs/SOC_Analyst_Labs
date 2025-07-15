@@ -26,10 +26,10 @@
 ***
 ### [Introduction to Detection & Threat Behavior](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
-- [Intro](courseFiles)
-- [The MITRE ATT&CK Framework](courseFiles)
-- [Mapping Log Events to ATT&CK Techniques](courseFiles)
-- [Open Source Projects](courseFiles)
+- [Intro](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
+- [The MITRE ATT&CK Framework](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#the-mitre-attck-framework)
+- [Mapping Log Events to ATT&CK Techniques](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#mapping-log-events-to-attck-techniques)
+- [Open Source Projects](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#open-source-projects)
 
 ***
 ### [Scripting for SOC Tasks](/courseFiles/socScripting/socScripting.md)
