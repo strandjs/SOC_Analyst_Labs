@@ -21,9 +21,7 @@ First thing we will do to start disecting the logs is to get some basic metrics 
 $ `hayabusa log-metrics --file sysmon.evtx`
 
 <img width="1917" height="611" alt="image" src="https://github.com/user-attachments/assets/473ad610-410e-4f82-b7bd-1f6310fc7437" />
-The logs span about 30 minutes and there are only 565 events, small enough to dig manually but we will do it the smart way.
-<br>
-
+The logs span about 30 minutes and there are only 565 events, small enough to dig manually but we will do it the smart way.<br>
 Next let's see the Event ID Distribution to dentify common or suspicious Sysmon events, we are looking for **1**, **3**, **10**, **11** or even **8**
 
 $ `hayabusa eid-metrics --file sysmon.evtx`
