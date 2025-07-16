@@ -49,6 +49,6 @@ Viewing alerts and logs is key to detecting suspicious activity on a system. Too
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/welcome/welcome.md)
+[Click here for the Previous Lab](/courseFiles/Lab_00-welcome/welcome.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

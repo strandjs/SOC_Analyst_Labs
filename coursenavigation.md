@@ -3,10 +3,10 @@
 
 # Course Navigation
 
-### [Welcome](/courseFiles/welcome/welcome.md)
+### [Welcome](/courseFiles/Lab_00-welcome/welcome.md)
 
-- [Start Here!](courseFiles/welcome/welcome.md#start-here)
-- [Getting Support](courseFiles/welcome/welcome.md#getting-support)
+- [Start Here!](courseFiles/Lab_00-welcome/welcome.md#start-here)
+- [Getting Support](courseFiles/Lab_00-welcome/welcome.md#getting-support)
 
 ***
 ### [Log Analysis Basics](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
