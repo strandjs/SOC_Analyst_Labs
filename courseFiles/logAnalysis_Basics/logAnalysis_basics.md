@@ -2,10 +2,10 @@
 
 Log analysis involves reviewing system and security logs to detect unusual or malicious activity. Each log entry typically includes a timestamp, source, user account, event type, and a unique Event ID.
 Most important IDs are:
-- ### 4624 = Succesfull Logon
-- ### 4625 = Failed logon
-- ### 4688 = Process creation
-- ### 4670 = Permission changes
+- ** 4624 ** = Succesfull Logon
+- ** 4625 ** = Failed logon
+- ** 4688 ** = Process creation
+- ** 4670 ** = Permission changes
 
 Effective log analysis involves:
 - Filtering noise
