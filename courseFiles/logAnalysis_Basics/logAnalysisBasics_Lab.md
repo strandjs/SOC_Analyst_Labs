@@ -41,10 +41,6 @@ Now let's proceed with a **Full Timeline Analysis**
 
 $ `hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 
-You can then look through it with
-
-$ `less timeline.csv`
-
 <img width="989" height="1028" alt="image" src="https://github.com/user-attachments/assets/79c127a4-193d-480b-89d8-96735323296e" />
 
 Immediately we can see some really telling information, we got hits on 50 events(8.85%), 11 of them being critical alerts of a known backdoor and ransomware
