@@ -9,12 +9,12 @@
 - [Getting Support](courseFiles/welcome/welcome.md#getting-support)
 
 ***
-### [Log Analysis Basics](/courseFiles/logAnalysis_Basics/logAnalysis_basics.md)
+### [Log Analysis Basics](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
-- [Windows Event Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#windows-event-logs)
-- [Sysmon Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#sysmon-logs)
-- [Authentication Logs](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#authentication-logs)
-- [Tools to Learn](courseFiles/logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
+- [Windows Event Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#windows-event-logs)
+- [Sysmon Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#sysmon-logs)
+- [Authentication Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#authentication-logs)
+- [Tools to Learn](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
 
 ***
 ### [Security Tools & Foundational Platforms](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)

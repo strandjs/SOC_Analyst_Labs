@@ -51,7 +51,7 @@ blah
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/logAnalysis_Basics/logAnalysis_basics.md)
+[Click here for the Previous Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
 
