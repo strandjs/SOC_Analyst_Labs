@@ -13,6 +13,7 @@ $ `hayabusa update-rules`
 Let's also get the logs that we will be working with and rename them
 
 $ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
+
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
 First thing we will do to start disecting the logs is to get some basic metrics to understand what system the logs came from, number of events, time range.
