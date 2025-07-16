@@ -1,4 +1,6 @@
 # Log Analysis Basics
+### Hands-On Lab : [Log Analysis Basics Lab](/courseFiles/logAnalysis_Basics/logAnalysisBasics_Lab.md)
+
 
 Log analysis involves reviewing system and security logs to detect unusual or malicious activity. Each log entry typically includes a timestamp, source, user account, event type, and a unique Event ID.
 Most important IDs are:
@@ -21,7 +23,6 @@ Sysmon logs appear under the Microsoft-Windows-Sysmon/Operational and include de
 - **Event ID 3** – Network connections
 - **Event ID 10** – Process access (used for example in credential dumping detection)
 - **Event ID 11** – File creation
-
 
 
 ## Authentication Logs
