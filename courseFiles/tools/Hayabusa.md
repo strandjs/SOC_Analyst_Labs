@@ -46,4 +46,4 @@ Get Logon activity summary
 - I prefer it to the Windows Event Viewer, easier to do bulk searching
 - You can't do much without updating the rules
 - You still need to know what to look for in the files you export, it doesn't hint you towards anything, just makes you do 80% of your job in 20% of the time
-- Took me a good while to find some good .evtx file to play with: [Log File For Lab](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx)
+- Took me a good while to find some good .evtx file to play with: [Log File For Lab](https://github.com/splunk/attack_data/blob/master/datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log)
