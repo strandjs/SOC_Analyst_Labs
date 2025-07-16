@@ -12,6 +12,8 @@ Effective log analysis involves:
 - ### Correlating events over time (easy using special tools like [Hayabusa](/courseFiles/tools/Hayabusa.md)
 - ### Flagging anomalies like brute-force logins or unusual logon times
 
+
+
 ## Sysmon Logs
 Sysmon (System Monitor) is a Windows system service that logs detailed system activity to the Event Log, beyond what standard logs capture. It’s often used in security monitoring and DFIR.
 Sysmon logs appear under the Microsoft-Windows-Sysmon/Operational and include details like:
@@ -19,6 +21,8 @@ Sysmon logs appear under the Microsoft-Windows-Sysmon/Operational and include de
 - ### Event ID 3 – Network connections
 - ### Event ID 10 – Process access (used for example in credential dumping detection)
 - ### Event ID 11 – File creation
+
+
 
 ## Authentication Logs
 blah blah
