@@ -13,6 +13,14 @@ Then type
 `eventvwr.msc`
 
 <img width="390" height="195" alt="image" src="https://github.com/user-attachments/assets/d4a049bf-bee3-4dac-bea8-7cf4ae30325e" />
+<br><br>
+
+There are multiple types of logs
+- Application  - Logs from applications like SQL Server, Outlook, etc.
+- Security  - Audit logs for logon attempts, file access, etc.
+- System  - Logs from Windows system components like drivers and services.
+- Setup  - 	Logs from system setup processes (e.g., Windows updates).
+- Forwarded Events	- Logs collected from remote computers.
 
 
 
