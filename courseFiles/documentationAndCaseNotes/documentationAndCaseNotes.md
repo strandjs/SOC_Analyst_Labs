@@ -27,6 +27,6 @@ blah
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/emailFundamentals/emailFundamentals.md)
+[Click here for the Previous Lab](/courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

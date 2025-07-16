@@ -21,10 +21,10 @@ blah
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/emailFundamentals/emailFundamentals.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md)
+[Click here for the Previous Lab](/courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

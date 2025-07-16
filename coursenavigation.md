@@ -65,12 +65,12 @@
 - [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
 
 ***
-### [Email Fundamentals](courseFiles/emailFundamentals/emailFundamentals.md)
+### [Email Fundamentals](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
 
-- [Identifying Phishing](courseFiles/emailFundamentals/emailFundamentals.md#identifying-phishing)
-- [Common Email-Based Attacks](courseFiles/emailFundamentals/emailFundamentals.md#common-email-based-attacks)
-- [Email Security Solutions](courseFiles/emailFundamentals/emailFundamentals.md#email-security-solutions)
-- [Projects to Try](courseFiles/emailFundamentals/emailFundamentals.md#projects-to-try)
+- [Identifying Phishing](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#identifying-phishing)
+- [Common Email-Based Attacks](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#common-email-based-attacks)
+- [Email Security Solutions](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#email-security-solutions)
+- [Projects to Try](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#projects-to-try)
 
 ***
 ### [Documentation & Case Notes](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md)
