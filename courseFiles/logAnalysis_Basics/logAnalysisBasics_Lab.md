@@ -45,5 +45,21 @@ You can then look through it with
 
 $ `less timeline.csv`
 
+<img width="989" height="1028" alt="image" src="https://github.com/user-attachments/assets/79c127a4-193d-480b-89d8-96735323296e" />
+
+Immediately we can see some really telling information, we got hits on 50 events(8.85%), 11 of them being critical alerts of a known backdoor and ransomware
+
+Let's dig deeper
+
+$ `less timeline.csv | grep "high"`
+
+One of the alerts looks like this:
+
+<pre>"2019-07-19 17:57:04.412 +03:00","Proc Exec (Non-Exe Filetype)","high","MSEDGEWIN10","Sysmon",1,4070,"Cmdline: C:\Users\IEUser\AppData\Local\Temptcm.tmp -decode c:\file.exe file.txt ¦ Proc: C:\Users\IEUser\AppData\Local\Temptcm.tmp ¦ User: MSEDGEWIN10\IEUser ¦ ParentCmdline: cmd.exe /c C:\Users\IEUser\AppData\Local\Temptcm.tmp -decode c:\file.exe file.txt ¦ LID: 0x50951 ¦ LGUID: 747F3D96-D4B4-5D31-0000-002051090500 ¦ PID: 6260 ¦ PGUID: 747F3D96-DA40-5D31-0000-0010AB5F3C00 ¦ ParentPID: 3932 ¦ ParentPGUID: 747F3D96-DA40-5D31-0000-0010565D3C00 ¦ Description: CertUtil.exe ¦ Product: Microsoft® Windows® Operating System ¦ Company: Microsoft Corporation ¦ Hashes: SHA1=459D928381CDDFDC31D03C3DA5C28E63B1190194,MD5=535CF1F8E8CF3382AB8F62013F967DD8,SHA256=85DD6F8EDF142F53746A51D11DCBA853104BB0207CDF2D6C3529917C3C0FC8DF,IMPHASH=683B8A445B00A271FC57848D893BD6C4","CurrentDirectory: C:\AtomicRedTeam\ ¦ FileVersion: 10.0.17763.1 (WinBuild.160101.0800) ¦ IntegrityLevel: High ¦ ParentImage: C:\Windows\System32\cmd.exe ¦ RuleName: ¦ TerminalSessionId: 1 ¦ UtcTime: 2019-07-19 14:57:04.381","8d1487f1-7664-4bda-83b5-cb2f79491b6a"
+</pre>
+
+
+
+
 
 
