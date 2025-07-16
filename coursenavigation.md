@@ -58,11 +58,11 @@
 - [M365 Audit Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
 
 ***
-### [Deception Systems](courseFiles/deceptionSystems/deceptionSystems.md)
+### [Deception Systems](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
 
-- [Intro to Deception Techniques](courseFiles/deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
-- [Generating Traps](courseFiles/deceptionSystems/deceptionSystems.md#generating-traps)
-- [Active Defense & Cyber Deception](courseFiles/deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
+- [Intro to Deception Techniques](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
+- [Generating Traps](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#generating-traps)
+- [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
 
 ***
 ### [Email Fundamentals](courseFiles/emailFundamentals/emailFundamentals.md)
