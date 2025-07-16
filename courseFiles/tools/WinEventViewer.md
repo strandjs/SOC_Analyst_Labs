@@ -10,5 +10,11 @@ Or through the **Run Dialog**
 
 Then type
 
-<pre>eventvwr.msc</pre>
+`eventvwr.msc`
+
+<img width="397" height="206" alt="image" src="https://github.com/user-attachments/assets/caf04461-1fc3-4444-929f-04ac91487e9c" />
+
+
+
+
 
