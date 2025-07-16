@@ -3,7 +3,7 @@
 **If you don't have hayabusa installed follow the tutorial from the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
 <br><br>
 
-To start off we need to make sure we have the detection rules of hayabusa
+- To start off we need to make sure we have the detection rules of hayabusa
 
 $ `hayabusa update-rules`
 
@@ -16,7 +16,7 @@ $ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/Automated
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
-<br><br>
+<br>
 
 - First thing we will do to start disecting the logs is to get some basic metrics to understand what system the logs came from, number of events, time range.
 
