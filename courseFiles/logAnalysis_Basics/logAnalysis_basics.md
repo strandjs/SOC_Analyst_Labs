@@ -1,15 +1,24 @@
 # Log Analysis Basics
 
-Blah blah blah blah blah blah blah blah
-blahjblah
+Log analysis involves reviewing system and security logs to detect unusual or malicious activity. Each log entry typically includes a timestamp, source, user account, event type, and a unique Event ID.
+Most important IDs are:
+- ### 4624 = Succesfull Logon
+- ### 4625 = Failed logon
+- ### 4688 = Process creation
+- ### 4670 = Permission changes
 
-blah
+Effective log analysis involves:
+- ### Filtering noise
+- ### Correlating events over time (easy using special tools like [Hayabusa](/courseFiles/tools/Hayabusa.md)
+- ### Flagging anomalies like brute-force logins or unusual logon times
 
 ## Sysmon Logs
-blah blah blah blah
-
-blah blah
-blah
+Sysmon (System Monitor) is a Windows system service that logs detailed system activity to the Event Log, beyond what standard logs capture. It’s often used in security monitoring and DFIR.
+Sysmon logs appear under the Microsoft-Windows-Sysmon/Operational and include details like:
+- ### Event ID 1 – Process creation (with full command line, parent/child PID)
+- ### Event ID 3 – Network connections
+- ### Event ID 10 – Process access (used for example in credential dumping detection)
+- ### Event ID 11 – File creation
 
 ## Authentication Logs
 blah blah
