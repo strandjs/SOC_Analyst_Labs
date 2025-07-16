@@ -12,7 +12,8 @@ Then type
 
 `eventvwr.msc`
 
-<img width="397" height="206" alt="image" src="https://github.com/user-attachments/assets/caf04461-1fc3-4444-929f-04ac91487e9c" />
+<img width="390" height="195" alt="image" src="https://github.com/user-attachments/assets/d4a049bf-bee3-4dac-bea8-7cf4ae30325e" />
+
 
 
 
