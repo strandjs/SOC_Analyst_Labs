@@ -30,17 +30,18 @@ The logs span about 30 minutes and there are only 565 events, small enough to di
 $ `hayabusa eid-metrics --file sysmon.evtx`
 
 <img width="627" height="503" alt="image" src="https://github.com/user-attachments/assets/f8a12a53-889d-4dd3-af42-d992bf8ec41c" />
+
 Important observations:
-- Process Creation (ID 1 = 90%), that's extremely high volume, and now our primary hunting ground
-- WMI Activity (IDs 19, 20, 21), rare in normal activities, could be remote execution
-- Network Connections (ID 3), check what process made the connection, destination IP/port, and timing.
+- **Process Creation (ID 1 = 90%)**, that's extremely high volume, and now our primary hunting ground
+- **WMI Activity (IDs 19, 20, 21)**, rare in normal activities, could be remote execution
+- **Network Connections (ID 3)**, check what process made the connection, destination IP/port, and timing.
 <br><br>
 
 Now let's proceed with a **Full Timeline Analysis**
 
 $ `hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 You can then look through it with
-$ `less timeline.csv`a
+$ `less timeline.csv`
 
 
 
