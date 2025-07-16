@@ -37,7 +37,7 @@ Important observations:
 - **Network Connections (ID 3)**, check what process made the connection, destination IP/port, and timing.
 <br><br>
 
-Now let's proceed with a **Full Timeline Analysis**
+- Now let's proceed with a **Full Timeline Analysis**
 
 $ `hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 
