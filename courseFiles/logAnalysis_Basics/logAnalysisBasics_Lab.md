@@ -2,4 +2,4 @@
 
 To start off we need to make sure we have the detection rules of hayabusa:
 
-$ 'sudo su -'
+$ `hayabusa update-rules`
