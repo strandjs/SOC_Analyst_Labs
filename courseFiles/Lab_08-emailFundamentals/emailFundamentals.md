@@ -26,10 +26,10 @@ blah
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/deceptionSystems/deceptionSystems.md)
+[Click here for the Previous Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

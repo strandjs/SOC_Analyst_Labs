@@ -73,19 +73,19 @@
 - [Projects to Try](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#projects-to-try)
 
 ***
-### [Documentation & Case Notes](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md)
+### [Documentation & Case Notes](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
 
-- [Writing an Incident Timeline](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
-- [Writing an Alert Triage Summary](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
-- [Real-World Examples](courseFiles/documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
+- [Writing an Incident Timeline](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
+- [Writing an Alert Triage Summary](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
+- [Real-World Examples](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
 
 ***
-### [Soft Skills](courseFiles/softSkills/softSkills.md)
+### [Soft Skills](courseFiles/Lab_10-softSkills/softSkills.md)
 
-- [Ask Questions](courseFiles/softSkills/softSkills.md#ask-questions)
-- [Explain Your Process](courseFiles/softSkills/softSkills.md#explain-your-process)
-- [Start a Blog](courseFiles/softSkills/softSkills.md#start-a-blog)
-- [Learn & Teach](courseFiles/softSkills/softSkills.md#learn--teach)
+- [Ask Questions](courseFiles/Lab_10-softSkills/softSkills.md#ask-questions)
+- [Explain Your Process](courseFiles/Lab_10-softSkills/softSkills.md#explain-your-process)
+- [Start a Blog](courseFiles/Lab_10-softSkills/softSkills.md#start-a-blog)
+- [Learn & Teach](courseFiles/Lab_10-softSkills/softSkills.md#learn--teach)
 
 ***
 

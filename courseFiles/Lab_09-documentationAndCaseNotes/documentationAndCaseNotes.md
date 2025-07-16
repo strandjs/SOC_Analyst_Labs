@@ -23,7 +23,7 @@ blah
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/softSkills/softSkills.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_10-softSkills/softSkills.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
