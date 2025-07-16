@@ -27,7 +27,7 @@ blah
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/networkingAndTelemetry/networkingAndTelemetry.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)</i>
 
 <b><i>Want to go back?</b>
 </br>

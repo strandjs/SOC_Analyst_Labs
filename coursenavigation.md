@@ -50,12 +50,12 @@
 - [Metadata NetFlow vs Full Packet Capture](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#metadata-netflow-vs-full-packet-capture)
 
 ***
-### [Browser & Cloud Security Fundamentals](courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md)
+### [Browser & Cloud Security Fundamentals](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
-- [Browser Extension Attacks](courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md#browser-extension-attacks)
-- [OAuth & SSO Attacks](courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
-- [Azure Logs](courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
-- [M365 Audit Logs](courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
+- [Browser Extension Attacks](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#browser-extension-attacks)
+- [OAuth & SSO Attacks](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
+- [Azure Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
+- [M365 Audit Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
 
 ***
 ### [Deception Systems](courseFiles/deceptionSystems/deceptionSystems.md)

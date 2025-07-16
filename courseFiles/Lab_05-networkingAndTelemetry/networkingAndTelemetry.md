@@ -33,7 +33,7 @@
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
