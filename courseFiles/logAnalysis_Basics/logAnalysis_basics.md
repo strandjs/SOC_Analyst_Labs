@@ -19,11 +19,8 @@ blah blha blah
 blah
 
 ## Tools to Learn
-blah blah
+Viewing alerts and logs is key to detecting suspicious activity on a system. Tools like [Hayabusa](/courseFiles/tools/Hayabusa.md) allow analysts to quickly analyze Windows event logs (.evtx), apply detection rules, and generate timelines or alerts for threats such as privilege escalation, malware, or lateral movement as well as the built in [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md).
 
-blah blah
-
-blah
 
 ***                                                       
 
