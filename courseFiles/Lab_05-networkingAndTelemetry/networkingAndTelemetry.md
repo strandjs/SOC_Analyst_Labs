@@ -37,6 +37,6 @@
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/socScripting/socScripting.md)
+[Click here for the Previous Lab](/courseFiles/Lab_04-socScripting/socScripting.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
