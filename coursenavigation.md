@@ -27,12 +27,12 @@
 - [Telemetry Searching](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#telemetry-searching)
 
 ***
-### [Introduction to Detection & Threat Behavior](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)
+### [Introduction to Detection & Threat Behavior](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
-- [Intro](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
-- [The MITRE ATT&CK Framework](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#the-mitre-attck-framework)
-- [Mapping Log Events to ATT&CK Techniques](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#mapping-log-events-to-attck-techniques)
-- [Open Source Projects](courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md#open-source-projects)
+- [Intro](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
+- [The MITRE ATT&CK Framework](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#the-mitre-attck-framework)
+- [Mapping Log Events to ATT&CK Techniques](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#mapping-log-events-to-attck-techniques)
+- [Open Source Projects](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#open-source-projects)
 
 ***
 ### [Scripting for SOC Tasks](/courseFiles/socScripting/socScripting.md)

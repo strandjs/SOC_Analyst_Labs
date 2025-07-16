@@ -31,6 +31,6 @@ blah
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)
+[Click here for the Previous Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
 <b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
