@@ -14,3 +14,5 @@ Let's also get the logs that we will be working with
 
 $ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
 
+
+
