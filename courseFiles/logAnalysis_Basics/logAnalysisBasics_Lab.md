@@ -40,7 +40,7 @@ Now let's proceed with a **Full Timeline Analysis**
 
 $ `hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 You can then look through it with
-$ `less timeline.csv`
+$ `less timeline.csv`a
 
 
 
