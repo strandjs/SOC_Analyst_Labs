@@ -29,9 +29,6 @@ blah
 
 ## Viewing Alerts & Logs
 blah blah
-
-blah blah
-
 blah
 
 ## Writing & Modifying Basic Detection Rules
