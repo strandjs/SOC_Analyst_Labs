@@ -17,14 +17,14 @@
 - [Tools to Learn](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
 
 ***
-### [Security Tools & Foundational Platforms](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)
+### [Security Tools & Foundational Platforms](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
-- [Intro](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#intro)
-- [LimaCharlie Hands-On](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#limacharlie-hands-on)
-- [Elastic SIEM Hands-On](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#elastic-siem-hands-on)
-- [Viewing Alerts & Logs](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#viewing-alerts--logs)
-- [Writing & Modifying Basic Detection Rules](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#writing--modifying-basic-detection-rules)
-- [Telemetry Searching](courseFiles/toolsAndPlatforms/toolsAndPlatforms.md#telemetry-searching)
+- [Intro](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#intro)
+- [LimaCharlie Hands-On](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie-hands-on)
+- [Elastic SIEM Hands-On](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#elastic-siem-hands-on)
+- [Viewing Alerts & Logs](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#viewing-alerts--logs)
+- [Writing & Modifying Basic Detection Rules](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#writing--modifying-basic-detection-rules)
+- [Telemetry Searching](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#telemetry-searching)
 
 ***
 ### [Introduction to Detection & Threat Behavior](/courseFiles/detectionAndThreatBehavior/detectionAndThreatBehavior.md)

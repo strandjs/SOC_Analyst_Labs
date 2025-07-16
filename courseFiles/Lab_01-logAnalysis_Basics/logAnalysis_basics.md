@@ -1,5 +1,5 @@
 # Log Analysis Basics
-### Hands-On Lab : [Log Analysis Basics Lab](/courseFiles/logAnalysis_Basics/logAnalysisBasics_Lab.md)
+### Hands-On Lab : [Log Analysis Basics Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysisBasics_Lab.md)
 
 
 Log analysis involves reviewing system and security logs to detect unusual or malicious activity. Each log entry typically includes a timestamp, source, user account, event type, and a unique Event ID.
@@ -45,7 +45,7 @@ Viewing alerts and logs is key to detecting suspicious activity on a system. Too
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/toolsAndPlatforms/toolsAndPlatforms.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
