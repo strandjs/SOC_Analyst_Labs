@@ -34,8 +34,7 @@ $ `hayabusa eid-metrics --file sysmon.evtx`
 Important observations:
 1. **Process Creation (ID 1 = 90%)**, that's extremely high volume, and now our primary hunting ground
 2. **WMI Activity (IDs 19, 20, 21)**, rare in normal activities, could be remote execution
-3. **Network Connections (ID 3)**, check what process made the connection, destination IP/port, and timing.
-<br><br>
+3. **Network Connections (ID 3)**, check what process made the connection, destination IP/port, and timing.<br><br>
 
 - Now let's proceed with a **Full Timeline Analysis**
 
@@ -66,9 +65,18 @@ Following the chain we meet these commands:
 
 **sc.exe start AtomicTestService** - Service Execiution
 
-**sc.exe stop AtomicTestService** - Service Stop (Cleanup?)
+**sc.exe stop AtomicTestService** - Service Stop (Cleanup?)<br><br>
 
+- We can also do some **Hunting Scenarios**, searching for special keywords
 
+$ `hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'`
+
+<img width="1915" height="661" alt="image" src="https://github.com/user-attachments/assets/3a70ca93-4c36-4f79-96f1-435322948684" />
+
+Following up this lead we can get to the same results as earlier, or use it to group alerts by services, the possibilities are endless
+<br><br
+
+Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
 
 
 
