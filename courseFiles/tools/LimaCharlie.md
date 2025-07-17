@@ -1,0 +1,13 @@
+LimaCharlie is a cloud-native cybersecurity operations platform that provides capabilities like EDR, telemetry, detection engineering, and automation in a scalable, API-first model. It is designed for modern SOCs that want agility, transparency, and the ability to engineer their security stack like software.
+
+### Why we use it
+- Real-time visibility into endpoints and activities
+- Rapid detection and response capabilities
+- Built-in automation for triage and investigation
+- Detection-as-code simplifies rule management and collaboration
+
+### What can it do
+- Telemetry collection (process, file, network, registry, etc)
+- Threat detection via customizable rules
+- Remote incident response (kill processes, collect memory, isolate hosts)
+- Integration with other tools (SIEMs, SOARs, Slack, AWS, etc)
