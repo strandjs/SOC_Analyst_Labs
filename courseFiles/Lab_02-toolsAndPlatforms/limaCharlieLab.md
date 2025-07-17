@@ -11,4 +11,5 @@
 - Enable WEL Exfil
 1. Go to Sensors > Exfil Control
 2. Check `WEL` under Windows rules
+
 ![EXFIL](https://github.com/user-attachments/assets/dbb9135e-2512-4b0c-ace7-e3205de3f60b)
