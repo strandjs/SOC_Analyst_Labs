@@ -1,5 +1,5 @@
 # Security Tools & Foundational Platforms
-**Security tools and foundational platforms** are the core technologies used to detect, investigate, and respond to cyber threats. These include tools that collect and analyze data from endpoints, networks, and systems to provide visibility into suspicious activity.
+**Security tools and foundational platforms** are the core technologies used to detect, investigate, and respond to cyber threats. These include tools that collect and analyze data from endpoints, networks, and systems to provide visibility into suspicious activity
 <br><br>
 
 Categories of Security Tools
@@ -8,18 +8,18 @@ Categories of Security Tools
 - **Network Monitoring Tools** - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
 
 ## Intro
-**A Security Operations Center** (SOC) is a centralized unit that monitors, detects, responds to, and mitigates cybersecurity threats in real time. SOC analysts are the front line of defense, working with a variety of tools and platforms to protect an organization’s assets.
+**A Security Operations Center** (SOC) is a centralized unit that monitors, detects, responds to, and mitigates cybersecurity threats in real time. SOC analysts are the front line of defense, working with a variety of tools and platforms to protect an organization’s assets
 
-This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst.
+This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst
 
 ## LimaCharlie Hands-On
-[LimaCharlie](/courseFiles/tools/LimaCharlie.md) is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules.
+[LimaCharlie](/courseFiles/tools/LimaCharlie.md) is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules
 
 ## Elastic SIEM Hands-On
-[Elastic SIEM](/courseFiles/tools/Elastic.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection.
+[Elastic SIEM](/courseFiles/tools/Elastic.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
 
 ## Viewing Alerts & Logs
-SOC analysts must interpret alerts in context and verify their validity.
+SOC analysts must interpret alerts in context and verify their validity
 
 Understanding Alerts:
 - **Components** - Rule name, severity, MITRE technique, timestamp, affected host/user, raw log snippet
@@ -37,10 +37,7 @@ Log Types to Recognize:
 - **Web proxy logs** (user-agent, URL visited)
 
 ## Writing & Modifying Basic Detection Rules
-blah
-blah
-
-blah
+Detection rules define what behavior is suspicious and should generate alerts. Interns should be able to read, tweak, and eventually write basic rules.
 
 ## Telemetry Searching
 
@@ -52,11 +49,11 @@ blah
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)</i>
+[Click here for the Next Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehaviormd)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+[Click here for the Previous Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basicsmd)
 
-<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
+<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigationmd)</i>
 
