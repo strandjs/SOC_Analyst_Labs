@@ -31,7 +31,7 @@ Integration Points
 
 <br><br>
 
-Example of rule
+### Example of rule
 <pre>event: CREATE_PROCESS
 where: >
   event.ImageFileName.toLowerCase() endswith "powershell.exe" and 
