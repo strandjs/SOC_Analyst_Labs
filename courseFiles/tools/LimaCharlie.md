@@ -29,6 +29,16 @@ Integration Points
 
 <img width="1920" height="856" alt="image" src="https://github.com/user-attachments/assets/2523279f-4c32-425c-945c-e272978e2083" />
 
+<br><br>
+
+Example of rule
+<pre>event: CREATE_PROCESS
+where: >
+  event.ImageFileName.toLowerCase() endswith "powershell.exe" and 
+  event.CommandLine contains "-enc"
+name: Encoded PowerShell Execution
+tags: [powershell, suspicious, encoded]</pre>
+
 For a hands-on experience, try the [LimaCharlie Lab](/courseFiles/Lab_02-toolsAndPlatforms/limaCharlieLab.md)
 
 
