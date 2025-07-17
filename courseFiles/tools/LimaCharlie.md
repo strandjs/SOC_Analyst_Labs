@@ -25,3 +25,6 @@ Integration Points
 - SIEM
 - SOAR
 - Webhooks, Slack, email, and more
+
+<img width="1911" height="324" alt="image" src="https://github.com/user-attachments/assets/92ba514e-3a84-453d-b02b-c6c7da735859" />
+
