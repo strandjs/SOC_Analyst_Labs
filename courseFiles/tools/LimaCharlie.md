@@ -11,3 +11,17 @@ LimaCharlie is a cloud-native cybersecurity operations platform that provides ca
 - Threat detection via customizable rules
 - Remote incident response (kill processes, collect memory, isolate hosts)
 - Integration with other tools (SIEMs, SOARs, Slack, AWS, etc)
+
+### Architecture
+Sensors and Endpoints
+- LimaCharlie uses lightweight endpoint sensors compatible with Windows, macOS, and Linux
+- Sensors transmit detailed telemetry back to the cloud
+
+Cloud-Based Backend
+- Centralized data processing, detection engine, and storage
+- Analysts interact via the LimaCharlie web interface, CLI, or APIs
+
+Integration Points
+- SIEM
+- SOAR
+- Webhooks, Slack, email, and more
