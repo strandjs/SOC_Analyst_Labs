@@ -1,6 +1,6 @@
 Being the first time you have probably heard about this tool, if you search it up you will get some japanese motorcycles, search Hayabusa event viewer.
 [Hayabusa-Repo](https://github.com/Yamato-Security/hayabusa)
-# What I used to install on a fedora OS:
+## What I used to install on a fedora OS:
 - $sudo dnf install git rust cargo
 - $git clone https://github.com/Yamato-Security/hayabusa.git
 - $cd hayabusa
@@ -10,14 +10,14 @@ Being the first time you have probably heard about this tool, if you search it u
 
 ### FYI 'dnf' is the same as 'apt' and 'cargo' is pretty much 'make' from kali
 
-# Using the actual tool
-## Some commands that I found most interesting and useful:
-- ### $hayabusa update-rules
+## Using the actual tool
+### Some commands that I found most interesting and useful:
+- $`hayabusa update-rules`
 Updates detection rules(necessary)
-
+<br>
 - $`hayabusa log-metrics --file something.evtx`
 Check log file Metadata
-
+<br>
 - $`hayabusa csv-timeline --file something.evtx -o timeline.csv`
 This creates a DFIR timeline in CSV format 
 
