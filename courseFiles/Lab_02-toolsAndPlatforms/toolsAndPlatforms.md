@@ -1,16 +1,16 @@
 # Security Tools & Foundational Platforms
-Security tools and foundational platforms are the core technologies used to detect, investigate, and respond to cyber threats. These include tools that collect and analyze data from endpoints, networks, and systems to provide visibility into suspicious activity.
+**Security tools and foundational platforms** are the core technologies used to detect, investigate, and respond to cyber threats. These include tools that collect and analyze data from endpoints, networks, and systems to provide visibility into suspicious activity.
 <br><br>
 
 Categories of Security Tools
-- Endpoint Detection and Response (EDR) - Tools like [LimaCharlie](/courseFiles/tools/LimaCharlie.md) monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
-- Security Information and Event Management (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
-- Network Monitoring Tools - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
+- **Endpoint Detection and Response** (EDR) - Tools like [LimaCharlie](/courseFiles/tools/LimaCharlie.md) monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
+- **Security Information and Event Management** (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
+- **Network Monitoring Tools** - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
 
 ## Intro
-A Security Operations Center (SOC) is a centralized unit that monitors, detects, responds to, and mitigates cybersecurity threats in real time. SOC analysts are the front line of defense, working with a variety of tools and platforms to protect an organization’s assets.
+**A Security Operations Center** (SOC) is a centralized unit that monitors, detects, responds to, and mitigates cybersecurity threats in real time. SOC analysts are the front line of defense, working with a variety of tools and platforms to protect an organization’s assets.
 
-This lab introduces interns to foundational tools and platforms used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst.
+This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst.
 
 ## LimaCharlie Hands-On
 [LimaCharlie](/courseFiles/tools/LimaCharlie.md) is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules.
@@ -28,6 +28,13 @@ Understanding Alerts:
 1. Is this a known good or benign behavior?
 2. Can we correlate with other logs to confirm malicious intent?
 3. Are other hosts showing similar behavior?
+
+Log Types to Recognize:
+- **Windows Event Logs** (Security, System, Application)
+- **Sysmon events** (detailed host telemetry)
+- **Firewall logs** (source/destination IP, port, action)
+- **DNS logs** (lookups to malicious domains)
+- **Web proxy logs** (user-agent, URL visited)
 
 ## Writing & Modifying Basic Detection Rules
 blah
