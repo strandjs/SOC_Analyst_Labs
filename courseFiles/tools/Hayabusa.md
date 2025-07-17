@@ -15,28 +15,28 @@ Being the first time you have probably heard about this tool, if you search it u
 - ### $hayabusa update-rules
 Updates detection rules(necessary)
 
-- ### $hayabusa log-metrics --file something.evtx
+- $`hayabusa log-metrics --file something.evtx`
 Check log file Metadata
 
-- ### $hayabusa csv-timeline --file something.evtx -o timeline.csv
+- $`hayabusa csv-timeline --file something.evtx -o timeline.csv`
 This creates a DFIR timeline in CSV format 
 
-- ### $hayabusa json-timeline --file something.evtx -o timeline.json
+- $`hayabusa json-timeline --file something.evtx -o timeline.json`
 Same, but in JSON format
 
-- ### $hayabusa eid-metrics --file something.evtx
+- $`hayabusa eid-metrics --file something.evtx`
 Summarize events by ID
 
-- ### $hayabusa computer-metrics --file Security.evtx
+- $`hayabusa computer-metrics --file Security.evtx`
 Summarize events by Computer Name
 
-- ### $hayabusa extract-base64 --file Security.evtx --output decoded.txt
+- $`hayabusa extract-base64 --file Security.evtx --output decoded.txt`
 Extract Base64 strings
 
-- ### $hayabusa search --file something.evtx --keyword powershell
+- $`hayabusa search --file something.evtx --keyword powershell`
 Search by keyword
 
-- ### $hayabusa logon-summary --file something.evtx
+- `$hayabusa logon-summary --file something.evtx`
 Get Logon activity summary
 
 
