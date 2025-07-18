@@ -44,7 +44,18 @@ Let's disable authentication for this lab
 
 - $`sudo systemctl restart filebeat`
 
-<img width="545" height="525" alt="image" src="https://github.com/user-attachments/assets/992f5fb7-d924-4aed-949f-829da2db0a88" />
+### If filebeat errors because of system do this, else skip to next step
+- $`sudo filebeat modules enable system`
+- $`sudo nano /etc/filebeat/modules.d/system.yml` - make sure you have something like this:
+
+<pre>
+module: system
+  syslog:
+    enabled: true
+  auth:
+    enabled: true</pre>
+
+- $`sudo systemctl restart filebeat` & verify $`sudo systemctl status filebeat`
 
 
 
