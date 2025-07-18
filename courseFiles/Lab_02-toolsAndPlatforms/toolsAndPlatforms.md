@@ -39,6 +39,16 @@ Log Types to Recognize:
 ## Writing & Modifying Basic Detection Rules
 Detection rules define what behavior is suspicious and should generate alerts. Interns should be able to read, tweak, and eventually write basic rules.
 
+Detection Rule Elements
+- **Condition** - What patterns or values to match (e.g., parent process = cmd.exe, child process = powershell.exe)
+- **Filters/Exceptions** - Known-good behaviors to suppress false positives
+- **Severity & Tactic** - Classification based on MITRE ATT&CK
+
+Examples
+- **Sigma Rule (YAML)** - `Detect PowerShell with base64-encoded strings`
+- **Elastic Rule (KQL)** - `event.code: 4625 and winlog.event_data.LogonType: 3`
+- **LimaCharlie Rule (YAML)** - `Match file writes to suspicious locations`
+
 ## Telemetry Searching
 
 Blah
