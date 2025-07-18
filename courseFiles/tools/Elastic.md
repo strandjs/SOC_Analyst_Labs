@@ -57,5 +57,11 @@ module: system
 
 - $`sudo systemctl restart filebeat` & verify $`sudo systemctl status filebeat`
 
+## Let's finally open Kibana at <pre>http://localhost:5601</pre>
+<img width="489" height="688" alt="image" src="https://github.com/user-attachments/assets/58a0ecf5-f920-497d-be13-f9456e9eef4b" />
+
+- Let's choose `Explore on my own`, now you oficially have a SIEM system setup on your computer
+- As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLab.md)
+
 
 
