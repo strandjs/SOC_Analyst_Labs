@@ -14,3 +14,5 @@ enabled=1
 autorefresh=1
 type=rpm-md
 EOF</pre>
+3. **Install Elasticsearch** - $`sudo dnf install elasticsearch -y`
+4. **Enable and start the service** - $`sudo systemctl enable --now elasticsearch`
