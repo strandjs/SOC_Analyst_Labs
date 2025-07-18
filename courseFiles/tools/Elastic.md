@@ -37,7 +37,7 @@ Run this to get your elastic password
   hosts: ["localhost:9200"]
   username: "elastic"
   password: "<your_password>"
-</pre><br><br>
+</pre>
 <pre>setup.kibana:
   host: "localhost:5601"
 </pre>
