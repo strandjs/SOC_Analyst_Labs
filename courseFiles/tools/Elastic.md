@@ -1,4 +1,9 @@
+Elasticsearch is a distributed search and analytics engine, scalable data store, and vector database built on Apache Lucene. It’s optimized for speed and relevance on production-scale workloads. Use Elasticsearch to search, index, store, and analyze data of all shapes and sizes in near real time. Kibana is the graphical user interface for Elasticsearch. It’s a powerful tool for visualizing and analyzing your data, and for managing and monitoring the Elastic Stack.
 
+Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers these Elastic solutions and use cases:
+- **Elasticsearch** - Build powerful search and RAG applications using Elasticsearch's vector database, AI toolkit, and advanced retrieval capabilities
+- **Observability** - Resolve problems with open, flexible, and unified observability powered by advanced machine learning and analytics
+- **Security** - Detect, investigate, and respond to threats with AI-driven security analytics to protect your organization at scale
 
 ### Let's go through downloading and installing it
 1. **Install Java** - $`sudo dnf install java-21-openjdk -y`
