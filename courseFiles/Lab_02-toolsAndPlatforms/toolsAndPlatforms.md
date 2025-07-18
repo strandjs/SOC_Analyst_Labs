@@ -55,7 +55,7 @@ Analysts often need to go beyond alerts and search the raw telemetry for related
 Key Skills
 - **Search Syntax** - Learn how to query data (e.g., KQL in Elastic, telemetry filters in LimaCharlie)
 - **Pivoting** - From an IP to related processes, users, or domains
-- **Filtering** - Time ranges, specific hostnames, or event types
+- **Filtering** - Time ranges, specific hostnames, or event types<br>
 - **Common Use Cases:**
 1. "Show all PowerShell executions on this host in the last 24 hours"
 2. "List all logon events from a suspicious IP"
