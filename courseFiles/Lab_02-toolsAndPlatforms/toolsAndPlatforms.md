@@ -45,9 +45,9 @@ Detection Rule Elements
 - **Severity & Tactic** - Classification based on MITRE ATT&CK
 
 Examples
-- **Sigma Rule (YAML)** - `Detect PowerShell with base64-encoded strings`
-- **Elastic Rule (KQL)** - `event.code: 4625 and winlog.event_data.LogonType: 3`
-- **LimaCharlie Rule (YAML)** - `Match file writes to suspicious locations`
+- **Sigma Rule (YAML)** - <pre>Detect PowerShell with base64-encoded strings</pre>
+- **Elastic Rule (KQL)** - <pre>event.code: 4625 and winlog.event_data.LogonType: 3</pre>
+- **LimaCharlie Rule (YAML)** - <pre>Match file writes to suspicious locations</pre>
 
 ## Telemetry Searching
 
