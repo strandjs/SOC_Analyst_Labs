@@ -26,20 +26,25 @@ EOF</pre>
 7. **Install Filebeat (for log forwarding)** - $`sudo dnf install filebeat -y`
 8. **Enable and start filebeat** - $`sudo systemctl enable --now filebeat`
 <br><br>
-9. **Configuring filebeat**
+9. **Configuring**
 
-Run this to get your elastic password
-- $`sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic1`
-
+Let's disable authentication for this lab
+- $`sudo nano /etc/elasticsearch/elasticsearch.yml` - make sure this line is present and not commented: `xpack.security.enabled: false` and `xpack.security.enrollment.enabled: false`
+- $`sudo systemctl restart elasticsearch`
+- $`sudo nano /etc/kibana/kibana.yml` - make sure this line is present and not commented: `elasticsearch.hosts: ["http://localhost:9200"]`
+- $`sudo systemctl restart kibana` 
 - $`sudo nano /etc/filebeat/filebeat.yml` - make sure you have these:
 
 <pre>output.elasticsearch:
   hosts: ["localhost:9200"]
-  username: "elastic"
-  password: "<your_password>"
 </pre>
 <pre>setup.kibana:
   host: "localhost:5601"
 </pre>
+
+- $`sudo systemctl restart filebeat`
+
+<img width="545" height="525" alt="image" src="https://github.com/user-attachments/assets/992f5fb7-d924-4aed-949f-829da2db0a88" />
+
 
 
