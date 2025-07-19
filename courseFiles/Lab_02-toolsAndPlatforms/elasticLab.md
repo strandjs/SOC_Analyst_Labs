@@ -7,15 +7,17 @@
 - Learn how to create basic detection rules
 
 1. Head over to Analytics -> Discover and see your logs flowing from filebeat
-<img width="272" height="251" alt="image" src="https://github.com/user-attachments/assets/8cad144c-e062-4a70-a6ba-fd1e507008f6" />
 
-On the left side you can see, add, or remove data fields and data views
+- On the left side you can see, add, or remove data fields and data views
+- 
 <img width="322" height="953" alt="image" src="https://github.com/user-attachments/assets/79b057a4-2d9d-4fff-be15-c6a494802ce4" />
 
-On the middle and right side you will see the logs flowing in, you can explore them and try to make out where each one came from, you can also search and sort them
+- On the middle and right side you will see the logs flowing in, you can explore them and try to make out where each one came from, you can also search and sort them
+- 
 <img width="1589" height="680" alt="image" src="https://github.com/user-attachments/assets/95da8151-bb72-478c-811e-50ca8d18de50" />
 
-On the upper side you can see the traffic density on a specific timeling and a way to filter your logs, say you want to only see the logs coming from syslog, you would want to filter like this `event.dataset: "system.syslog"` since we are using filebeat, it's really easy and intuitive to make whatever filters you want
+- On the upper side you can see the traffic density on a specific timeling and a way to filter your logs, say you want to only see the logs coming from syslog, you would want to filter like this `event.dataset: "system.syslog"` since we are using filebeat, it's really easy and intuitive to make whatever filters you want
+- 
 <img width="1594" height="267" alt="image" src="https://github.com/user-attachments/assets/02cab47d-9b34-4af7-b4b5-19423754ca74" />
 
 
