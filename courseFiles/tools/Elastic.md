@@ -59,7 +59,7 @@ xpack.encryptedSavedObjects.encryptionKey: "<whatever32characterKeyYouWant>"
 - $`sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic` - get password for **elastic**, make sure to save it
 - $`sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u kibana_system` - get password for **kibana**, make sure to save it as well
 
-### If filebeat errors because of system do this, else skip to next step
+### If filebeat doesn't send the logs over or errors because of system do this, else skip to next step
 - $`sudo filebeat modules enable system`
 - $`sudo nano /etc/filebeat/modules.d/system.yml` - make sure you have something like this:
 
