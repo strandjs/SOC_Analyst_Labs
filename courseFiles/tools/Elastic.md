@@ -28,12 +28,12 @@ EOF</pre>
 <br><br>
 9. **Configuring**
 
-Let's disable authentication for this lab
-- $`sudo nano /etc/elasticsearch/elasticsearch.yml` - make sure this line is present and not commented: `xpack.security.enabled: false` and `xpack.security.enrollment.enabled: false`
+- $`sudo nano /etc/elasticsearch/elasticsearch.yml` - make sure this line is present and not commented: `xpack.security.enabled: true` and `xpack.security.enrollment.enabled: true`
 - $`sudo systemctl restart elasticsearch`
 - $`sudo nano /etc/kibana/kibana.yml` - make sure this line is present and not commented: `elasticsearch.hosts: ["http://localhost:9200"]`
 - $`sudo systemctl restart kibana` 
 - $`sudo nano /etc/filebeat/filebeat.yml` - make sure you have these:
+<img width="624" height="402" alt="image" src="https://github.com/user-attachments/assets/08b55d8d-e10c-4656-85a6-8670b1161ef7" />
 
 <pre>output.elasticsearch:
   hosts: ["localhost:9200"]
