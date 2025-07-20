@@ -38,6 +38,9 @@ Run &`sudo -k && sudo ls` on your system and enter wrong password and see it app
 
 If nothing happens restart filebeat and try again $`sudo systemctl restart filebeat`
 
+3. Let's now try to **Investigate Alerts with Timelines**
+- Go to Security -> Rules -> Create Rule
+ 
 
 
 
