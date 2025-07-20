@@ -30,10 +30,23 @@ EOF</pre>
 
 - $`sudo nano /etc/elasticsearch/elasticsearch.yml` - make sure this line is present and not commented: `xpack.security.enabled: true` and `xpack.security.enrollment.enabled: true`
 - $`sudo systemctl restart elasticsearch`
-- $`sudo nano /etc/kibana/kibana.yml` - make sure this line is present and not commented: `elasticsearch.hosts: ["http://localhost:9200"]`
+- $`sudo nano /etc/kibana/kibana.yml` - make sure these line are present:
+
+<pre>elasticsearch.hosts: ['https://localhost:9200']
+logging.appenders.file.type: file
+logging.appenders.file.fileName: /var/log/kibana/kibana.log
+logging.appenders.file.layout.type: json
+logging.root.appenders: [default, file]
+pid.file: /run/kibana/kibana.pid
+elasticsearch.username: kibana_system
+elasticsearch.password: <thePasswordForKibana(should already be filled automatically)>
+elasticsearch.ssl.certificateAuthorities: [/var/lib/kibana/ca_1753032225222.crt]
+xpack.fleet.outputs: [{id: fleet-default-output, name: default, is_default: true, is_default_monitoring: true, type: elasticsearch, hosts: ['https://localhost:9200'], ca_trusted_fingerprint: 9749ae879836f843f9cf>
+xpack.encryptedSavedObjects.encryptionKey: "<whatever32characterKeyYouWant>"
+</pre>
+
 - $`sudo systemctl restart kibana` 
 - $`sudo nano /etc/filebeat/filebeat.yml` - make sure you have these:
-<img width="624" height="402" alt="image" src="https://github.com/user-attachments/assets/08b55d8d-e10c-4656-85a6-8670b1161ef7" />
 
 <pre>output.elasticsearch:
   hosts: ["localhost:9200"]
@@ -43,6 +56,8 @@ EOF</pre>
 </pre>
 
 - $`sudo systemctl restart filebeat`
+- $`sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic` - get password for **elastic**, make sure to save it
+- $`sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u kibana_system` - get password for **kibana**, make sure to save it as well
 
 ### If filebeat errors because of system do this, else skip to next step
 - $`sudo filebeat modules enable system`
@@ -60,7 +75,13 @@ module: system
 ## Let's finally open Kibana at <pre>http://localhost:5601</pre>
 <img width="489" height="688" alt="image" src="https://github.com/user-attachments/assets/58a0ecf5-f920-497d-be13-f9456e9eef4b" />
 
-- Let's choose `Explore on my own`, now you oficially have a SIEM system setup on your computer
+- Let's choose `Explore on my own` and `Configure Manually`
+- Let's login to **kibana**, user: `kibana_system` , pass: `<your_saved_passwrod>`
+<img width="604" height="903" alt="image" src="https://github.com/user-attachments/assets/eb7266d9-cd80-4d4b-8615-696fc4c5613d" />
+
+- Now for the verification code use: $`sudo journalctl -u kibana | grep verification` and get it from there
+<img width="624" height="402" alt="image" src="https://github.com/user-attachments/assets/08b55d8d-e10c-4656-85a6-8670b1161ef7" />
+
 - As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLab.md)
 
 
