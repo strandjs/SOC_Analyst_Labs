@@ -76,11 +76,16 @@ module: system
 <img width="489" height="688" alt="image" src="https://github.com/user-attachments/assets/58a0ecf5-f920-497d-be13-f9456e9eef4b" />
 
 - Let's choose `Explore on my own` and `Configure Manually`
-- Let's login to **kibana**, user: `kibana_system` , pass: `<your_saved_passwrod>`
+- Let's login to **kibana**, user: `kibana_system` , pass: `<your_saved_password>`
 <img width="604" height="903" alt="image" src="https://github.com/user-attachments/assets/eb7266d9-cd80-4d4b-8615-696fc4c5613d" />
+<br><br>
 
 - Now for the verification code use: $`sudo journalctl -u kibana | grep verification` and get it from there
 <img width="624" height="402" alt="image" src="https://github.com/user-attachments/assets/08b55d8d-e10c-4656-85a6-8670b1161ef7" />
+<br><br>
+
+- Sign in into elastic and that's it! user: `elastic` , pass: `<your_saved_password>`
+<img width="473" height="509" alt="image" src="https://github.com/user-attachments/assets/69809bd7-4de6-4682-b8c3-c93b653235f8" />
 
 - As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLab.md)
 
