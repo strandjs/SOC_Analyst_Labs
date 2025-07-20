@@ -38,9 +38,41 @@ Run &`sudo -k && sudo ls` on your system and enter wrong password and see it app
 
 If nothing happens restart filebeat and try again $`sudo systemctl restart filebeat`
 
-3. Let's now try to **Investigate Alerts with Timelines**
-- Go to Security -> Rules -> Create Rule
- 
+3. Create a Basic Detection Rule
+- Click on Security -> Rules -> Detection Rules
+<img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/f0907037-a1a1-49fc-a06b-74057038b98a" />
+
+- Create new rule -> **Select** Custom Query
+- Index patterns: `filebeat-*`
+- Custom query: `message:*root* AND message:*session opened* AND event.dataset:system.auth` - Continue
+- Name: `Root Shell Activity Detected`
+- Description: `My first rule`
+- Default Severity: `Medium`
+- Default risk score: `50` - Continue
+- Runs every: `1 Minutes` - Continue -> Create & enable rule
+<br><br>
+
+Now if you go over to alerts you can see your Rule's work!
+<img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/a4ef29c3-c888-464f-baa7-231fb828b0af" />
+<br><br>
+
+4. Let's now try to **Investigate Alerts with Timelines**
+- Go to Security -> Alerts
+- Click an alert from your detection rule (e.g. Root Shell Detected)
+- Click “Investigate in timeline” (second button)
+ <img width="158" height="32" alt="image" src="https://github.com/user-attachments/assets/5e9cb2c4-9505-495b-961b-71158b101e5f" />
+
+###You can:
+- See logs from before and after the alert
+- Use the filter bar to expand your view (e.g. user.name:root)
+- Drag in fields like event.dataset, message, host.name
+- Click the 💾 Save icon to save it
+<img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/a6cf43b8-dd9b-4506-9d9e-74a72fb0bdfd" />
+<br><br>
+
+## Try to add more rules by yourself or even simulate attacks to better understand the perspectives of both an attacker and a SOC analyst 
+
+
 
 
 
