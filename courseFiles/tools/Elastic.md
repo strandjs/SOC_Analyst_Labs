@@ -42,7 +42,7 @@ logging.appenders.file.layout.type: json
 logging.root.appenders: [default, file]
 pid.file: /run/kibana/kibana.pid
 elasticsearch.username: kibana_system
-elasticsearch.password: <thePasswordForKibana(should already be filled automatically)>
+elasticsearch.password: "thePasswordForKibana(should already be filled automatically)"
 elasticsearch.ssl.certificateAuthorities: [/var/lib/kibana/ca_1753032225222.crt]
 xpack.fleet.outputs: [{id: fleet-default-output, name: default, is_default: true, is_default_monitoring: true, type: elasticsearch, hosts: ['https://localhost:9200'], ca_trusted_fingerprint: 9749ae879836f843f9cf>
 xpack.encryptedSavedObjects.encryptionKey: "whatever32characterKeyYouWant"
