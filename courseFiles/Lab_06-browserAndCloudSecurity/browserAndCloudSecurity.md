@@ -80,8 +80,31 @@ The basic OAuth process is widely used to integrate third-party functionality th
 - Token binding or short token lifetimes
 
 ## SSO (Single Sign-On) Attacks
+Single Sign-On (SSO) allows users to authenticate once (via an identity provider like Azure AD or Google) and gain access to multiple apps without logging in again
 
+SSO uses protocols like SAML, OpenID Connect, and often sits on top of OAuth
 
+Here’s a flaw diagram from an application security engineer’s perspective, highlighting some potential security weaknesses in the SSO process
+<img width="245" height="460" alt="image" src="https://github.com/user-attachments/assets/86e06531-afae-41fe-9be6-acde1a76d9ac" />
+<br><br>
+
+### Potential Flaws and Vulnerabilities
+1. Improper Redirects (Open Redirect Vulnerability)
+- If the application allows un-sanitised input in the redirect URL, an attacker can craft malicious URLs leading users to phishing or other malicious sites
+
+2. Weak Authentication Mechanisms
+- If the IDP uses weak authentication methods, such as plain passwords without multi-factor authentication (MFA), it increases the risk of unauthorised access
+
+3. Insecure Communication (Man-in-the-Middle Attack)
+- Inadequate transport layer security (e.g., using HTTP instead of HTTPS) could expose the authentication process to interception by attackers
+- To ensure the security of the connection, it is recommended to use secure cipher suites such as TLS_AES_256_GCM_SHA384 or TLS_CHACHA20_POLY1305_SHA256
+
+4. Insufficient Token Validation
+- Lack of proper validation of the security token may allow an attacker to forge or tamper with tokens, leading to unauthorised access
+- When generating tokens, use a cryptographically secure random number generator and ensure that the tokens are sufficiently long and complex
+
+5. Cross-Site Scripting
+- If the application fails to sanitise user input or outputs token data without proper escaping, it could lead to XSS attacks
 
 ## Azure Logs
 blah
