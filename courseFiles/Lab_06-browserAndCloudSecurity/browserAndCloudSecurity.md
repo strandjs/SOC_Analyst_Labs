@@ -29,22 +29,22 @@
   - Respond quickly to signals from user behavior analytics (e.g., impossible travel, OAuth token replay, suspicious app consent)
 
 ## Browser Extension Attacks
-# AKA - T1176.001 
+### AKA - T1176.001 
 [Mitre link](https://attack.mitre.org/techniques/T1176/001/)
 
 "Attackers may abuse internet browser extensions to establish persistent access to victim systems. Browser extensions or plugins are small programs that can add functionality to and customize aspects of internet browsers. They can be installed directly via a local file or custom URL or through a browser's app store - an official online platform where users can browse, install, and manage extensions for a specific web browser. Extensions generally inherit the web browser's permissions previously granted."
 
-# How attackers abuse browser extensions
+### How attackers abuse browser extensions
 - Malicious extensions: masquerading as utilities (e.g., ad blockers, PDF tools)
 - Legitimate extensions that get hijacked or bought and updated maliciously
 - Data exfiltration via background scripts and access to DOM/local storage
 
-# TTPs (Tactics, Techniques, and Procedures)
+### TTPs (Tactics, Techniques, and Procedures)
 - Accessing cookies, tokens, sessionStorage, localStorage
 - Keylogging via injected scripts
 - Redirecting traffic or injecting ads/malware
 
-# Detection tips
+### Detection tips
 - Monitor unusual extension installations via endpoint telemetry
 - Watch for abnormal web traffic patterns (e.g., unexpected destinations)
 - Use EDR/browser visibility tools (like Chrome Enterprise reports or Microsoft Defender for Endpoint)
