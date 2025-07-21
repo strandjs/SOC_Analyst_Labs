@@ -1,15 +1,20 @@
 
-## How to set up the lab
+## Let's set up the lab
 - Firstly, id you didn't go through our documentation, go through it now [Lima Charlie](/courseFiles/tools/LimaCharlie.md)
-- Install the sensor
-1. Go to Installation Keys
-2. Create a key and download the Windows installer
-3. Run the installer on your Windows host (can be a VM)
 
-![Lima Charlie sensors](https://github.com/user-attachments/assets/cac8e5fe-9fc9-4b2f-a1a7-177787d74da4)
-<br><br>
-- Enable WEL Exfil
-1. Go to Sensors > Exfil Control
-2. Check `WEL` under Windows rules
+We will be using a fake attack from Atomic Red and learn how to use Lima Charlie to go through and understand the logs, FYI I am using the new theme of LC in case it looks different from yours
 
-![EXFIL](https://github.com/user-attachments/assets/dbb9135e-2512-4b0c-ace7-e3205de3f60b)
+- Let's get the add-on from Atomic Red, go to **Add-Ons** on the top right
+<img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/871a453b-24be-4d8f-9b25-f546afea9ef6" />
+
+- Search for `ext-atomic-red-team` and click on it, then subscribe
+<img width="108" height="31" alt="image" src="https://github.com/user-attachments/assets/36255b4d-cac4-4769-b1c9-1a3c9b74ed8b" />
+
+- Now going back to your organization, head over to the **Extensions** tab on the left and then select **atomic red-team**
+<img width="256" height="530" alt="image" src="https://github.com/user-attachments/assets/4a10ad35-98fb-47d3-93f8-bce449ccea82" />
+<img width="1245" height="50" alt="image" src="https://github.com/user-attachments/assets/071ca561-aae6-4b8a-aaca-fa9255355209" />
+
+
+
+
+
