@@ -22,10 +22,12 @@ We will be using a fake attack from Atomic Red and learn how to use Lima Charlie
 
 - And for **Rules** click on `Collapse` so you can see them all better and tick `discovery` and `command-and-control`
 <img width="1080" height="224" alt="image" src="https://github.com/user-attachments/assets/4a2f4d64-c770-4c19-ad1b-86aee1447caa" />
-<br><br>
 
 - Then click `RUN TESTS`
 <img width="110" height="34" alt="image" src="https://github.com/user-attachments/assets/0abdd3b5-00e0-490f-967c-4faabb9ec19b" />
+<br><br>
+
+
 
 
 
