@@ -1,44 +1,53 @@
 Being the first time you have probably heard about this tool, if you search it up you will get some japanese motorcycles, search Hayabusa event viewer.
 [Hayabusa-Repo](https://github.com/Yamato-Security/hayabusa)
-# What I used to install on a fedora OS:
+## What I used to install on a fedora OS:
 - $sudo dnf install git rust cargo
 - $git clone https://github.com/Yamato-Security/hayabusa.git
 - $cd hayabusa
 - $cargo build --release
-- ### I got an error on the build and had to install PerlCore: $sudo dnf install perl-core + $cargo clean + again $cargo build --release
+- ***I got an error on the build and had to install PerlCore: $sudo dnf install perl-core + $cargo clean + again $cargo build --release***
 - $sudo cp target/release/hayabusa /usr/local/bin/  (so I can use it from anywhere)
 
-### FYI 'dnf' is the same as 'apt' and 'cargo' is pretty much 'make' from kali
+### *FYI 'dnf' is the same as 'apt' and 'cargo' is pretty much 'make' from kali*
 
-# Using the actual tool
-## Some commands that I found most interesting and useful:
-- ### $hayabusa update-rules
+## Using the actual tool
+### Some commands that I found most interesting and useful:
+- $`hayabusa update-rules`
+
 Updates detection rules(necessary)
-
-- ### $hayabusa log-metrics --file something.evtx
+<br>
+- $`hayabusa log-metrics --file something.evtx`
+  
 Check log file Metadata
+<br>
+- $`hayabusa csv-timeline --file something.evtx -o timeline.csv`
 
-- ### $hayabusa csv-timeline --file something.evtx -o timeline.csv
 This creates a DFIR timeline in CSV format 
+<br>
+- $`hayabusa json-timeline --file something.evtx -o timeline.json`
 
-- ### $hayabusa json-timeline --file something.evtx -o timeline.json
 Same, but in JSON format
+<br>
+- $`hayabusa eid-metrics --file something.evtx`
 
-- ### $hayabusa eid-metrics --file something.evtx
 Summarize events by ID
+<br>
+- $`hayabusa computer-metrics --file Security.evtx`
 
-- ### $hayabusa computer-metrics --file Security.evtx
 Summarize events by Computer Name
+<br>
+- $`hayabusa extract-base64 --file Security.evtx --output decoded.txt`
 
-- ### $hayabusa extract-base64 --file Security.evtx --output decoded.txt
 Extract Base64 strings
+<br>
+- $`hayabusa search --file something.evtx --keyword powershell`
 
-- ### $hayabusa search --file something.evtx --keyword powershell
 Search by keyword
+<br>
+- `$hayabusa logon-summary --file something.evtx`
 
-- ### $hayabusa logon-summary --file something.evtx
 Get Logon activity summary
-
+<br>
 
 # Some notes and links
 - This tools is basically a cli version of the Windows Event Viewer, much better in my opinion, but it can't work in real time
