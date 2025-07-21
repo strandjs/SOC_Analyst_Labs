@@ -85,6 +85,7 @@ Single Sign-On (SSO) allows users to authenticate once (via an identity provider
 SSO uses protocols like SAML, OpenID Connect, and often sits on top of OAuth
 
 Here’s a flaw diagram from an application security engineer’s perspective, highlighting some potential security weaknesses in the SSO process
+
 <img width="245" height="460" alt="image" src="https://github.com/user-attachments/assets/86e06531-afae-41fe-9be6-acde1a76d9ac" />
 <br><br>
 
@@ -107,14 +108,41 @@ Here’s a flaw diagram from an application security engineer’s perspective, h
 - If the application fails to sanitise user input or outputs token data without proper escaping, it could lead to XSS attacks
 
 ## Azure Logs
-blah
+Microsoft Azure is Microsoft’s cloud computing platform
 
-blah
+It provides infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS), and software-as-a-service (SaaS) offerings and icludes compute, networking, databases, storage, and identity management (Azure Active Directory)
+
+### Types of logs useful to SOC analysts
+- Sign-in Logs: IPs, MFA status, user agent, locations
+- Audit Logs: role changes, policy modifications
+- Activity Logs: resource changes, creation/deletion events
+
+### Common behaviors to hunt
+- Impossible travel or anomalous IP logins
+- Role escalation activities
+- Access attempts to sensitive services like Key Vault or Storage
 
 ## M365 Audit Logs
-blah
+Microsoft 365 (M365) is a SaaS suite providing cloud-based email, collaboration, and storage tools used across enterprises
 
-blah
+### Security-Relevant Features
+- **Unified Audit Logs (UAL)** – Capture user and admin activity across services
+- **Defender for Office 365** – Email threat protection
+- **Conditional Access** – Control access based on user risk, location, device status
+- **Compliance & Insider Risk Tools** – Detect policy violations, data exfiltration, and insider threats
+
+### Useful events for threat hunting
+- Login events
+- Mailbox access by non-owners
+- File access/downloads in SharePoint/OneDrive
+- Creation of forwarding rules
+- OAuth app consent grants
+
+### Common attack scenarios
+- Business Email Compromise (BEC)
+- Mail forwarding for stealth exfil
+- Suspicious SharePoint sharing
+- Privileged user logins from unfamiliar geographies
 
 ***
 
