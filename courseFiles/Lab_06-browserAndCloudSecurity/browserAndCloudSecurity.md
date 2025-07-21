@@ -22,18 +22,66 @@
 
 ### The SOC Analyst's Role in Cloud & Browser Security
 1. **Visibility Gaps**
-  - 
+  - You can't defend what you can't see, SOC analysts should advocate for better logging and browser visibility tools
+  - Browser-level telemetry often requires special tooling (e.g., Chrome enterprise reporting, Defender for Endpoint)
+2. **Threat Hunting & Response**
+  - Be proactive in hunting cloud-specific attack patterns
+  - Respond quickly to signals from user behavior analytics (e.g., impossible travel, OAuth token replay, suspicious app consent)
 
 ## Browser Extension Attacks
+# AKA - T1176.001 
+[Mitre link](https://attack.mitre.org/techniques/T1176/001/)
 
-blah
+"Attackers may abuse internet browser extensions to establish persistent access to victim systems. Browser extensions or plugins are small programs that can add functionality to and customize aspects of internet browsers. They can be installed directly via a local file or custom URL or through a browser's app store - an official online platform where users can browse, install, and manage extensions for a specific web browser. Extensions generally inherit the web browser's permissions previously granted."
 
-blah
+# How attackers abuse browser extensions
+- Malicious extensions: masquerading as utilities (e.g., ad blockers, PDF tools)
+- Legitimate extensions that get hijacked or bought and updated maliciously
+- Data exfiltration via background scripts and access to DOM/local storage
+
+# TTPs (Tactics, Techniques, and Procedures)
+- Accessing cookies, tokens, sessionStorage, localStorage
+- Keylogging via injected scripts
+- Redirecting traffic or injecting ads/malware
+
+# Detection tips
+- Monitor unusual extension installations via endpoint telemetry
+- Watch for abnormal web traffic patterns (e.g., unexpected destinations)
+- Use EDR/browser visibility tools (like Chrome Enterprise reports or Microsoft Defender for Endpoint)
+
+<img width="1389" height="469" alt="image" src="https://github.com/user-attachments/assets/3dd81109-d746-4850-bb21-ee1ff95d1589" />
+<br><br>
 
 ## OAuth & SSO Attacks
-blah
+## OAuth Attacks
+OAuth 2.0 is a protocol that allows third-party applications to request limited access to a user’s cloud data without exposing their password.
 
-blah
+OAuth is a commonly used authorization framework that enables websites and web applications to request limited access to a user's account on another application. Crucially, OAuth allows the user to grant this access without exposing their login credentials to the requesting application. This means users can fine-tune which data they want to share rather than having to hand over full control of their account to a third party.
+
+The basic OAuth process is widely used to integrate third-party functionality that requires access to certain data from a user's account. For example, an application might use OAuth to request access to your email contacts list so that it can suggest people to connect with. However, the same mechanism is also used to provide third-party authentication services, allowing users to log in with an account that they have with a different website. 
+
+### Common Attack Vectors
+1. Consent Phishing / Illicit Consent Grants
+  - Attackers create an app and trick users into granting it permissions (read email, access files)
+  - No password stolen, no MFA bypassed — user voluntarily authorizes access
+2. Token Theft & Replay
+  - Stealing access/refresh tokens from local storage, browser cache, or insecure apps
+  - Reuse tokens on attacker-controlled devices without MFA
+3. Overprivileged Scopes
+  - Apps request more access than they need ("read and write" instead of "read only")
+  - Attackers exploit these to elevate access or exfiltrate more data
+
+### Tips for detection and prevention
+- Look for unfamiliar app consents in M365 or Google Admin audit logs
+- Alert on creation of OAuth apps with elevated scopes
+- Use UBA to detect changes in user behavior following OAuth token use
+- Restrict app consents (admin consent only or limited scopes)
+- Use Conditional Access with app enforcement
+- Token binding or short token lifetimes
+
+## SSO (Single Sign-On) Attacks
+
+
 
 ## Azure Logs
 blah
