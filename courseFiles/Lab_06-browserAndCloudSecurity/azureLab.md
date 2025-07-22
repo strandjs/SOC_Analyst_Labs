@@ -20,6 +20,15 @@
 
 - After it's deployed, click `Go to Resource`
 - Inside it, create a Database (e.g., LogTrainingDB)
+- Now going back to the **Cluster**
+
+<img width="1270" height="632" alt="image" src="https://github.com/user-attachments/assets/81211f74-d8f6-4518-8279-c35b555d2646" />
+
+- Go to **Overview** and copy your **Cluster URL**
+
+![Uploading image.png…]()
+
+
 - Go to https://dataexplorer.azure.com and log in with you Azure account
 - On the left, select your cluster + database
 - Click “Ingest data” > Choose CSV file
