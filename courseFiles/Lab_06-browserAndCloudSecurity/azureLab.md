@@ -34,7 +34,7 @@
 
 - Select the one with `@outlook.onmicrosoft.com`
 - On the left, select your **Dashboards** -> **Create new dashboard**
-- Click **Add tile** - **+ Data source**, add whatever name and your cluster URL that you copied earlier -> **Connect** -> choose your database -> **Create**
+- Click **Add tile** -> **+ Data source**, add whatever name and your cluster URL that you copied earlier -> **Connect** -> choose your database -> **Create**
 - Now go back again to your **Cluster Overview** on the azure portal and click on **Ingest data**
 
 <img width="698" height="365" alt="image" src="https://github.com/user-attachments/assets/8c46c611-cab3-483e-af26-92a1d15dad72" />
