@@ -54,7 +54,7 @@
 
 - We can see on **Column 6** it's the EVTX Tactic, let's group the logs by it
 
-pre>LabLogs
+<pre>LabLogs
 | summarize Count = count() by Column6</pre>
 
 <img width="420" height="270" alt="image" src="https://github.com/user-attachments/assets/8a40c440-b0a3-4506-9f4f-4fa2a0b37a68" />
