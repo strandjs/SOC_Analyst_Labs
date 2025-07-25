@@ -74,10 +74,18 @@ Next Steps
 7. Determine initial infection vector
 
 ## Real-World Examples
+### SingHealth Data Breach (Singapore, July 2018)
+One of the most publicly dissected breaches involved SingHealth, affecting 1.5 million patients—including Singapore’s Prime Minister. The public Committee of Inquiry report provides a detailed timeline of discovery, escalation, containment, and response
 
-blah
+Timeline(from public findings)
+<pre>27 June–4 July 2018: Massive data exfiltration occurred—personal particulars of ~1.495 million patients and outpatient medication records of ~159,000 were stolen
+4 July 2018: IHIS database administrators detected unusual activity, halted initial exfiltration attempts, and began enhanced monitoring
+10 July 2018: Confirmed cyberattack; Ministry of Health, SingHealth, and Cyber Security Agency notified
+12 July 2018: SingHealth filed a police report
+19 July 2018: Additional attempted malicious activity detected but without exfiltration
+20 July 2018: Network‑wide Internet surfing separation enforced; public announcement issued by Ministry of Health and Communications & Information</pre>
 
-blah
+[Wiki Page](https://en.wikipedia.org/wiki/2018_SingHealth_data_breach)
 
 ***
 <b><i>Continuing the course?</b>
