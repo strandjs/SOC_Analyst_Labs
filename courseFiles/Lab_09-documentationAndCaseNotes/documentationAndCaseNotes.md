@@ -40,18 +40,36 @@ Purpose
 - Required for formal reporting (incident response, regulatory)
 
 Timeline Format
-<pre><[2025-07-24 13:55 UTC] User opened malicious email attachment
+<pre>[2025-07-24 13:55 UTC] User opened malicious email attachment
 [2025-07-24 13:58 UTC] Word spawned powershell.exe (base64 encoded payload)
 [2025-07-24 14:01 UTC] Alert triggered by EDR
 [2025-07-24 14:05 UTC] Host isolated by SOC Tier 1
 [2025-07-24 14:15 UTC] Triage confirmed malware behavior: credential dumping
-[2025-07-24 15:00 UTC] Escalated to Incident Response/pre>
+[2025-07-24 15:00 UTC] Escalated to Incident Response</pre>
+
+You should include: **Triggering event**, **Each detection**, **All actions taken**, **Handoff/escalations**, **Remediation steps**
 
 ## Writing an Alert Triage Summary
+**Purpose** - Conclusion of an alert investigation—used by management, auditors, and the IR team
 
-blah
+### Template 
+- **Alert Name** - Suspicious DNS Query
+- **Severity** - Medium
+- **Assets Involved** - Host WKS-223, user jsmith
+- Summary
+<pre>Alert was triggered due to excessive DNS queries to DGA-like domains. Investigation confirmed no legitimate application behavior matching this pattern. PCAP showed suspicious outbound traffic to IP 103.54.22.11, known to be used by malware “XLoader.”
 
-blah
+No lateral movement observed. Host isolated. Sample sent to sandbox. Awaiting results. Case escalated to Tier 2 for full investigation.</pre>
+
+Actions Taken
+1. Queried DNS logs and correlated with EDR
+2. Confirmed suspicious behavior (DGA + C2)
+3. Isolated host
+4. Opened case with IR team
+Next Steps
+5. Monitor for lateral movement from host’s subnet
+6. Analyze sandbox results
+7. Determine initial infection vector
 
 ## Real-World Examples
 
