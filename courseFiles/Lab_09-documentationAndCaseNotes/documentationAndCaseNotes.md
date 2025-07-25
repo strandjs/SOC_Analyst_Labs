@@ -20,8 +20,19 @@ Bad Documentation Causes
 - Incomplete RCA (Root Cause Analysis)
 
 ## Case Notes - The Analyst’s Daily Log
+Key Rules
+1. **Start Immediately** – Begin documenting as soon as the alert is opened
+2. **Be Objective** – Focus on what you observed, not assumptions
+3. **Timestamp Everything** – Use UTC and standard formats (e.g., YYYY-MM-DD HH:MM UTC)
+4. **Log Every Step** – Even “negative” findings (what you checked and ruled out)
 
+Case Notes Structure
+<pre>[2025-07-25 10:22 UTC] Alert triggered: Suspicious PowerShell execution on host WKS-204
+[2025-07-25 10:24 UTC] Queried EDR logs – script matches encoded PowerShell from MITRE T1059.001
+[2025-07-25 10:28 UTC] Queried Sysmon – found parent process was MS Word; likely macro
+[2025-07-25 10:32 UTC] Informed Tier 2. Awaiting sandbox results</pre>
 
+Tip - Always write as if someone unfamiliar with the case will read it next
 
 ## Writing an Incident Timeline
 blah
