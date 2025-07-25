@@ -76,6 +76,7 @@
 ***
 ### [Documentation & Case Notes](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
 
+- [Case Notes — The Analyst’s Daily Log](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#case-notes---the-analysts-daily-log)
 - [Writing an Incident Timeline](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
 - [Writing an Alert Triage Summary](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
 - [Real-World Examples](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
