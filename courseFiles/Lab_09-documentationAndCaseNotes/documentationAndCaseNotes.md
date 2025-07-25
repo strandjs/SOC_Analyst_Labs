@@ -13,6 +13,15 @@ Documentation types
 | Alert Triage Summary | Final write-up after triage | SOC ticket or escalation |
 | Investigation Report | Full postmortem | Often created by Tier 2+ |
 
+Bad Documentation Causes
+- Missed hand-offs
+- Incorrect escalation
+- Slower containment
+- Incomplete RCA (Root Cause Analysis)
+
+## Case Notes - The Analyst’s Daily Log
+
+
 
 ## Writing an Incident Timeline
 blah
