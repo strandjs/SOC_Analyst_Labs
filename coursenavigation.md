@@ -63,6 +63,7 @@
 - [Intro to Deception Techniques](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
 - [Generating Traps](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#generating-traps)
 - [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
+- [Legal Notes](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#legal-notes)
 
 ***
 ### [Email Fundamentals](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
