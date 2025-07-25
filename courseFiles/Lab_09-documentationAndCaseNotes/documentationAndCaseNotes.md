@@ -39,6 +39,14 @@ Purpose
 - Summarizes all events in time order
 - Required for formal reporting (incident response, regulatory)
 
+Timeline Format
+<pre><[2025-07-24 13:55 UTC] User opened malicious email attachment
+[2025-07-24 13:58 UTC] Word spawned powershell.exe (base64 encoded payload)
+[2025-07-24 14:01 UTC] Alert triggered by EDR
+[2025-07-24 14:05 UTC] Host isolated by SOC Tier 1
+[2025-07-24 14:15 UTC] Triage confirmed malware behavior: credential dumping
+[2025-07-24 15:00 UTC] Escalated to Incident Response/pre>
+
 ## Writing an Alert Triage Summary
 
 blah
