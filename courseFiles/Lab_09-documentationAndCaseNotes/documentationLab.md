@@ -94,3 +94,7 @@ User: DOMAIN\jsmith
 - What triggered the alerts
 - What actions were taken
 - What should happen next
+
+Following up is what your work should look like, for your progress' sake, look only after you finished and compare. What did you miss out? What could've you explained more in detail? 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
