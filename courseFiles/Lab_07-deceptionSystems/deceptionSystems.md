@@ -35,7 +35,7 @@ Examples
 
 ## Active Defense & Cyber Deception
 Active defense shifts from passive monitoring to proactive engagement, it includes
-- **Tarpitting** - Slowing attacker tools and scripts using low-interaction decoys ***([Dionaea](/courseFiles/tools/Dionaea.md)***
+- **Tarpitting** - Slowing attacker tools and scripts using low-interaction decoys ***([Dionaea](/courseFiles/tools/Dionaea.md))***
 - **Misattribution** - Feeding attackers false information ***(PortSpoof, SpiderTrap)***
 - **Adversary Engagement** - Actively observing and sometimes manipulating adversaries in controlled environments ***(Thinkst Canary)***
 
