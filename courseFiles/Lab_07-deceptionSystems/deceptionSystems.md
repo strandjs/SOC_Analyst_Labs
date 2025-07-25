@@ -67,6 +67,15 @@ Risky or Unethical Practices
 
 Best advice I can give is use the MITRE Engage framework for designing ethical, well-scoped deception strategies
 
+### US law references:
+[Computer Fraud and Abuse Act (CFAA) – 18 U.S.C. § 1030](https://www.law.cornell.edu/uscode/text/18/1030)
+
+[Wiretap Act / Electronic Communications Privacy Act (ECPA) – 18 U.S.C. §§ 2510–2523](https://www.law.cornell.edu/uscode/text/18/part-I/chapter-119)
+
+[Stored Communications Act (SCA) – 18 U.S.C. §§ 2701–2712](https://www.law.cornell.edu/uscode/text/18/2701)
+
+[Active Cyber Defense Certainty Act (ACDCA) (Proposed, not passed)](https://www.congress.gov/bill/116th-congress/house-bill/3270)
+
 ***
 <b><i>Continuing the course?</b>
 </br>
