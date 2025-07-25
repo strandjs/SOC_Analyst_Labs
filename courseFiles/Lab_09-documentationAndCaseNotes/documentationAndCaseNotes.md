@@ -66,6 +66,7 @@ Actions Taken
 2. Confirmed suspicious behavior (DGA + C2)
 3. Isolated host
 4. Opened case with IR team
+
 Next Steps
 5. Monitor for lateral movement from host’s subnet
 6. Analyze sandbox results
