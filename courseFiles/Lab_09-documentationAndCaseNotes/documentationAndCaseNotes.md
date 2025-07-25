@@ -88,7 +88,7 @@ Timeline(from public findings)
 [Wiki Page](https://en.wikipedia.org/wiki/2018_SingHealth_data_breach)
 
 ## Your turn
-[Documentation Lab](/courseFiles/Lab_09-documentationAndCaseNotes/documentationLab.md)
+### Try this hands-on [Documentation Lab](/courseFiles/Lab_09-documentationAndCaseNotes/documentationLab.md)
 
 ***
 <b><i>Continuing the course?</b>
