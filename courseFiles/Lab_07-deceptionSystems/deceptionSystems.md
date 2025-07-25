@@ -13,10 +13,10 @@ Deception technology must be invisible to an organization's workers, subcontract
 
 ## Intro to Deception Techniques
 Deception techniques fall into several categories:
-- **Decoy Systems (Honeypots & Honeynets)** - Simulated systems designed to attract attackers, may imitate production servers or endpoints (Modern Honey Network)
-- **Honeytokens** - Fake credentials, files, or data planted in real systems, trigger alerts when accessed or exfiltrated (Canarytokens, Thinkst Canary)
-- **Deceptive Credentials** - Planted usernames/passwords that, if used, signal compromise or credential stuffing (HoneyUsers)
-- **Breadcrumbs** - Registry entries, mapped drives, or browser history designed to mislead attackers deeper into decoy environments (HoneyCreds)
+- **Decoy Systems (Honeypots & Honeynets)** - Simulated systems designed to attract attackers, may imitate production servers or endpoints ***(Modern Honey Network)***
+- **Honeytokens** - Fake credentials, files, or data planted in real systems, trigger alerts when accessed or exfiltrated ***(Canarytokens, Thinkst Canary)***
+- **Deceptive Credentials** - Planted usernames/passwords that, if used, signal compromise or credential stuffing ***(HoneyUsers)***
+- **Breadcrumbs** - Registry entries, mapped drives, or browser history designed to mislead attackers deeper into decoy environments ***(HoneyCreds)***
 
 The objective is to shape adversary behavior and gather intelligence without tipping them off, or even to inhibit them from attacking you if they realize you may have active defence measures
 
@@ -35,9 +35,9 @@ Examples
 
 ## Active Defense & Cyber Deception
 Active defense shifts from passive monitoring to proactive engagement, it includes
-- **Tarpitting** - Slowing attacker tools and scripts using low-interaction decoys (Dionaea)
-- **Misattribution** - Feeding attackers false information (PortSpoof, SpiderTrap)
-- **Adversary Engagement** - Actively observing and sometimes manipulating adversaries in controlled environments (Thinkst Canary)
+- **Tarpitting** - Slowing attacker tools and scripts using low-interaction decoys ***(Dionaea)***
+- **Misattribution** - Feeding attackers false information ***(PortSpoof, SpiderTrap)***
+- **Adversary Engagement** - Actively observing and sometimes manipulating adversaries in controlled environments ***(Thinkst Canary)***
 
 By upsetting adversary decision cycles and making them doubt the reliability of their information and actions, these tactics enhance conventional defenses
 
