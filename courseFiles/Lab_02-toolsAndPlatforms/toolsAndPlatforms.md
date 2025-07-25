@@ -69,7 +69,7 @@ Key Skills
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehaviormd)</i>
+[Click here for the Next Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
