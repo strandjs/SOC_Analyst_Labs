@@ -97,4 +97,54 @@ User: DOMAIN\jsmith
 
 Following up is what your work should look like, for your progress' sake, look only after you finished and compare. What did you miss out? What could've you explained more in detail? 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Incident Timeline
+<pre>[2025-07-24 13:02:15 UTC] User DOMAIN\jsmith logged in to WKS-204 via interactive session (Logon Type 2).
+[2025-07-24 13:03:02 UTC] WINWORD.exe opened a macro-enabled document (invoice_672.docm).
+[2025-07-24 13:03:08 UTC] WINWORD.exe spawned cmd.exe → PowerShell with encoded payload.
+[2025-07-24 13:03:09 UTC] PowerShell connected to external IP 103.145.67.233 (updates-checker[.]co) over TCP/443.
+[2025-07-24 13:03:10 UTC] Malicious DLL saved to: C:\Users\jsmith\AppData\Local\Temp\rat_payload.dll.
+[2025-07-24 13:03:12 UTC] DLL executed via rundll32.exe.
+[2025-07-24 13:03:17 UTC] rundll32.exe accessed lsass.exe memory (credential dumping behavior).
+[2025-07-24 13:03:22 UTC] Mimikatz log file written to Temp directory.
+[2025-07-24 13:03:30 UTC] EDR detected and blocked LSASS access — alert triggered (Critical).
+[2025-07-24 13:04:01 UTC] Host WKS-204 isolated from the network by SOC Analyst01.
+[2025-07-24 13:05:17 UTC] rundll32 attempted outbound connection to beacon.stage-backup[.]org — blocked.
+[2025-07-24 13:07:08 UTC] Attacker executed `whoami /all` — confirmed post-exploitation.</pre>
+
+### Triage Summary
+<pre>**Alert Name:** Suspicious PowerShell Execution + Credential Access  
+**Alert ID:** EDR-1022  
+**Severity:** Critical  
+**Host:** WKS-204  
+**User:** DOMAIN\jsmith  
+**Date/Time First Observed:** 2025-07-24 13:02 UTC  
+
+---
+
+**Summary:**  
+Initial alert was triggered by encoded PowerShell execution from WINWORD.exe (likely macro). The PowerShell session contacted an external IP (103.145.67.233) associated with a suspicious domain (updates-checker[.]co) and downloaded a DLL payload.
+
+The DLL (rat_payload.dll) was executed via rundll32.exe, which accessed LSASS memory — consistent with credential dumping. Mimikatz artifacts were observed. The EDR platform blocked the credential dump attempt and generated a critical alert.
+
+Host was immediately isolated. Attempts to beacon to a known C2 domain (beacon.stage-backup[.]org) were blocked post-isolation. Attacker executed reconnaissance commands (e.g., whoami). Indicators suggest hands-on-keyboard activity.
+
+---
+
+**Actions Taken:**
+- Investigated PowerShell activity and parent-child process chain
+- Verified outbound network connections to known C2 indicators
+- Observed and confirmed LSASS memory access
+- Host isolated from network via EDR tooling
+- Logs and volatile memory acquired
+- Case escalated to Tier 2 and Incident Response
+
+---
+
+**Next Steps:**
+- Analyze phishing vector (email chain or document origin)
+- Submit rat_payload.dll to sandbox
+- Search for IOCs (C2 IPs/domains) across enterprise endpoints
+- Initiate password resets for jsmith and high-value accounts
+- Monitor for lateral movement from subnet 10.0.5.0/24</pre>
