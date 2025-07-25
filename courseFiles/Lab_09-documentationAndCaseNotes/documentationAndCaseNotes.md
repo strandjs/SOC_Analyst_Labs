@@ -35,9 +35,9 @@ Case Notes Structure
 Tip - Always write as if someone unfamiliar with the case will read it next
 
 ## Writing an Incident Timeline
-blah
-
-blah
+Purpose
+- Summarizes all events in time order
+- Required for formal reporting (incident response, regulatory)
 
 ## Writing an Alert Triage Summary
 
