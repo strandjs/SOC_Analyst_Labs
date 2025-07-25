@@ -41,6 +41,32 @@ Active defense shifts from passive monitoring to proactive engagement, it includ
 
 By upsetting adversary decision cycles and making them doubt the reliability of their information and actions, these tactics enhance conventional defenses
 
+## Legal Notes
+### Legality of Deception
+*Cyber deception tools (like honeypots or honeytokens) are generally legal when*
+- Deployed within your own systems/network
+- Not used to entrap someone unlawfully
+- Do not violate privacy laws or intercept protected communications
+
+*Legal Risk Areas*
+- **Unauthorized Monitoring** - Ensure you're not capturing data from legitimate users without notice (especially contractors or employees)
+- **Data Privacy Violations** - Deceptive traps must not inadvertently log personal data (e.g., private conversations or personal documents)
+- **Cross-border Intrusion** - If your honeypot logs attackers from another country, you could technically fall under foreign legal jurisdictions
+- **Overreach** - Setting traps outside your network, like on third-party infrastructure or spoofing external services, is almost always illegal
+
+### Ethical Guidelines
+Acceptable Practices
+- Monitoring your own systems
+- Using deception to delay/detect attackers, like we talked earlier
+- Collecting attacker TTPs (Tools, Techniques, Procedures)
+
+Risky or Unethical Practices
+- Counter-hacking (hacking back) – violates U.S. federal law (CFAA) and most international regulations
+- Publishing attacker data publicly
+- Deceptively collecting data from real users without disclosure
+
+Best advice I can give is use the MITRE Engage framework for designing ethical, well-scoped deception strategies
+
 ***
 <b><i>Continuing the course?</b>
 </br>
