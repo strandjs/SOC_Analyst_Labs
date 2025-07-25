@@ -222,7 +222,7 @@ Packets: 10
 
  [Wireshark LDAP Lab Solution](/courseFiles/Lab_05-networkingAndTelemetry/wireshark_ldap_lab_solution.md)
 
- [IDS Snort/Suricata Lab](/courseFiles/Lab_05-networkingAndTelemetry/ids_lab)
+ [IDS Snort/Suricata Lab](/courseFiles/Lab_05-networkingAndTelemetry/ids_lab.md)
 
  ***               
 
