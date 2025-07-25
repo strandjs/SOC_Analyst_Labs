@@ -68,6 +68,7 @@ Actions Taken
 4. Opened case with IR team
 
 Next Steps
+
 5. Monitor for lateral movement from host’s subnet
 6. Analyze sandbox results
 7. Determine initial infection vector
