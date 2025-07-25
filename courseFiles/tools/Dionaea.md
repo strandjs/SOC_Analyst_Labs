@@ -29,3 +29,18 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
   libev-devel libcurl-devel openssl-devel \
   python3 python3-pip libpcap-devel sqlite-devel \
   libnl3-devel netfilter-devel</pre>
+- $`sudo dnf install glib2-devel -y`
+- $`sudo dnf install python3-devel -y`
+- $`sudo dnf install libnetfilter_queue-devel -y`
+- $`sudo dnf install libnl3-devel libnl3-cli libnl3-cli-devel -y`
+- $`sudo dnf install libemu libemu-devel -y`
+- $`sudo dnf install udns-devel libnl3-devel -y`
+- $`sudo dnf install libev-devel -y`
+- $`sudo dnf install libcurl-devel -y`
+- $`sudo dnf install libpcap-devel -y`
+- $`sudo dnf install python3-Cython -y`
+
+- $`git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
+- $`mkdir build && cd build`
+- $`cmake ..`
+- $`make -j$(nproc)`
