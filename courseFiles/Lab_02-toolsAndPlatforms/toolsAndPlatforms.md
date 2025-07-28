@@ -3,7 +3,7 @@
 <br><br>
 
 Categories of Security Tools
-- **Endpoint Detection and Response** (EDR) - Tools like [LimaCharlie](/courseFiles/tools/LimaCharlie.md) monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
+- **Endpoint Detection and Response** (EDR) - Tools like LimaCharlie monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
 - **Security Information and Event Management** (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
 - **Network Monitoring Tools** - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
 
@@ -13,9 +13,8 @@ Categories of Security Tools
 This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst
 
 ## LimaCharlie Hands-On
-[LimaCharlie](/courseFiles/tools/LimaCharlie.md) is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules
+LimaCharlie is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules
 
-After setting it up, you can try the [LimaCharlie Lab](/courseFiles/Lab_02-toolsAndPlatforms/limaCharlieLab.md)
 
 ## Elastic SIEM Hands-On
 [Elastic SIEM](/courseFiles/tools/Elastic.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
