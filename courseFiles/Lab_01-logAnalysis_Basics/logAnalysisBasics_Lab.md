@@ -73,9 +73,10 @@ $ `hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|m
 Following up this lead we can get to the same results as earlier, or use it to group alerts by services, the possibilities are endless
 <br><br
 
-Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
+### Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
 
-Also try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
+## Your turn
+Try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
 
 
 
