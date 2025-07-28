@@ -18,24 +18,61 @@ Dig deeper instead of just closing an alert, ask why it happened, not just what 
 ### For Example
 You see this log line from an EDR:
 <pre>powershell.exe -nop -w hidden -encodedCommand JABX...</pre>
-Bad analysts ignore it. Curious analysts:
+Bad analysts ignore it, curious analysts
+- Ask: “Why is PowerShell running encoded commands?”
+- Look up: `-nop`, `-w hidden`, `-encodedCommandv`
+- Investigate the decoded string
+- Research the user and host behavior history
+
+### Tools to assist
+- MITRE ATT&CK for technique mapping
+- `CyberChef` to decode strings
+
+
 
 ## Explain Your Process
+### Why does it matter
+You’ll frequently need to explain what you did — during handoffs, retrospectives, or escalations, being clear = being trusted
 
-blah
+### How to practice
+- Narrate during investigations on Zoom/Teams.
+- Try structured thinking (like `What did I see?`, `What did I check?`, `What did I find?`, `What’s my conclusion?`)
 
-blah
+### For Example
+
+
+### Tools to assist
+
+
+
 
 ## Start a Blog
-blah
+### Why does it matter
 
-blah
+
+### How to practice
+
+
+### For Example
+
+
+### Tools to assist
+
+
 
 ## Learn & Teach
+### Why does it matter
 
-blah
 
-blah
+### How to practice
+
+
+### For Example
+
+
+### Tools to assist
+
+
 
 ***
 <b><i>Want to go back?</b>
