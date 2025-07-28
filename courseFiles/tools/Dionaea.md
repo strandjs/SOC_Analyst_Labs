@@ -34,7 +34,6 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 - $`sudo apt install -y libudns-dev`
 - $`sudo apt install -y libnetfilter-queue-dev`
 - $`sudo apt install -y python3-pip`
-- $`sudo pip3 install Cython`
 - $`sudo nano /dionaea/modules/CMakeLists.txt` - comment out anything emu related like this
 <pre>#if(WITH_MODULE_EMU)
 #  if(LIBEMU_FOUND)
