@@ -13,7 +13,7 @@ Categories of Security Tools
 This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst
 
 ## LimaCharlie Hands-On
-LimaCharlie is a cloud-native EDR and infrastructure-as-a-service platform. It collects detailed telemetry from endpoints and allows for custom detection and response rules
+LimaCharlie is a cutting-edge cybersecurity operations and infrastructure platform made to assist security teams in identifying, addressing, and managing threats on a large scale. With features designed for security engineers and SOC analysts, it provides an adaptable, API-driven substitute for conventional Endpoint Detection and Response (EDR) systems.
 
 
 ## Elastic SIEM Hands-On
