@@ -105,7 +105,7 @@ You learn a new Sigma rule format, don't keep it to yourself
 - Write a brief blog-style post explaining what you learned
 - Share the post (internally or externally) and invite feedback
 
-<br><br>
+---
 
 Your profession will be defined by how you think, communicate, learn, and teach, not by the tools and alerts that change, the analysts who advance the fastest aren't the most intelligent; rather, they're the most lucid, inquisitive, and cooperative
 
