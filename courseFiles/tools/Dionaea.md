@@ -39,8 +39,15 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 - $`sudo dnf install libcurl-devel -y`
 - $`sudo dnf install libpcap-devel -y`
 - $`sudo dnf install python3-Cython -y`
+- $`nano ~/Downloads/dionaea/modules/CMakeLists.txt` - and make sure this line is commented: `add_subdirectory(python)`
 
 - $`git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
 - $`mkdir build && cd build`
 - $`cmake ..`
 - $`make -j$(nproc)`
+- $`sudo make install`
+
+- $`find ~/Downloads/dionaea -name "dionaea.conf"`
+- $`sudo mkdir -p /usr/local/etc/dionaea`
+- $`sudo cp <your_conf_path> /usr/local/etc/dionaea`
+- $`sudo nano /usr/local/etc/dionaea/dionaea.conf` - make sure you have this line under **[processors]** `enabled = ["filter_streamdumper", "streamdumper"]`
