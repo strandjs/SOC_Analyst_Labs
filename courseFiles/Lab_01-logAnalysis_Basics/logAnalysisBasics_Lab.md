@@ -15,8 +15,6 @@ $ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/Automated
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
-<br>
-
 - First thing we will do to start disecting the logs is to get some basic **metrics** to understand what system the logs came from, number of events, time range.
 
 $ `hayabusa log-metrics --file sysmon.evtx`
