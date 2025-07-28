@@ -88,6 +88,7 @@
 - [Explain Your Process](courseFiles/Lab_10-softSkills/softSkills.md#explain-your-process)
 - [Start a Blog](courseFiles/Lab_10-softSkills/softSkills.md#start-a-blog)
 - [Learn & Teach](courseFiles/Lab_10-softSkills/softSkills.md#learn--teach)
+- [Final Exercise](courseFiles/Lab_10-softSkills/softSkills.md#final-exercise)
 
 ***
 
