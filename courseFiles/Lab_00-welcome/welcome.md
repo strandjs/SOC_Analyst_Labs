@@ -18,6 +18,7 @@ We’ll use GitHub Issues to ask questions, report bugs, and suggest improvement
 - Open the course repository in your browser (<final URL>)
 2. Click on the “Issues” Tab in the top-left
 <img width="92" height="36" alt="image" src="https://github.com/user-attachments/assets/147d9dcb-0045-4d39-b797-df6d65353fff" />
+
 - You’ll see a list of existing issues, check if your problem has already been reported
 3. Create a New Issue
 - Click `New issue`
