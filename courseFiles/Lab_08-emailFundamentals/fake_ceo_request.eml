@@ -1,0 +1,36 @@
+From: CEO Mark <smtpfox-wu6ea@shrrutitapuria.com>
+To: john.smith@yourcompany.com
+Subject: [URGENT] Invoice Payment Required Today
+Date: Mon, 28 Jul 2025 13:48:30 -0000
+Return-Path: <reply@paymemt-secure.com>
+Reply-To: reply@paymemt-secure.com
+Authentication-Results: spf=fail (domain of fake-corp.org does not designate
+ permitted sender) smtp.mailfrom=fake-corp.org; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5875012459260927724=="
+
+--===============5875012459260927724==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+Hello John,
+
+Please process the attached invoice urgently. We are closing the deal by EOD.
+
+You can also view the payment instructions here:
+http://evri.trackszc.live
+
+Thanks,
+John
+CEO
+
+--===============5875012459260927724==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice_urgent.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJUZha2UgUERGIGNvbnRlbnQgaGVyZUZBS0UgSU5WT0lDRQolJUVPRg==
+
+--===============5875012459260927724==--
