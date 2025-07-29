@@ -39,7 +39,7 @@ with open("EXAMPLE.json") as file:
         print(entry["username"])
 ```
 
-#### Python libraries learned
+#### Python libraries
 
 - `requests`: For making HTTP requests to APIs (ex: VirusTotal)
 - `json`: for working with structured data from logs or API responses
