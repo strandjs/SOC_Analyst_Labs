@@ -63,6 +63,7 @@
 - [Intro to Deception Techniques](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
 - [Generating Traps](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#generating-traps)
 - [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
+- [Legal Notes](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#legal-notes)
 
 ***
 ### [Email Fundamentals](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
@@ -75,6 +76,7 @@
 ***
 ### [Documentation & Case Notes](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
 
+- [Case Notes — The Analyst’s Daily Log](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#case-notes---the-analysts-daily-log)
 - [Writing an Incident Timeline](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
 - [Writing an Alert Triage Summary](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
 - [Real-World Examples](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
@@ -86,6 +88,7 @@
 - [Explain Your Process](courseFiles/Lab_10-softSkills/softSkills.md#explain-your-process)
 - [Start a Blog](courseFiles/Lab_10-softSkills/softSkills.md#start-a-blog)
 - [Learn & Teach](courseFiles/Lab_10-softSkills/softSkills.md#learn--teach)
+- [Final Exercise](courseFiles/Lab_10-softSkills/softSkills.md#final-exercise)
 
 ***
 

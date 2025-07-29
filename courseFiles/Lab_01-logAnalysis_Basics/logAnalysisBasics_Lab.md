@@ -1,7 +1,6 @@
 ## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
 
 **If you don't have hayabusa installed follow the tutorial from the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
-<br><br>
 
 - To start off we need to make sure we have the detection rules of hayabusa
 
@@ -15,8 +14,6 @@ Let's also get the logs that we will be working with and rename them
 $ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
-
-<br>
 
 - First thing we will do to start disecting the logs is to get some basic **metrics** to understand what system the logs came from, number of events, time range.
 
@@ -74,11 +71,12 @@ $ `hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|m
 <img width="1915" height="661" alt="image" src="https://github.com/user-attachments/assets/3a70ca93-4c36-4f79-96f1-435322948684" />
 
 Following up this lead we can get to the same results as earlier, or use it to group alerts by services, the possibilities are endless
-<br><br
+<br><br>
 
-Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
+## Your turn
+### Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
 
-Also try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
+### Also try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
 
 
 
