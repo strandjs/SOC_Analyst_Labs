@@ -26,7 +26,7 @@ The logs span about 30 minutes and there are only 565 events, small enough to di
 
 $ `./hayabusa eid-metrics --file sysmon.evtx`
 
-<img width="627" height="503" alt="image" src="https://github.com/user-attachments/assets/f8a12a53-889d-4dd3-af42-d992bf8ec41c" />
+<img width="552" height="501" alt="image" src="https://github.com/user-attachments/assets/a08afb66-20a1-4ba5-a2e7-72b20fe7b597" />
 
 Important observations:
 1. **Process Creation (ID 1 = 90%)**, that's extremely high volume, and now our primary hunting ground
@@ -37,7 +37,7 @@ Important observations:
 
 $ `./hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 
-<img width="989" height="1028" alt="image" src="https://github.com/user-attachments/assets/79c127a4-193d-480b-89d8-96735323296e" />
+<img width="1175" height="859" alt="image" src="https://github.com/user-attachments/assets/4d4748ed-6645-4c22-ae13-71cd4ad79be4" />
 
 Immediately we can see some really telling information, we got hits on 50 events(8.85%), 11 of them being critical alerts of a known backdoor and ransomware
 
