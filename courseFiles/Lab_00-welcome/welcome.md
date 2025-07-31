@@ -8,7 +8,7 @@ This course isn't just about technical abilities, but also about your mindset, a
 ## Start Here
 To start this course, you will be learning how to analyze multiple type of logs, especially Sysmon logs. You can do that in an infinite amount of ways, we tried to teach the easiest one.
 
-[First Lab - Log Analysis](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+[First Lab - Log Analysis](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 ## Getting Support
 We’ll use GitHub Issues to ask questions, report bugs, and suggest improvements — just like in a real-world SOC environment where tracking and documentation are crucial.
