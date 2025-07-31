@@ -22,8 +22,8 @@ There are multiple types of logs
 - **Setup**  - 	Logs from system setup processes (e.g., Windows updates)
 - **Forwarded Events**	- Logs collected from remote computers
 
-![Screenshot 2025-07-16 180150](https://github.com/user-attachments/assets/1ee0e202-b7e3-40b9-97f6-486e4ea687f9)
-You can open the **Security** logs to experiment around with the alerts in there
+<img width="1507" height="995" alt="image" src="https://github.com/user-attachments/assets/13d8e7d2-9674-4f82-acd3-66e552674e8f" />
+You can open the **DC1-secLogs-3-26-DomainPasswordSpray** logs to experiment around with the alerts in there
 <br>
 
 Stuff you can with this tool
