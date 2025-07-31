@@ -12,8 +12,6 @@ Being the first time you have probably heard about this tool, if you search it u
 - ***I got an error on the build and had to install PerlCore: $`sudo dnf install perl-core` + $`cargo clean` + again $`cargo build` --release***
 - $`sudo cp target/release/hayabusa /usr/local/bin/`  (so I can use it from anywhere)
 
-### *FYI 'dnf' is the same as 'apt' and 'cargo' is pretty much 'make' from kali*
-
 ## Using the actual tool
 ### Some commands that I found most interesting and useful:
 - $`hayabusa update-rules`
