@@ -6,8 +6,7 @@
 
 $ `hayabusa update-rules`
 
-<img width="745" height="189" alt="image" src="https://github.com/user-attachments/assets/271348e7-8d88-4962-a761-798c01e173e3" />
-
+<img width="527" height="174" alt="image" src="https://github.com/user-attachments/assets/ccf7acb4-342c-45b1-a4b2-ca38b935a450" />
 
 Let's also get the logs that we will be working with and rename them
 
