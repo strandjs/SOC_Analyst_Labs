@@ -1,11 +1,15 @@
 Being the first time you have probably heard about this tool, if you search it up you will get some japanese motorcycles, search Hayabusa event viewer.
 [Hayabusa-Repo](https://github.com/Yamato-Security/hayabusa)
-## What I used to install on a fedora OS:
-- $`sudo dnf install git rust cargo`
+
+## Setup
+- $`sudo apt update`
+- $`sudo apt install -y git curl build-essential pkg-config libssl-dev perl`
+- $`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- $`source $HOME/.cargo/env`
 - $`git clone https://github.com/Yamato-Security/hayabusa.git`
 - $`cd hayabusa`
 - $`cargo build --release`
-- ***I got an error on the build and had to install PerlCore: $sudo dnf install perl-core + $cargo clean + again $cargo build --release***
+- ***I got an error on the build and had to install PerlCore: $`sudo dnf install perl-core` + $`cargo clean` + again $`cargo build` --release***
 - $`sudo cp target/release/hayabusa /usr/local/bin/`  (so I can use it from anywhere)
 
 ### *FYI 'dnf' is the same as 'apt' and 'cargo' is pretty much 'make' from kali*
