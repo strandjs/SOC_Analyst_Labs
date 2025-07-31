@@ -9,7 +9,6 @@ Being the first time you have probably heard about this tool, if you search it u
 - $`git clone https://github.com/Yamato-Security/hayabusa.git`
 - $`cd hayabusa`
 - $`cargo build --release`
-- ***I got an error on the build and had to install PerlCore: $`sudo dnf install perl-core` + $`cargo clean` + again $`cargo build` --release***
 - $`sudo cp target/release/hayabusa /usr/local/bin/`  (so I can use it from anywhere)
 
 ## Using the actual tool
