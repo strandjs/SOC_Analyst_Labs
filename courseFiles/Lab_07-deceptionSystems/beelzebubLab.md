@@ -27,7 +27,7 @@ Participants will deploy and monitor an AI-powered SSH honeypot (Beelzebub) to d
 
 - $`cd configurations/services/`
 - $`mv ./ssh-22.yaml ~`
-- $`nano ./ssh-2222.yaml` - Add your key with double quotes around it like <pre>OPENAI_API_KEY: "your_api_key_here"<pre>
+- $`nano ./ssh-2222.yaml` - Add your key with double quotes around it like <pre>OPENAI_API_KEY: "your_api_key_here"</pre>
 
 
 
