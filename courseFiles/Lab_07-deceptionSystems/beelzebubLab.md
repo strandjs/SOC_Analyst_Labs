@@ -22,8 +22,12 @@ Participants will deploy and monitor an AI-powered SSH honeypot (Beelzebub) to d
 - $`nano docker-compose.yml` - Put your key here
 <img width="446" height="71" alt="image" src="https://github.com/user-attachments/assets/5f407ef9-759e-4eec-8d97-98ef396dc30d" />
 
-- Comment the **Default SSH Mapping**(ssh 22 port)
+- Also comment the **Default SSH Mapping**(ssh 22 port)
 <img width="202" height="84" alt="image" src="https://github.com/user-attachments/assets/4375696b-89c3-45a6-afd9-d2f5a549168e" />
+
+- $`cd configurations/services/`
+- $`mv ./ssh-22.yaml ~`
+- $`nano ./ssh-2222.yaml` - Add your key with double quotes around it like **OPENAI_API_KEY: "your_api_key_here"**
 
 
 
