@@ -1,4 +1,4 @@
-## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
+hayabusa log-metrics --file sysmon.evtx## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
 
 **If you don't have hayabusa installed follow the tutorial from the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
 
@@ -10,7 +10,7 @@ $ `hayabusa update-rules`
 
 Let's also get the logs that we will be working with and rename them
 
-$ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
+$ `curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
@@ -18,7 +18,8 @@ $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
 $ `hayabusa log-metrics --file sysmon.evtx`
 
-<img width="1917" height="611" alt="image" src="https://github.com/user-attachments/assets/473ad610-410e-4f82-b7bd-1f6310fc7437" />
+<img width="1900" height="507" alt="image" src="https://github.com/user-attachments/assets/eeff5e5b-c62c-44e1-b054-06ed7cd46c97" />
+
 The logs span about 30 minutes and there are only 565 events, small enough to dig manually but we will do it the smart way.<br><br>
 
 - Next let's see the Event **ID Distribution** to dentify common or suspicious Sysmon events, we are looking for **1**, **3**, **10**, **11** or even **8**
