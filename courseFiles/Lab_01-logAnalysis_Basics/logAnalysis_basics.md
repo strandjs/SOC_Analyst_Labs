@@ -33,7 +33,7 @@ Authentication logs include detailed information about the device used to access
 - Login errors
 - Logouts, with additional information shows whether a logout was manual or due to session expiration.
 
-This information can be useful to detect identity breaches. We can use authentication logs to identify brute force credential-guessing attempts, for example, as this will show up as failed authentications in the audit trail. They can pinpoint users that were affected by a breach, but not what those user accounts were able to access/do. That is where authorization audit logs come into play. Authorization decision logs will allow us to define the blast radius of the breach.
+Identity breaches may be detected with the help of this information. For instance, brute force credential-guessing attempts can be detected using authentication logs since they will appear in the audit trail as unsuccessful authentications. They are able to identify the users who were impacted by the breach, but they are unable to determine what those user accounts could access or do. Authorization audit logs are useful in this situation. By using authorization decision logs, we will be able to determine the breach's blast radius.
 
 
 
