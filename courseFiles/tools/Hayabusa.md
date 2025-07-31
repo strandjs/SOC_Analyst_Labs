@@ -59,4 +59,4 @@ Get Logon activity summary
 - You still need to know what to look for in the files you export, it doesn't hint you towards anything, just makes you do 80% of your job in 20% of the time
 - Took me a good while to find some good .evtx file to play with: [Log File For Lab](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx)
 
-[Back to the Lab]((courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md))
+[Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
