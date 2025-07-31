@@ -1,8 +1,8 @@
 Windows Event Viewer is a built-in administrative tool that allows users to view and analyze logs of system, security, and application events on a Windows machine. It’s essential for troubleshooting, auditing, and monitoring system activity in real time.
 
 You can open it either through the **Start Menu Search**
-<img width="781" height="679" alt="image" src="https://github.com/user-attachments/assets/4d586a4f-8d06-444a-a2bc-a097aef8c871" />
-<br><br>
+<img width="784" height="684" alt="image" src="https://github.com/user-attachments/assets/9565a313-6199-40d1-8d35-accebc217f94" />
+<br>
 
 Or through the **Run Dialog**
 
@@ -12,8 +12,8 @@ Then type
 
 `eventvwr.msc`
 
-<img width="390" height="195" alt="image" src="https://github.com/user-attachments/assets/d4a049bf-bee3-4dac-bea8-7cf4ae30325e" />
-<br><br>
+<img width="405" height="225" alt="image" src="https://github.com/user-attachments/assets/db042d24-6818-479f-be11-8452ee889a54" />
+<br>
 
 There are multiple types of logs
 - **Application**  - Logs from applications like SQL Server, Outlook, etc
@@ -24,7 +24,7 @@ There are multiple types of logs
 
 ![Screenshot 2025-07-16 180150](https://github.com/user-attachments/assets/1ee0e202-b7e3-40b9-97f6-486e4ea687f9)
 You can open the **Security** logs to experiment around with the alerts in there
-<br><br>
+<br>
 
 Stuff you can with this tool
 - **Search** - Right-click a log → Find → Type keywords (e.g., error, shutdown)
