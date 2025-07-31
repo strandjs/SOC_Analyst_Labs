@@ -68,7 +68,7 @@ Following the chain we meet these commands:
 
 $ `./hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'`
 
-<img width="1915" height="661" alt="image" src="https://github.com/user-attachments/assets/3a70ca93-4c36-4f79-96f1-435322948684" />
+<img width="1902" height="277" alt="image" src="https://github.com/user-attachments/assets/9161e8c4-4131-45b3-b563-a6d78e84c199" />
 
 Following up this lead we can get to the same results as earlier, or use it to group alerts by services, the possibilities are endless
 <br><br>
