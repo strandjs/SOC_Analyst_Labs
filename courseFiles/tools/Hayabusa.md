@@ -9,31 +9,31 @@ Being the first time you have probably heard about this tool, if you search it u
 - $`git clone https://github.com/Yamato-Security/hayabusa.git`
 - $`cd hayabusa`
 - $`cargo build --release`
-- $`sudo cp target/release/hayabusa /usr/local/bin/`  (so I can use it from anywhere)
+- $`cd target/release`
 
 ## Using the actual tool
 ### Some commands that I found most interesting and useful:
-- $`hayabusa update-rules`
+- $`./hayabusa update-rules`
 
 Updates detection rules(necessary)
 <br>
-- $`hayabusa log-metrics --file something.evtx`
+- $`./hayabusa log-metrics --file something.evtx`
   
 Check log file Metadata
 <br>
-- $`hayabusa csv-timeline --file something.evtx -o timeline.csv`
+- $`./hayabusa csv-timeline --file something.evtx -o timeline.csv`
 
 This creates a DFIR timeline in CSV format 
 <br>
-- $`hayabusa json-timeline --file something.evtx -o timeline.json`
+- $`./hayabusa json-timeline --file something.evtx -o timeline.json`
 
 Same, but in JSON format
 <br>
-- $`hayabusa eid-metrics --file something.evtx`
+- $`./hayabusa eid-metrics --file something.evtx`
 
 Summarize events by ID
 <br>
-- $`hayabusa computer-metrics --file Security.evtx`
+- $`./hayabusa computer-metrics --file Security.evtx`
 
 Summarize events by Computer Name
 <br>
@@ -41,11 +41,11 @@ Summarize events by Computer Name
 
 Extract Base64 strings
 <br>
-- $`hayabusa search --file something.evtx --keyword powershell`
+- $`./hayabusa search --file something.evtx --keyword powershell`
 
 Search by keyword
 <br>
-- `$hayabusa logon-summary --file something.evtx`
+- $`./hayabusa logon-summary --file something.evtx`
 
 Get Logon activity summary
 <br>
