@@ -27,7 +27,15 @@ Participants will deploy and monitor an AI-powered SSH honeypot (Beelzebub) to d
 
 - $`cd configurations/services/`
 - $`mv ./ssh-22.yaml ~`
-- $`nano ./ssh-2222.yaml` - Add your key with double quotes around it like <pre>OPENAI_API_KEY: "your_api_key_here"</pre>
+- $`nano ./ssh-2222.yaml` - Add your key with double quotes around it like `OPENAI_API_KEY: "your_api_key_here"`
+- $`cd /opt/beelzebub/`
+- $`docker-compose build`
+- $`docker-compose up -d`
+
+# Try it
+Connect to it like
+- $`ssh -p 2222 root@127.0.0.1` - use password "**1234**"
+- Try using any commands like **ls** or **id**
 
 
 
