@@ -16,7 +16,6 @@ Learn how to:
 ### Install Snort (via apt)
  
 ```bash
-sudo apt update
 sudo apt install snort -y
 ```
  
