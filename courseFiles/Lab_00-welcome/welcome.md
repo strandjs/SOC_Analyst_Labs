@@ -8,14 +8,14 @@ This course isn't just about technical abilities, but also about your mindset, a
 ## Start Here
 To start this course, you will be learning how to analyze multiple type of logs, especially Sysmon logs. You can do that in an infinite amount of ways, we tried to teach the easiest one.
 
-[First Lab - Log Analysis](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+[First Lab - Log Analysis](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 ## Getting Support
 We’ll use GitHub Issues to ask questions, report bugs, and suggest improvements — just like in a real-world SOC environment where tracking and documentation are crucial.
 
 ### How to Ask for Help or Report a Bug
 1. Go to the GitHub Repository
-- Open the course repository in your browser (<final URL>)
+- Open the course repository in your browser ***(final URL)***
 2. Click on the “Issues” Tab in the top-left
 <img width="92" height="36" alt="image" src="https://github.com/user-attachments/assets/147d9dcb-0045-4d39-b797-df6d65353fff" />
 

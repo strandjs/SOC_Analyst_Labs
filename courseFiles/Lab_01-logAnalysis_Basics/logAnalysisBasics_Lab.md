@@ -1,32 +1,32 @@
-## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
+hayabusa log-metrics --file sysmon.evtx## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
 
 **If you don't have hayabusa installed follow the tutorial from the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
 
 - To start off we need to make sure we have the detection rules of hayabusa
 
-$ `hayabusa update-rules`
+$ `./hayabusa update-rules`
 
-<img width="745" height="189" alt="image" src="https://github.com/user-attachments/assets/271348e7-8d88-4962-a761-798c01e173e3" />
-
+<img width="527" height="174" alt="image" src="https://github.com/user-attachments/assets/ccf7acb4-342c-45b1-a4b2-ca38b935a450" />
 
 Let's also get the logs that we will be working with and rename them
 
-$ `wget https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
+$ `curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
 - First thing we will do to start disecting the logs is to get some basic **metrics** to understand what system the logs came from, number of events, time range.
 
-$ `hayabusa log-metrics --file sysmon.evtx`
+$ `./hayabusa log-metrics --file sysmon.evtx`
 
-<img width="1917" height="611" alt="image" src="https://github.com/user-attachments/assets/473ad610-410e-4f82-b7bd-1f6310fc7437" />
+<img width="1900" height="507" alt="image" src="https://github.com/user-attachments/assets/eeff5e5b-c62c-44e1-b054-06ed7cd46c97" />
+
 The logs span about 30 minutes and there are only 565 events, small enough to dig manually but we will do it the smart way.<br><br>
 
 - Next let's see the Event **ID Distribution** to dentify common or suspicious Sysmon events, we are looking for **1**, **3**, **10**, **11** or even **8**
 
-$ `hayabusa eid-metrics --file sysmon.evtx`
+$ `./hayabusa eid-metrics --file sysmon.evtx`
 
-<img width="627" height="503" alt="image" src="https://github.com/user-attachments/assets/f8a12a53-889d-4dd3-af42-d992bf8ec41c" />
+<img width="552" height="501" alt="image" src="https://github.com/user-attachments/assets/a08afb66-20a1-4ba5-a2e7-72b20fe7b597" />
 
 Important observations:
 1. **Process Creation (ID 1 = 90%)**, that's extremely high volume, and now our primary hunting ground
@@ -35,9 +35,9 @@ Important observations:
 
 - Now let's proceed with a **Full Timeline Analysis**
 
-$ `hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
+$ `./hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
 
-<img width="989" height="1028" alt="image" src="https://github.com/user-attachments/assets/79c127a4-193d-480b-89d8-96735323296e" />
+<img width="1175" height="859" alt="image" src="https://github.com/user-attachments/assets/4d4748ed-6645-4c22-ae13-71cd4ad79be4" />
 
 Immediately we can see some really telling information, we got hits on 50 events(8.85%), 11 of them being critical alerts of a known backdoor and ransomware
 
@@ -66,9 +66,9 @@ Following the chain we meet these commands:
 
 - We can also do some **Hunting Scenarios**, searching for special keywords
 
-$ `hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'`
+$ `./hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'`
 
-<img width="1915" height="661" alt="image" src="https://github.com/user-attachments/assets/3a70ca93-4c36-4f79-96f1-435322948684" />
+<img width="1902" height="277" alt="image" src="https://github.com/user-attachments/assets/9161e8c4-4131-45b3-b563-a6d78e84c199" />
 
 Following up this lead we can get to the same results as earlier, or use it to group alerts by services, the possibilities are endless
 <br><br>
