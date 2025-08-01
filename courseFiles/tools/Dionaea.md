@@ -34,7 +34,10 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
   sqlite3 libsqlite3-dev libtool autoconf automake &#92;
   libssl-dev libudns-dev libnetfilter-queue-dev</pre>
   
-- $`sudo nano /dionaea/modules/CMakeLists.txt` - comment out anything emu related like this
+
+- $`sudo git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
+- $`mkdir build && cd build`
+- $`sudo nano ../modules/CMakeLists.txt` - comment out anything emu related like this
 <pre>#if(WITH_MODULE_EMU)
 #  if(LIBEMU_FOUND)
 #    add_subdirectory(emu)
@@ -43,9 +46,6 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 #  endif()
 #endif()
 </pre>
-
-- $`sudo git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
-- $`mkdir build && cd build`
 - $`nano ~/Desktop/dionaea/build/modules/python/setup.py` - make sure you have: `version = "0.11.0"`
 - $`python3 -m venv ../venv`
 - $`source ../venv/bin/activate`
