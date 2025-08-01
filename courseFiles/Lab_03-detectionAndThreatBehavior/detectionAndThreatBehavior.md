@@ -7,17 +7,30 @@ Simulate and detect basic adversarial techniques mapped to the MITRE ATT&CK fram
 
 ## Step 1: Install Sysmon with Configuration
 
-1. Open **Command Prompt** as Administrator.
+1. Download these:
+- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+- [Sysmon config](https://github.com/SwiftOnSecurity/sysmon-config)
+- [procdump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump)
+- [Hayabusa](https://github.com/Yamato-Security/hayabusa/releases/download/v3.2.0/hayabusa-3.2.0-win-x64.zip)
 
-![cmd as admin](https://i.ibb.co/V0fx9c58/image.png)
+2. Extract the archives:
 
-2. Navigate to the lab directory:
+![archive extract](https://i.ibb.co/wNbnzyPk/image.png)
+
+3. Move the **Sysmon config** to the extracted Sysmon directory
+![move sysmon](https://i.ibb.co/nqktYbB8/image.png)
+
+4. Open **Command Prompt**.
+
+![cmd](https://i.ibb.co/tPMQDmvf/image.png)
+
+5. Navigate to the Sysmon directory:
 
 ```cmd
-cd C:\Users\user\Desktop\sysmon-lab
+cd C:\Users\Administrator\Downloads\Sysmon
 ```
 
-3. Install Sysmon with the provided configuration:
+6. Install Sysmon with the provided configuration:
 
 ```cmd
 Sysmon64.exe -accepteula -i sysmonconfig-export.xml
@@ -33,9 +46,9 @@ Sysmon64.exe -accepteula -i sysmonconfig-export.xml
 **Technique**: PowerShell with EncodedCommand  
 **ATT&CK ID**: [T1059.001](https://attack.mitre.org/techniques/T1059/001/)
 
-1. Open **PowerShell** as Administrator.
+1. Open **PowerShell**.
 
-![powershell as admin](https://i.ibb.co/xtHw30sM/image.png)
+![powershell](https://i.ibb.co/Lzw3mXmj/image.png)
 
 2. Run the following script:
 
@@ -46,7 +59,7 @@ $encoded = [Convert]::ToBase64String($bytes)
 powershell.exe -EncodedCommand $encoded
 ```
 
-![powershell tactic 1](https://i.ibb.co/KcDWH8KY/image.png)
+![powershell tactic 1](https://i.ibb.co/VdTbYWY/image.png)
 
 - this should open a Notepad window.
 
@@ -59,7 +72,7 @@ powershell.exe -EncodedCommand $encoded
 1. Navigate to the `Procdump` directory:
 
 ```cmd
-cd C:\Users\user\Desktop\sysmon-lab\Procdump
+cd C:\Users\Administrator\Downloads\Procdump
 ```
 
 2. Run the memory dump command:
@@ -68,7 +81,7 @@ cd C:\Users\user\Desktop\sysmon-lab\Procdump
 .\procdump.exe -ma lsass.exe lsass.dmp
 ```
 
-![powershell tactic 2](https://i.ibb.co/zhVBwcLr/image.png)
+![powershell tactic 2](https://i.ibb.co/Xr7qG10P/image.png)
 
 > **Note**: Windows Defender may block this action. If necessary, disable it temporarily for testing.
 
@@ -76,18 +89,21 @@ cd C:\Users\user\Desktop\sysmon-lab\Procdump
 
 ## Step 3: Analyze with Hayabusa
 
-1. Open **CMD** as Administrator.
+1. Open **CMD**
 2. Navigate to the Hayabusa directory:
 
 ```cmd
-cd C:\Users\user\Desktop\sysmon-lab\hayabusa
+cd C:\Users\Administrator\Downloads\hayabusa-3.2.0-win-x64
 ```
 
 3. Generate an ATT&CK-mapped CSV timeline from Sysmon logs:
 
 ```cmd
-hayabusa csv-timeline --file "C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx" -o results.csv
+hayabusa-3.2.0-win-x64 csv-timeline --file "C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx" -o results.csv
 ```
+
+>use 3. Core++ (3,952 rules) ( status: experimental, test, stable | level: medium, high, critical )
+>Include sysmon rules? (1,977 rules) · yes
 
 ---
 

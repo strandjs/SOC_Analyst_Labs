@@ -69,6 +69,12 @@ Risky or Unethical Practices
 
 Best advice I can give is use the MITRE Engage framework for designing ethical, well-scoped deception strategies
 
+### Check out these labs:
+
+- [Dionaea Lab](./dionaeaLab.md)
+
+- [CanaryToken Lab](./CanaryToken_lab/CanaryToken_lab.md)
+
 ### US law references:
 [Computer Fraud and Abuse Act (CFAA) – 18 U.S.C. § 1030](https://www.law.cornell.edu/uscode/text/18/1030)
 

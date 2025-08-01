@@ -10,14 +10,14 @@ This guide walks through a step-by-step solution to the PowerShell lab for colle
 
 ### 1. Open PowerShell
 
-- Press `Win + X` and select **Windows PowerShell** or **Terminal (Admin)** to open PowerShell with administrative privileges (recommended for full access).
+![powershell](https://i.ibb.co/Lzw3mXmj/image.png)
 
 ### 2. Create a New PowerShell Script File
 
 To begin scripting, create a `.ps1` file:
 
 ```powershell
-New-Item -Path C:\Users\user\Desktop -Name "collect_system_info.ps1" -ItemType "File"
+New-Item -Path C:\Users\Administrator\Desktop -Name "collect_system_info.ps1" -ItemType "File"
 ```
 
 This will create a blank PowerShell script in your Desktop directory.
@@ -106,13 +106,14 @@ After saving the script in your `.ps1` file, run it in PowerShell:
 ```powershell
 .\collect_system_info.ps1
 ```
->NOTE: You may need to cd to Desktop, use `cd C:\Users\user\Desktop`
+>NOTE: You may need to cd to Desktop, use `cd C:\Users\Administrator\Desktop`
 
 > ⚠️ If script execution is disabled, run the following command to allow local scripts:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+If everything worked, a new `system-info.txt` file should appear on the desktop.
 
 ---
 
