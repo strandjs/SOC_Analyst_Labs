@@ -26,12 +26,12 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 # Installation
 - $`sudo apt update && sudo apt upgrade -y`
 
-- $<pre>sudo apt install -y \
-  git cmake build-essential \
-  libcurl4-openssl-dev libev-dev libglib2.0-dev \
-  libnl-3-dev libnl-route-3-dev libpcap-dev \
-  python3 python3-pip python3-venv \
-  sqlite3 libsqlite3-dev libtool autoconf automake \
+- $<pre>sudo apt install -y &#92;
+  git cmake build-essential &#92;
+  libcurl4-openssl-dev libev-dev libglib2.0-dev &#92;
+  libnl-3-dev libnl-route-3-dev libpcap-dev &#92;
+  python3 python3-pip python3-venv &#92;
+  sqlite3 libsqlite3-dev libtool autoconf automake &#92;
   libssl-dev libudns-dev libnetfilter-queue-dev</pre>
   
 - $`sudo nano /dionaea/modules/CMakeLists.txt` - comment out anything emu related like this
