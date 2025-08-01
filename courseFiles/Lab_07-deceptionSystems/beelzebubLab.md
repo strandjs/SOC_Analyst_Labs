@@ -20,10 +20,10 @@ Participants will deploy and monitor an AI-powered SSH honeypot (Beelzebub) to d
 ### Deployment
 - Make sure you are into **/opt/beelzebub/**
 - $`nano docker-compose.yml` - Put your key here
-<img width="446" height="71" alt="image" src="https://github.com/user-attachments/assets/5f407ef9-759e-4eec-8d97-98ef396dc30d" />
+<img width="295" height="53" alt="image" src="https://github.com/user-attachments/assets/eca9345f-c69c-45f2-8a00-5cf389e42b3b" />
 
 - Also comment the **Default SSH Mapping**(ssh 22 port)
-<img width="202" height="84" alt="image" src="https://github.com/user-attachments/assets/4375696b-89c3-45a6-afd9-d2f5a549168e" />
+<img width="176" height="81" alt="image" src="https://github.com/user-attachments/assets/f02190d4-36ec-4638-8817-aae8a33ece43" />
 
 - $`cd configurations/services/`
 - $`mv ./ssh-22.yaml ~`
