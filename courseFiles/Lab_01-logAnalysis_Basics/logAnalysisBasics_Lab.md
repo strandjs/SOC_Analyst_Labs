@@ -12,7 +12,7 @@ $ `./hayabusa update-rules`
 
 Let's also get the logs that we will be working with and rename them
 
-$ `curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
+$ `curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx` - if you don't have it
 
 $ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
 
