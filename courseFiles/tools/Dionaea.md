@@ -35,7 +35,7 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
   libssl-dev libudns-dev libnetfilter-queue-dev</pre>
   
 
-- $`sudo git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
+- $`git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
 - $`mkdir build && cd build`
 - $`sudo nano ../modules/CMakeLists.txt` - comment out anything emu related like this
 <pre>#if(WITH_MODULE_EMU)
