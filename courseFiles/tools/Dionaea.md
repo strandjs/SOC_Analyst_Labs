@@ -46,15 +46,14 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 #  endif()
 #endif()
 </pre>
-- $`nano ~/Desktop/dionaea/build/modules/python/setup.py` - make sure you have: `version = "0.11.0"`
+- REALLY IMPORTANT USE PYTHON **3.10**
 - $`python3 -m venv ../venv`
 - $`source ../venv/bin/activate`
 - $`pip3 install Cython`
 - $`pip3 install setuptools`
 - $`pip3 install pyyaml`
 - $`pip3 install boto3`
-- $`mkdir -p venv/lib/python3.12/site-packages/distutils && cd venv/lib/python3.12/site-packages/distutils && for f in __init__ archive_util cmd config core debug dep_util dir_util dist errors extension fancy_getopt file_util log spawn util; do curl -sLO https://raw.githubusercontent.com/python/cpython/3.10/Lib/distutils/$f.py; done`
-- $`cmake ..`
+- $`cmake -DPYTHON_EXECUTABLE=$(which python) ..`
 - $`make -j$(nproc)`
 - $`sudo make install`
 - $`sudo nano /usr/local/etc/dionaea/dionaea.cfg` - Delete anything emu related from modules and processors, should have 4 references from the start
