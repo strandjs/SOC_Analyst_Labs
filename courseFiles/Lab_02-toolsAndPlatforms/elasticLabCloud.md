@@ -6,15 +6,15 @@
 - Learn how to use SIEM (Hosts, Users, Alerts)
 - Learn how to create basic detection rules
 
-1. Head over to Analytics -> Discover and see your logs flowing from filebeat
+1. Head over to Analytics -> Discover and see your logs flowing from the agent
 
 - On the left side you can see, add, or remove data fields and data views ↓↓↓
 
-<img width="322" height="953" alt="image" src="https://github.com/user-attachments/assets/79b057a4-2d9d-4fff-be15-c6a494802ce4" />
+<img width="302" height="900" alt="image" src="https://github.com/user-attachments/assets/5139d5c2-bcb0-4b00-86fa-8f3b2df00444" />
 
 - On the middle and right side you will see the logs flowing in, you can explore them and try to make out where each one came from, you can also search and sort them ↓↓↓
 
-<img width="1589" height="680" alt="image" src="https://github.com/user-attachments/assets/95da8151-bb72-478c-811e-50ca8d18de50" />
+<img width="1568" height="710" alt="image" src="https://github.com/user-attachments/assets/3bbfba1e-6cc4-4faf-a11c-8c6714411c05" />
 
 - On the upper side you can see the traffic density on a specific timeling and a way to filter your logs, say you want to only see the logs coming from syslog, you would want to filter like this `event.dataset: "system.syslog"` since we are using filebeat, it's really easy and intuitive to make whatever filters you want ↓↓↓
 
