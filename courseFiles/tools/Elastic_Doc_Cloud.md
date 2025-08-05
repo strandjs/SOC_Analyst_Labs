@@ -9,21 +9,47 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 1. **Make an account** - [Here](https://cloud.elastic.co/registration?fromURI=%2Fhome) , You can start a free trial for 14 days to experiment and learn this tool, you also don't need a credit card to get started
 
 <img width="882" height="589" alt="image" src="https://github.com/user-attachments/assets/8592f4aa-8211-40d3-945e-08fd93883d6f" />
+<br>
 
 2. Insert your name and you can leave a `-` in the Company field
 
 <img width="497" height="417" alt="image" src="https://github.com/user-attachments/assets/fb524685-bdf0-4d1e-9795-b20f46e51cac" />
+<br>
 
 3. Select **I am new to Elastic**
 
 <img width="497" height="417" alt="image" src="https://github.com/user-attachments/assets/cab56c51-285e-491a-bb96-363aa51bd295" />
+<br>
 
 4. Select **Considering Elastic Cloud subscription for production / proof of concept**
 
 <img width="536" height="457" alt="image" src="https://github.com/user-attachments/assets/8779f808-0a4e-4041-96ee-bf103f618fa8" />
+<br>
 
-5. 3
+5. Select **Elastic for Security**
 
+<img width="1614" height="794" alt="image" src="https://github.com/user-attachments/assets/06f7f269-6902-40a5-9879-b28de885f728" />
+<br>
+
+7. Select **Elastic cloud hosted**
+
+<img width="626" height="794" alt="image" src="https://github.com/user-attachments/assets/5e111ba0-63e2-495f-a8d8-58325e86f352" />
+<br>
+
+8. Select **SIEM and Security Analytics**
+
+<img width="520" height="510" alt="image" src="https://github.com/user-attachments/assets/3c1b2716-1fa6-41f9-b94d-6e40e8bb7e74" />
+<br>
+
+9. Select **No**
+
+<img width="525" height="460" alt="image" src="https://github.com/user-attachments/assets/94e47829-ab65-4d6b-98a4-8fbb9a29c666" />
+<br>
+
+10. Click **Launch**
+
+<img width="587" height="423" alt="image" src="https://github.com/user-attachments/assets/b8daad41-fe39-4f01-b22b-2c0892aa428e" />
+<br>
 
 6. Download Sysmon from [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and extract it into downloads
 
