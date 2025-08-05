@@ -83,6 +83,8 @@ cd C:\Users\Administrator\Downloads\Procdump
 
 ![powershell tactic 2](https://i.ibb.co/Xr7qG10P/image.png)
 
+>[!IMPORTANT]
+>
 > **Note**: Windows Defender may block this action. If necessary, disable it temporarily for testing.
 
 ---
@@ -102,7 +104,10 @@ cd C:\Users\Administrator\Downloads\hayabusa-3.2.0-win-x64
 hayabusa-3.2.0-win-x64 csv-timeline --file "C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx" -o results.csv
 ```
 
+>[!TIP]
+>
 >use 3. Core++ (3,952 rules) ( status: experimental, test, stable | level: medium, high, critical )
+>
 >Include sysmon rules? (1,977 rules) · yes
 
 ---

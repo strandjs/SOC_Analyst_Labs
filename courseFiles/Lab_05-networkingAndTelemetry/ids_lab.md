@@ -14,27 +14,25 @@ Learn how to:
 ## 1. Install IDS Tools on Kali
  
 ### Install Snort (via apt)
- 
-```bash
-sudo apt install snort -y
-```
+
+>it should already be installed!
  
 Verify:
  
 ```bash
 snort -V
 ```
- 
+>[!IMPORTANT]
+>
 > Output should say **Snort++ / Snort 3.x**
  
 ---
  
 ### Install Suricata
  
-```bash
-sudo apt install suricata -y
-```
- 
+
+>it should already be installed!
+
 Verify:
  
 ```bash
@@ -46,7 +44,7 @@ suricata --build-info
 ## 2. Lab Folder Structure (Optional)
  
 ```bash
-mkdir -p ~/ids-lab/{rules,logs,pcaps}
+mkdir -p ~/labs/ids_lab/{rules,logs,pcaps}
 ```
  
 ---
@@ -56,7 +54,7 @@ mkdir -p ~/ids-lab/{rules,logs,pcaps}
 ### A. Create a Snort Rule
  
 ```bash
-nano ~/ids-lab/rules/local.rules
+nano ~/labs/ids_lab/rules/local.rules
 ```
  
 Paste:
@@ -70,7 +68,7 @@ alert icmp any any -> any any (msg:"[Snort3] ICMP Ping Detected"; sid:1000001; r
 ###  B. Run Snort 
  
 ```bash
-sudo snort -c /etc/snort/snort.lua -R ~/ids-lab/rules/local.rules -i lo -A alert_fast
+sudo snort -c /home/ubuntu/labs/ids_lab/snort3-3.8.1.0/lua/snort.lua -R ~/labs/ids_lab/rules/local.rules -i lo -A alert_fast 
 ```
  
 - `-c`: config file
@@ -107,8 +105,7 @@ alert tcp any any -> any any (flags:S; msg:"[Snort3] SYN Scan Detected"; sid:100
 Test:
  
 ```bash
-nmap -sS 127.0.0.1
- 
+sudo nmap -sS 127.0.0.1
 ```
  
 ---
