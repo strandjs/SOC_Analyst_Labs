@@ -35,6 +35,7 @@ On the lower side you can see details and logs related to Hosts, explore them an
 
 <img width="1670" height="850" alt="image" src="https://github.com/user-attachments/assets/79cac696-8935-4f50-b3ed-68f62ba83869" />
 
+<br><br>
 
 3. Create a Basic Detection Rule
 - Click on Security -> Rules -> Detection Rules
