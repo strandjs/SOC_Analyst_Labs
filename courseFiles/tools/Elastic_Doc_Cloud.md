@@ -16,7 +16,7 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="1129" height="635" alt="image" src="https://github.com/user-attachments/assets/5718f61f-1d01-4557-ad0a-1f7904ce2803" />
 
 
-3. **In powershell run** - $`cd C:\Users\Administrator\Downloads\Sysmon\` + $`.\Sysmon.exe -i -n -accepteula`
+3. **In powershell run** - $`cd C:\Users\Administrator\Downloads\Sysmon\` + $`.\Sysmon64.exe -accepteula -i`
 4. To set up the Elastic Agent on the machine go to **Management -> Integrations**
 
 <img width="251" height="236" alt="image" src="https://github.com/user-attachments/assets/5f43c7de-7dbc-4119-b428-07ba5cbea1f0" />
