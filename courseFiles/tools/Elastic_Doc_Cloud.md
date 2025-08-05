@@ -51,37 +51,44 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="587" height="423" alt="image" src="https://github.com/user-attachments/assets/b8daad41-fe39-4f01-b22b-2c0892aa428e" />
 <br>
 
-6. Download Sysmon from [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and extract it into downloads
+11. Download Sysmon from [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and extract it into downloads
 
 <img width="1129" height="635" alt="image" src="https://github.com/user-attachments/assets/5718f61f-1d01-4557-ad0a-1f7904ce2803" />
+<br>
 
+12. **In powershell run** - $`cd C:\Users\Administrator\Downloads\Sysmon\` + $`.\Sysmon64.exe -accepteula -i`
 
-3. **In powershell run** - $`cd C:\Users\Administrator\Downloads\Sysmon\` + $`.\Sysmon64.exe -accepteula -i`
-4. To set up the Elastic Agent on the machine go to **Management -> Integrations**
+13. To set up the Elastic Agent on the machine go to **Management -> Integrations** in the lower left
 
 <img width="251" height="236" alt="image" src="https://github.com/user-attachments/assets/5f43c7de-7dbc-4119-b428-07ba5cbea1f0" />
+<br>
 
-5. Search for **Windows** and select **Custom Windows Event Logs**
+14. Search for **Windows** and select **Custom Windows Event Logs**
 
 <img width="1673" height="1005" alt="image" src="https://github.com/user-attachments/assets/a8e15d44-1731-472d-a5ca-be4929f045de" />
+<br>
 
-6. Now click on **Add Custom Windows Event Logs**
+15. Now click on **Add Custom Windows Event Logs**
 
 <img width="1386" height="542" alt="image" src="https://github.com/user-attachments/assets/3f04a237-1072-4123-89ba-2e2465a2aec6" />
+<br>
 
-7. Now press on the **Install Elastic Agent** on the popup in the lower middle part of the screen
+16. Now press on the **Install Elastic Agent** on the popup in the lower middle part of the screen
 
 <img width="819" height="73" alt="image" src="https://github.com/user-attachments/assets/3ff9ff70-0009-4735-b3e0-fe737e046774" />
+<br>
 
-8. Select **Windows** and run that command in powershell to install the agent, then go back in the browser
+17. Select **Windows** and run that command in powershell to install the agent, then go back in the browser
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/74810255-b48a-4487-b1dc-9cbf4767af2f" />
+<br>
 
-9. Do as in the image below
+18. Do as in the image below
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/39739bbd-ba30-4ed5-8280-cfcd201fa173" />
+<br>
 
-10. Click **Confirm incoming data**, you should see a preview of incoming data
+19. Click **Confirm incoming data**, you should see a preview of incoming data
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/ccbc1101-4749-496b-8604-046dc8664a26" />
 
