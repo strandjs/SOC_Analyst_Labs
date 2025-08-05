@@ -4,19 +4,27 @@ hayabusa log-metrics --file sysmon.evtx## The objective of this lab is to use Ha
 
 - To start off we need to make sure we have the detection rules of hayabusa
 
-$ `./hayabusa update-rules`
+```bash
+./hayabusa update-rules
+```
 
 <img width="527" height="174" alt="image" src="https://github.com/user-attachments/assets/ccf7acb4-342c-45b1-a4b2-ca38b935a450" />
 
 Let's also get the logs that we will be working with and rename them
 
-$ `curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx`
+```bash
+curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx
+```
 
-$ `mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx`
+```bash
+mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx
+```
 
 - First thing we will do to start disecting the logs is to get some basic **metrics** to understand what system the logs came from, number of events, time range.
 
-$ `./hayabusa log-metrics --file sysmon.evtx`
+```bash
+./hayabusa log-metrics --file sysmon.evtx
+```
 
 <img width="1900" height="507" alt="image" src="https://github.com/user-attachments/assets/eeff5e5b-c62c-44e1-b054-06ed7cd46c97" />
 
@@ -24,7 +32,9 @@ The logs span about 30 minutes and there are only 565 events, small enough to di
 
 - Next let's see the Event **ID Distribution** to dentify common or suspicious Sysmon events, we are looking for **1**, **3**, **10**, **11** or even **8**
 
-$ `./hayabusa eid-metrics --file sysmon.evtx`
+```bash
+./hayabusa eid-metrics --file sysmon.evtx
+```
 
 <img width="552" height="501" alt="image" src="https://github.com/user-attachments/assets/a08afb66-20a1-4ba5-a2e7-72b20fe7b597" />
 
@@ -35,7 +45,12 @@ Important observations:
 
 - Now let's proceed with a **Full Timeline Analysis**
 
-$ `./hayabusa csv-timeline --file sysmon.evtx -o timeline.csv` (include all rules)
+```bash
+./hayabusa csv-timeline --file sysmon.evtx -o timeline.csv
+``` 
+>[!TIP]
+>
+>(include all rules)
 
 <img width="1175" height="859" alt="image" src="https://github.com/user-attachments/assets/4d4748ed-6645-4c22-ae13-71cd4ad79be4" />
 
@@ -43,7 +58,9 @@ Immediately we can see some really telling information, we got hits on 50 events
 
 Let's dig deeper
 
-$ `less timeline.csv | grep "high"`
+```bash
+less timeline.csv | grep "high"
+```
 
 One of the alerts looks like this:
 
@@ -66,7 +83,9 @@ Following the chain we meet these commands:
 
 - We can also do some **Hunting Scenarios**, searching for special keywords
 
-$ `./hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'`
+```bash
+./hayabusa search --file sysmon.evtx --regex '(?i)(cmd\.exe|powershell|whoami|mimikatz)'
+```
 
 <img width="1902" height="277" alt="image" src="https://github.com/user-attachments/assets/9161e8c4-4131-45b3-b563-a6d78e84c199" />
 
@@ -74,7 +93,9 @@ Following up this lead we can get to the same results as earlier, or use it to g
 <br><br>
 
 ## Your turn
-### Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
+>[!TIP]
+>
+> Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
 
 ### Also try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
 

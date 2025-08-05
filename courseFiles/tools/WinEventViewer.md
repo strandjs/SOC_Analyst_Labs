@@ -6,11 +6,15 @@ You can open it either through the **Start Menu Search**
 
 Or through the **Run Dialog**
 
-`WIN + R`
+```
+WIN + R
+```
 
 Then type
 
-`eventvwr.msc`
+```
+eventvwr.msc
+```
 
 <img width="405" height="225" alt="image" src="https://github.com/user-attachments/assets/db042d24-6818-479f-be11-8452ee889a54" />
 <br>
@@ -42,9 +46,3 @@ Advanced Features
 - **Event Subscriptions** - Collect events from remote computers using Event Forwarding (requires setup via Group Policy)
 - **Export Logs** - Right-click a log → Save All Events As (.evtx, .txt, .csv, .xml)
 - **Task Scheduling** - Right-click an event → Attach Task to This Event to trigger actions (email, script, etc)
-
-
-
-
-
-

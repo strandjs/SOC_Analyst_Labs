@@ -24,20 +24,33 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 - Supports integration with tools like ELK, Splunk, or Cuckoo Sandbox
 
 # Installation
-- $`sudo apt update && sudo apt upgrade -y`
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
-- $<pre>sudo apt install -y &#92;
-  git cmake build-essential &#92;
-  libcurl4-openssl-dev libev-dev libglib2.0-dev &#92;
-  libnl-3-dev libnl-route-3-dev libpcap-dev &#92;
-  python3 python3-pip python3-venv &#92;
-  sqlite3 libsqlite3-dev libtool autoconf automake &#92;
-  libssl-dev libudns-dev libnetfilter-queue-dev</pre>
-  
+```bash
+sudo apt install -y \
+  git cmake build-essential \
+  libcurl4-openssl-dev libev-dev libglib2.0-dev \
+  libnl-3-dev libnl-route-3-dev libpcap-dev \
+  python3 python3-pip python3-venv \
+  sqlite3 libsqlite3-dev libtool autoconf automake \
+  libssl-dev libudns-dev libnetfilter-queue-dev
+  ```
 
-- $`sudo git clone https://github.com/DinoTools/dionaea.git` + $`cd dionaea`
-- $`mkdir build && cd build`
-- $`sudo nano ../modules/CMakeLists.txt` - comment out anything emu related like this
+```bash
+sudo git clone https://github.com/DinoTools/dionaea.git
+``` 
+```bash
+cd dionaea
+```
+```bash
+mkdir build && cd build
+```
+```bash
+sudo nano ../modules/CMakeLists.txt
+``` 
+- comment out anything emu related like this:
 <pre>#if(WITH_MODULE_EMU)
 #  if(LIBEMU_FOUND)
 #    add_subdirectory(emu)
@@ -46,18 +59,46 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 #  endif()
 #endif()
 </pre>
-- $`nano ~/Desktop/dionaea/build/modules/python/setup.py` - make sure you have: `version = "0.11.0"`
-- $`python3 -m venv ../venv`
-- $`source ../venv/bin/activate`
-- $`pip3 install Cython`
-- $`pip3 install setuptools`
-- $`pip3 install pyyaml`
-- $`pip3 install boto3`
-- $`mkdir -p venv/lib/python3.12/site-packages/distutils && cd venv/lib/python3.12/site-packages/distutils && for f in __init__ archive_util cmd config core debug dep_util dir_util dist errors extension fancy_getopt file_util log spawn util; do curl -sLO https://raw.githubusercontent.com/python/cpython/3.10/Lib/distutils/$f.py; done`
-- $`cmake ..`
-- $`make -j$(nproc)`
-- $`sudo make install`
-- $`sudo nano /usr/local/etc/dionaea/dionaea.cfg` - Delete anything emu related from modules and processors, should have 4 references from the start
+
+```bash
+nano ~/Desktop/dionaea/build/modules/python/setup.py
+``` 
+- make sure you have: `version = "0.11.0"`
+```bash
+python3 -m venv ../venv
+```
+```bash
+source ../venv/bin/activate
+```
+```bash
+pip3 install Cython
+```
+```bash
+pip3 install setuptools
+```
+```bash
+pip3 install pyyaml
+```
+```bash
+pip3 install boto3
+```
+```bash
+mkdir -p venv/lib/python3.12/site-packages/distutils && cd venv/lib/python3.12/site-packages/distutils && for f in __init__ archive_util cmd config core debug dep_util dir_util dist errors extension fancy_getopt file_util log spawn util; do curl -sLO https://raw.githubusercontent.com/python/cpython/3.10/Lib/distutils/$f.py; done
+```
+
+```bash
+cmake ..
+```
+```bash
+make -j$(nproc)
+```
+```bash
+sudo make install
+```
+```bash
+sudo nano /usr/local/etc/dionaea/dionaea.cfg
+```
+ - Delete anything emu related from modules and processors, should have 4 references from the start
 
 # I know that was a lot... Now you can move over to the lab!
 ### [Dionaea Lab](/courseFiles/Lab_07-deceptionSystems/dionaeaLab.md)

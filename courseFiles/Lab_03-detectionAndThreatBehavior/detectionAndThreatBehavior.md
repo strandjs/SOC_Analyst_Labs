@@ -18,6 +18,7 @@ Simulate and detect basic adversarial techniques mapped to the MITRE ATT&CK fram
 ![archive extract](https://i.ibb.co/wNbnzyPk/image.png)
 
 3. Move the **Sysmon config** to the extracted Sysmon directory
+
 ![move sysmon](https://i.ibb.co/nqktYbB8/image.png)
 
 4. Open **Command Prompt**.
