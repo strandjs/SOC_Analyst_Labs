@@ -29,7 +29,7 @@
 
 <img width="1290" height="892" alt="image" src="https://github.com/user-attachments/assets/5ca936bd-6e06-46d7-921c-889d3b75e6d1" />
 
-For now head over to **Users** 
+For now head over to **Hosts** 
 
 Run &`sudo -k && sudo ls` on your system and enter wrong password and see it appear on elastic after you refresh, you should see something like this
 
