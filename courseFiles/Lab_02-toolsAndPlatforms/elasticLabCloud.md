@@ -6,7 +6,7 @@
 - Learn how to use SIEM (Hosts, Users, Alerts)
 - Learn how to create basic detection rules
 
-1. Head over to Analytics -> Discover and see your logs flowing from the agent
+1. Head over to **Discover** and see your logs flowing from the agent
 
 - On the left side you can see, add, or remove data fields and data views ↓↓↓
 
