@@ -86,7 +86,7 @@ module: system
 - Sign in into elastic and that's it! user: `elastic` , pass: `<your_saved_password>`
 <img width="473" height="509" alt="image" src="https://github.com/user-attachments/assets/69809bd7-4de6-4682-b8c3-c93b653235f8" />
 
-- As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLab.md)
+- As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLabLocal.md)
 
 
 
