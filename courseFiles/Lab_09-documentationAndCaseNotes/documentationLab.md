@@ -95,7 +95,9 @@ User: DOMAIN\jsmith
 - What actions were taken
 - What should happen next
 
-Following up is what your work should look like, for your progress' sake, look only after you finished and compare. What did you miss out? What could've you explained more in detail? 
+>[!IMPORTANT]
+>
+>Following up is what your work should look like, for your progress' sake, look only after you finished and compare. What did you miss out? What could've you explained more in detail? 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -114,7 +116,7 @@ Following up is what your work should look like, for your progress' sake, look o
 [2025-07-24 13:07:08 UTC] Attacker executed `whoami /all` — confirmed post-exploitation.</pre>
 
 ### Triage Summary
-<pre>**Alert Name:** Suspicious PowerShell Execution + Credential Access  
+**Alert Name:** Suspicious PowerShell Execution + Credential Access  
 **Alert ID:** EDR-1022  
 **Severity:** Critical  
 **Host:** WKS-204  
@@ -147,4 +149,4 @@ Host was immediately isolated. Attempts to beacon to a known C2 domain (beacon.s
 - Submit rat_payload.dll to sandbox
 - Search for IOCs (C2 IPs/domains) across enterprise endpoints
 - Initiate password resets for jsmith and high-value accounts
-- Monitor for lateral movement from subnet 10.0.5.0/24</pre>
+- Monitor for lateral movement from subnet 10.0.5.0/24

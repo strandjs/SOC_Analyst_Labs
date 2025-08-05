@@ -7,7 +7,9 @@ Research is another advantage of deceptive technology. IT security analysts can 
 
 The goal of implementing deception isn't to replace anything, as most think, but to increase the attack time, as the main rule of thumb in SOC and IR is **Detetection time + Response time < Attack time** always if you want to stand a change against attackers
 
-Deception technology must be invisible to an organization's workers, subcontractors, or clients in order to operate effectively
+>[!IMPORTANT]
+>
+>Deception technology must be invisible to an organization's workers, subcontractors, or clients in order to operate effectively
 
 [MITRE Engage Matrix](https://engage.mitre.org/matrix/) - A valuable framework for designing deception and adversary engagement strategies
 

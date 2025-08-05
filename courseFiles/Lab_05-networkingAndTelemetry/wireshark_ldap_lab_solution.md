@@ -32,7 +32,9 @@ $ tcpdump -r dns.pcap tcp port 389
 - **-r dns.pcap**: Read from the file.
 - **tcp port 389**: Only display LDAP traffic.
 
-> *Tip:* tcpdump shows raw bytes; prefer Wireshark for LDAP protocol decoding.
+>[!TIP]
+> 
+> tcpdump shows raw bytes; prefer Wireshark for LDAP protocol decoding.
 
 ---
 
@@ -260,6 +262,8 @@ In this case, the **Bind DN is absent** because the client used **SASL authentic
   - **Interpretation:** SASL handshake is ongoing; no final success/failure in this capture.
   - **To confirm success/failure:** look for a later **bindResponse** with code **0** (success) or **49** (invalidCredentials). //in our case code **0** (success)
 
+>[!TIP]
+>
 > *Educational tip:* SASL binds are multi-step—Wireshark may show subsequent packets labeled **LDAP: primary message** with EXTERNAL/GSSAPI tokens.
 
 ---
@@ -268,6 +272,8 @@ In this case, the **Bind DN is absent** because the client used **SASL authentic
 - **Base DN:** Root DSE (empty string, displayed as _<MISSING>_). The root of the directory.
 - **Entries Returned:** 2 entries for each of the two searches (IDs 1 & 2).
 
+>[!TIP]
+>
 > *Why it matters:* Understanding Base DN and result size helps identify scope of directory enumeration.
 
 ---
@@ -276,6 +282,8 @@ In this case, the **Bind DN is absent** because the client used **SASL authentic
 - **Scope:** baseObject (0)
 - **Meaning:** Only the specified Base DN entry itself is examined, not its children.
 
+>[!TIP]
+>
 > *Tip:* Other scopes include singleLevel (1) and wholeSubtree (2).
 
 ---
@@ -284,6 +292,8 @@ In this case, the **Bind DN is absent** because the client used **SASL authentic
 - **Establishment (3‑way handshake):** SYN → SYN, ACK → ACK
 - **Teardown:** FIN, ACK (client) → FIN, ACK (server) → ACK (client)
 
+>[!TIP]
+>
 > *Insight:* Confirming proper TCP teardown ensures sessions aren’t orphaned, which can be a sign of abnormal termination.
 
 ---

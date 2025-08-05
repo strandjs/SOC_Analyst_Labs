@@ -1,5 +1,7 @@
 ## ⚠️ WARNING: This Lab Contains a Real Phishing Link
 
+>[!WARNING]
+>
 > **Do NOT click** the link in the provided `.eml` file directly from a browser or email client. Always analyze it in a safe, controlled environment using tools like VirusTotal, URLScan, or PhishTank. This lab is for educational purposes only.
 
 ---
