@@ -1,4 +1,4 @@
-### Now that we have set up **Elastic**, **Kibana** and **Filebeat**, we can finally get our hands dirty and learn how a SOC analysts deals with logs in Elastic
+### Please go though the documenation and setup for the [Cloud Version](/courseFiles/tools/Elastic_Doc_Cloud.md)
 
 ## GOAL
 - Set up and use Elastic SIEM on your system
