@@ -42,9 +42,9 @@ On the lower side you can see details and logs related to Hosts, explore them an
 <img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/f0907037-a1a1-49fc-a06b-74057038b98a" />
 
 - Create new rule -> **Select** Custom Query
-- Index patterns: `filebeat-*`
-- Custom query: `message:*root* AND message:*session opened* AND event.dataset:system.auth` - Continue
-- Name: `Root Shell Activity Detected`
+- Index patterns: `default ones` + `logs-windows*`
+- Custom query: `event.code: 1 and host.os.type: "windows"` - Continue
+- Name: `Creation Rule`
 - Description: `My first rule`
 - Default Severity: `Medium`
 - Default risk score: `50` - Continue
