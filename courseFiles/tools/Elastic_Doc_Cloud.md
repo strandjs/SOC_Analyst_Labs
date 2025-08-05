@@ -10,8 +10,22 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 
 <img width="882" height="589" alt="image" src="https://github.com/user-attachments/assets/8592f4aa-8211-40d3-945e-08fd93883d6f" />
 
+2. Insert your name and you can leave a `-` in the Company field
 
-2. Download Sysmon from [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and extract it into downloads
+<img width="497" height="417" alt="image" src="https://github.com/user-attachments/assets/fb524685-bdf0-4d1e-9795-b20f46e51cac" />
+
+3. Select **I am new to Elastic**
+
+<img width="497" height="417" alt="image" src="https://github.com/user-attachments/assets/cab56c51-285e-491a-bb96-363aa51bd295" />
+
+4. Select **Considering Elastic Cloud subscription for production / proof of concept**
+
+<img width="536" height="457" alt="image" src="https://github.com/user-attachments/assets/8779f808-0a4e-4041-96ee-bf103f618fa8" />
+
+5. 3
+
+
+6. Download Sysmon from [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and extract it into downloads
 
 <img width="1129" height="635" alt="image" src="https://github.com/user-attachments/assets/5718f61f-1d01-4557-ad0a-1f7904ce2803" />
 
