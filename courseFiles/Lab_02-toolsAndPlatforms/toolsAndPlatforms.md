@@ -4,7 +4,7 @@
 
 Categories of Security Tools
 - **Endpoint Detection and Response** (EDR) - Tools like LimaCharlie monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
-- **Security Information and Event Management** (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
+- **Security Information and Event Management** (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic_Doc_Cloud.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
 - **Network Monitoring Tools** - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
 
 ## Intro
@@ -17,9 +17,9 @@ LimaCharlie is a cutting-edge cybersecurity operations and infrastructure platfo
 
 
 ## Elastic SIEM Hands-On
-[Elastic SIEM](/courseFiles/tools/Elastic.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
+[Elastic SIEM](/courseFiles/tools/Elastic_Doc_Cloud.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
 
-After setting it up, you can try the [Elastic Lab](/courseFiles/Lab_02-toolsAndPlatforms/elasticLab.md)
+After setting it up, you can try the Elastic Labs for the [Cloud Version](/courseFiles/Lab_02-toolsAndPlatforms/elasticLabCloud.md) to run on our VM, or the [Local Version](/courseFiles/Lab_02-toolsAndPlatforms/elasticLabLocal.md) in case you want to install it locally on your system
 
 ## Viewing Alerts & Logs
 SOC analysts must interpret alerts in context and verify their validity
