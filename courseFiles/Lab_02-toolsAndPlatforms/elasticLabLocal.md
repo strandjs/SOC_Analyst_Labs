@@ -1,4 +1,4 @@
-### Please go though the documenation and setup for the [Local Version](/courseFiles/tools/Elastic_doc_Local.md)
+### Please go though the documenation and setup for the [Local Version](/courseFiles/tools/Elastic_Doc_Local.md)
 
 ### Now that we have set up **Elastic**, **Kibana** and **Filebeat**, we can finally get our hands dirty and learn how a SOC analysts deals with logs in Elastic
 
