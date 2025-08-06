@@ -42,17 +42,18 @@ On the lower side you can see details and logs related to Hosts, explore them an
 <img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/f0907037-a1a1-49fc-a06b-74057038b98a" />
 
 - Create new rule -> **Select** Custom Query
-- Index patterns: `default ones` + `logs-windows*`
+- Index patterns: `default ones` + `Microsoft-Windows-Sysmon`
 - Custom query: `event.code: 1 and host.os.type: "windows"` - Continue
 - Name: `Creation Rule`
 - Description: `My first rule`
 - Default Severity: `Medium`
-- Default risk score: `50` - Continue
+- Default risk score: `30` - Continue
 - Runs every: `1 Minutes` - Continue -> Create & enable rule
 <br><br>
 
-Now if you go over to alerts you can see your Rule's work!
-<img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/a4ef29c3-c888-464f-baa7-231fb828b0af" />
+Now if you go over to alerts you can see your Rule's work! If you don't see anything try creating different processes like notepad, cmd, etc and give it a minute
+
+<img width="1670" height="904" alt="image" src="https://github.com/user-attachments/assets/c1e3c119-2668-482d-9ca4-0e1ea9cebab3" />
 <br><br>
 
 4. Let's now try to **Investigate Alerts with Timelines**
