@@ -78,7 +78,7 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="819" height="73" alt="image" src="https://github.com/user-attachments/assets/3ff9ff70-0009-4735-b3e0-fe737e046774" />
 <br><br>
 
-17. Select **Windows** and run that command in powershell to install the agent, then go back in the browser
+17. Select **Windows** and run that command in powershell to install the agent, then go back in the browser and press **Add the integration**
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/74810255-b48a-4487-b1dc-9cbf4767af2f" />
 <br><br>
