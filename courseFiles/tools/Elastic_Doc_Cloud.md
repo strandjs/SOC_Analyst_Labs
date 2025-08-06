@@ -88,11 +88,6 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="792" height="508" alt="image" src="https://github.com/user-attachments/assets/076b2dad-2880-4e6f-8276-43f95edfe9d1" />
 <br><br>
 
-18. Do as in the image below
-
-<img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/39739bbd-ba30-4ed5-8280-cfcd201fa173" />
-<br><br>
-
 19. Click **Confirm incoming data**, you should see a preview of incoming data
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/ccbc1101-4749-496b-8604-046dc8664a26" />
