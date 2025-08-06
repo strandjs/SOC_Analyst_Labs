@@ -145,3 +145,6 @@ else:
 
 ## Example output:
 ![lab1 test script](https://i.ibb.co/ym8PXnSZ/image.png)
+
+---
+[Back to the Lab](/courseFiles/Lab_04-socScripting/socScripting.md)
