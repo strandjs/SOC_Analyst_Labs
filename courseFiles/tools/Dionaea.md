@@ -58,5 +58,8 @@ It emulates vulnerable services, logs attacker interactions, and stores any malw
 - $`sudo make install`
 - $`sudo nano /usr/local/etc/dionaea/dionaea.cfg` - Delete anything emu related from modules and processors, should have 4 references from the start
 
-# I know that was a lot... Now you can move over to the lab!
+## I know that was a lot... Now you can move over to the lab!
 ### [Dionaea Lab](/courseFiles/Lab_07-deceptionSystems/dionaeaLab.md)
+
+---
+[Back to the Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
