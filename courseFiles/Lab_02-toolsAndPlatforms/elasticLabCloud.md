@@ -73,6 +73,14 @@ Now if you go over to alerts you can see your Rule's work! If you don't see anyt
 
 ## Try to add more rules by yourself or even simulate attacks to better understand the perspectives of both an attacker and a SOC analyst 
 
+Some examples of useful rules are
+
+- `event.code: 1 and process.parent.name: "cmd.exe" and process.name: "powershell.exe"` - LOLBin execution: cmd.exe launching PowerShell
+- `event.code: 3 and destination.ip : ( "185.*" or "45.*" )` Match to non-standard IPs or test by pinging a public IP
+- `event.code: 11 and file.path : ("C:\\Users\\Public\\*" or "C:\\Windows\\Temp\\*.exe")` - Dropped executables in Temp or User folders
+
+# You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
+
 
 
 
