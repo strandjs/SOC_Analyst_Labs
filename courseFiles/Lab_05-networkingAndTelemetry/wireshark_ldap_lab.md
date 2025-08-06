@@ -115,3 +115,6 @@ When you're done, check out the **step-by-step solution** [here](./wireshark_lda
 - https://cloudshark.org/captures/59ea342b5a13/download
 - https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 - https://www.okta.com/identity-101/what-is-ldap/
+
+---
+[Back to the Lab](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)
