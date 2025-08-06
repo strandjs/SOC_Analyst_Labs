@@ -57,12 +57,12 @@ Now if you go over to alerts you can see your Rule's work! If you don't see anyt
 <br><br>
 
 4. Let's now try to **Investigate Alerts with Timelines**
-- Go to Security -> Alerts
-- Click an alert from your detection rule (e.g. Root Shell Detected)
+- Go to Security -> Alerts if you weren't here already
+- Click an alert from your detection rule
 - Click “Investigate in timeline” (second button)
  <img width="158" height="32" alt="image" src="https://github.com/user-attachments/assets/5e9cb2c4-9505-495b-961b-71158b101e5f" />
 
-###You can:
+### You can:
 - See logs from before and after the alert
 - Use the filter bar to expand your view (e.g. user.name:root)
 - Drag in fields like event.dataset, message, host.name
