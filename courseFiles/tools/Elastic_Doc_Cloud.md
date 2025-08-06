@@ -99,4 +99,7 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLabCloud.md)
 
 
+## You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
+
+
 
