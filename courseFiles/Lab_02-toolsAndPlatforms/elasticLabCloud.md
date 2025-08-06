@@ -79,7 +79,7 @@ Some examples of useful rules are
 - `event.code: 3 and destination.ip : ( "185.*" or "45.*" )` Match to non-standard IPs or test by pinging a public IP
 - `event.code: 11 and file.path : ("C:\\Users\\Public\\*" or "C:\\Windows\\Temp\\*.exe")` - Dropped executables in Temp or User folders
 
-# You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
+## You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
 
 
 
