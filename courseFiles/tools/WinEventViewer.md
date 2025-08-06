@@ -44,6 +44,7 @@ Advanced Features
 - **Task Scheduling** - Right-click an event → Attach Task to This Event to trigger actions (email, script, etc)
 
 
+---
 [Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 
