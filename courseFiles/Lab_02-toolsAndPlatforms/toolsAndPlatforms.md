@@ -4,7 +4,7 @@
 
 Categories of Security Tools
 - **Endpoint Detection and Response** (EDR) - Tools like LimaCharlie monitor activities on endpoints (e.g., workstations and servers), collecting telemetry and enforcing detection logic in real-time
-- **Security Information and Event Management** (SIEM) - Platforms such as [Elastic SIEM](/courseFiles/tools/Elastic_Doc_Cloud.md) aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
+- **Security Information and Event Management** (SIEM) - Platforms such as Elastic SIEM aggregate logs from across the infrastructure, providing detection rules, dashboards, and analytics
 - **Network Monitoring Tools** - Tools like Zeek or Wireshark are used to inspect raw network traffic and identify anomalies or known malicious behavior
 
 ## Intro
