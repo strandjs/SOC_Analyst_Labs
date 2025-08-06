@@ -72,7 +72,7 @@ Key Skills
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basicsmd)
+[Click here for the Previous Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
-<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigationmd)</i>
+<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
 
