@@ -88,8 +88,8 @@ module: system
 
 - As a continuation, take onto the hands-on lab for [Elastic](/courseFiles/Lab_02-toolsAndPlatforms/elasticLabLocal.md)
 
-
-## You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
+---
+[Back to the Lab](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 
 
