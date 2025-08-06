@@ -148,3 +148,6 @@ Host was immediately isolated. Attempts to beacon to a known C2 domain (beacon.s
 - Search for IOCs (C2 IPs/domains) across enterprise endpoints
 - Initiate password resets for jsmith and high-value accounts
 - Monitor for lateral movement from subnet 10.0.5.0/24</pre>
+
+---
+[Back to the Lab](/courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
