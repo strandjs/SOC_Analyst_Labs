@@ -73,11 +73,6 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="1417" height="817" alt="image" src="https://github.com/user-attachments/assets/6a5c3cae-03e0-4347-998d-8f03555ceed9" />
 <br><br>
 
-16. Scroll down and make sure you have **Sysmon Operational** ticked
-
-<img width="792" height="508" alt="image" src="https://github.com/user-attachments/assets/076b2dad-2880-4e6f-8276-43f95edfe9d1" />
-<br><br>
-
 16. Now press on the **Install Elastic Agent** on the popup in the lower middle part of the screen
 
 <img width="819" height="73" alt="image" src="https://github.com/user-attachments/assets/3ff9ff70-0009-4735-b3e0-fe737e046774" />
@@ -86,6 +81,11 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 17. Select **Windows** and run that command in powershell to install the agent, then go back in the browser
 
 <img width="1162" height="1006" alt="image" src="https://github.com/user-attachments/assets/74810255-b48a-4487-b1dc-9cbf4767af2f" />
+<br><br>
+
+18. Scroll down and make sure you have **Sysmon Operational** ticked
+
+<img width="792" height="508" alt="image" src="https://github.com/user-attachments/assets/076b2dad-2880-4e6f-8276-43f95edfe9d1" />
 <br><br>
 
 18. Do as in the image below
