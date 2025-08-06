@@ -46,7 +46,9 @@ To apply MITRE ATT&CK effectively, security teams often map log events (from Sys
 | Windows Events | 4624     | Successful Logon            | `T1078 - Valid Accounts`          |
 | Sysmon         | 11       | File Created in Startup Dir | `T1547.001 - Registry Run Keys`   |
 
-Security Information and Event Management (SIEM) tools like **Splunk**, **ELK**, or **Microsoft Sentinel** can automate this mapping using detection rules or correlation engines.
+>[!TIP]
+>
+>Security Information and Event Management (SIEM) tools like **Splunk**, **ELK**, or **Microsoft Sentinel** can automate this mapping using detection rules or correlation engines.
 
 ## Open Source Projects
 Several open-source tools and projects help integrate ATT&CK into detection, analysis, and red teaming workflows:

@@ -6,11 +6,15 @@ You can open it either through the **Start Menu Search**
 
 Or through the **Run Dialog**
 
-`WIN + R`
+```
+WIN + R
+```
 
 Then type
 
-`eventvwr.msc`
+```
+eventvwr.msc
+```
 
 <img width="405" height="225" alt="image" src="https://github.com/user-attachments/assets/db042d24-6818-479f-be11-8452ee889a54" />
 <br>

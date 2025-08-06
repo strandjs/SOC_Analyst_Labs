@@ -106,8 +106,9 @@ You learn a new Sigma rule format, don't keep it to yourself
 - Share the post (internally or externally) and invite feedback
 
 ---
-
-Your profession will be defined by how you think, communicate, learn, and teach, not by the tools and alerts that change, the analysts who advance the fastest aren't the most intelligent; rather, they're the most lucid, inquisitive, and cooperative
+>[!TIP]
+>
+>Your profession will be defined by how you think, communicate, learn, and teach, not by the tools and alerts that change, the analysts who advance the fastest aren't the most intelligent; rather, they're the most lucid, inquisitive, and cooperative
 
 
 ***

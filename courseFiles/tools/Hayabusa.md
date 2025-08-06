@@ -2,53 +2,96 @@ Being the first time you have probably heard about this tool, if you search it u
 [Hayabusa-Repo](https://github.com/Yamato-Security/hayabusa)
 
 ## Setup
-- $`sudo apt update`
-- $`sudo apt install -y git curl build-essential pkg-config libssl-dev perl`
-- $`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-- $`source $HOME/.cargo/env`
-- $`git clone https://github.com/Yamato-Security/hayabusa.git`
-- $`cd hayabusa`
-- $`cargo build --release`
-- $`cd target/release`
+ ```bash
+ sudo apt update
+ ```
+
+ ```bash
+ sudo apt install -y git curl build-essential pkg-config libssl-dev perl
+```
+
+```bash
+ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ ```
+
+ ```bash
+ source $HOME/.cargo/env
+```
+
+```bash
+ git clone https://github.com/Yamato-Security/hayabusa.git
+```
+
+ ```bash
+ cd hayabusa
+```
+
+ ```bash
+ cargo build --release
+ ```
+
+ ```bash
+ cd target/release
+```
 
 ## Using the actual tool
+
 ### Some commands that I found most interesting and useful:
-- $`./hayabusa update-rules`
 
-Updates detection rules(necessary)
-<br>
-- $`./hayabusa log-metrics --file something.evtx`
-  
-Check log file Metadata
-<br>
-- $`./hayabusa csv-timeline --file something.evtx -o timeline.csv`
+```bash
+./hayabusa update-rules
+```
 
-This creates a DFIR timeline in CSV format 
-<br>
-- $`./hayabusa json-timeline --file something.evtx -o timeline.json`
+>Updates detection rules(necessary)
 
-Same, but in JSON format
-<br>
-- $`./hayabusa eid-metrics --file something.evtx`
+```bash
+./hayabusa log-metrics --file something.evtx`
+```
 
-Summarize events by ID
-<br>
-- $`./hayabusa computer-metrics --file Security.evtx`
+>Check log file Metadata
 
-Summarize events by Computer Name
-<br>
-- $`hayabusa extract-base64 --file Security.evtx --output decoded.txt`
+```bash
+./hayabusa csv-timeline --file something.evtx -o timeline.csv
+```
 
-Extract Base64 strings
-<br>
-- $`./hayabusa search --file something.evtx --keyword powershell`
+>This creates a DFIR timeline in CSV format 
 
-Search by keyword
-<br>
-- $`./hayabusa logon-summary --file something.evtx`
+```bash
+./hayabusa json-timeline --file something.evtx -o timeline.json
+```
 
-Get Logon activity summary
-<br>
+>Same, but in JSON format
+
+```bash
+./hayabusa eid-metrics --file something.evtx
+```
+
+>Summarize events by ID
+
+```bash
+./hayabusa computer-metrics --file Security.evtx
+```
+
+>Summarize events by Computer Name
+
+```bash
+hayabusa extract-base64 --file Security.evtx --output decoded.txt
+```
+
+>Extract Base64 strings
+
+```bash
+./hayabusa search --file something.evtx --keyword powershell
+```
+
+>Search by keyword
+
+```bash
+./hayabusa logon-summary --file something.evtx
+```
+
+>Get Logon activity summary
+
 
 # Some notes and links
 - This tools is basically a cli version of the Windows Event Viewer, much better in my opinion, but it can't work in real time

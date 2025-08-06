@@ -106,8 +106,11 @@ After saving the script in your `.ps1` file, run it in PowerShell:
 ```powershell
 .\collect_system_info.ps1
 ```
->NOTE: You may need to cd to Desktop, use `cd C:\Users\Administrator\Desktop`
 
+>[!TIP]
+>
+>NOTE: You may need to cd to Desktop, use `cd C:\Users\Administrator\Desktop`
+>
 > ⚠️ If script execution is disabled, run the following command to allow local scripts:
 
 ```powershell

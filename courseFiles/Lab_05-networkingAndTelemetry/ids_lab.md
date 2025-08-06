@@ -14,39 +14,41 @@ Learn how to:
 ## 1. Install IDS Tools on Kali
  
 ### Install Snort (via apt)
- 
-```bash
-sudo apt install snort -y
-```
+
+>it should already be installed!
  
 Verify:
  
 ```bash
 snort -V
 ```
- 
+>[!IMPORTANT]
+>
 > Output should say **Snort++ / Snort 3.x**
  
+![Snort version](./ids_lab_photos/snort_version.png)
+
 ---
  
 ### Install Suricata
  
-```bash
-sudo apt install suricata -y
-```
- 
+
+>it should already be installed!
+
 Verify:
  
 ```bash
 suricata --build-info
 ```
- 
+
+![Suricata version](./ids_lab_photos/suricata_version.png)
+
 ---
  
 ## 2. Lab Folder Structure (Optional)
  
 ```bash
-mkdir -p ~/ids-lab/{rules,logs,pcaps}
+mkdir -p ~/labs/ids_lab/{rules,logs,pcaps}
 ```
  
 ---
@@ -56,7 +58,7 @@ mkdir -p ~/ids-lab/{rules,logs,pcaps}
 ### A. Create a Snort Rule
  
 ```bash
-nano ~/ids-lab/rules/local.rules
+nano ~/labs/ids_lab/rules/local.rules
 ```
  
 Paste:
@@ -65,12 +67,14 @@ Paste:
 alert icmp any any -> any any (msg:"[Snort3] ICMP Ping Detected"; sid:1000001; rev:1;)
 ```
  
+![Snort rule 1](./ids_lab_photos/nano_snort_rule.png)
+
 ---
  
 ###  B. Run Snort 
  
 ```bash
-sudo snort -c /etc/snort/snort.lua -R ~/ids-lab/rules/local.rules -i lo -A alert_fast
+sudo snort -c /home/ubuntu/labs/ids_lab/snort3-3.8.1.0/lua/snort.lua -R ~/labs/ids_lab/rules/local.rules -i lo -A alert_fast 
 ```
  
 - `-c`: config file
@@ -78,6 +82,8 @@ sudo snort -c /etc/snort/snort.lua -R ~/ids-lab/rules/local.rules -i lo -A alert
 - `-i lo`: loopback interface
 - `-A alert_fast`: fast alert output
  
+![Run snort](./ids_lab_photos/Snort_run.png)
+
 ---
  
 ### C. Simulate Traffic
@@ -88,12 +94,16 @@ Open a new terminal:
 ping 127.0.0.1
 ```
  
+![ping](./ids_lab_photos/ping_command.png)
+
  You should see something similar to this:
  
 ```
 [Snort3] ICMP Ping Detected
 ```
  
+![snort detection](./ids_lab_photos/Snort_detection.png)
+
 ---
  
 ### More Snort Rules
@@ -104,13 +114,18 @@ In `local.rules`, add:
 alert tcp any any -> any any (flags:S; msg:"[Snort3] SYN Scan Detected"; sid:1000002; rev:1;)
 ```
  
+![snort 2nd rule](./ids_lab_photos/snort_second_rule.png)
+
 Test:
  
 ```bash
-nmap -sS 127.0.0.1
- 
+sudo nmap -sS 127.0.0.1
 ```
  
+![nmap](./ids_lab_photos/nmap_scan.png)
+
+![snort detection logs for 2nd rule](./ids_lab_photos/snort_second_rule_detection.png)
+
 ---
  
 ## 4. Suricata Lab
@@ -143,7 +158,9 @@ rule-files:
 ```bash
 sudo suricata -c /etc/suricata/suricata.yaml -i lo
 ```
- 
+
+![suricata start](./ids_lab_photos/start_suricata.png)
+
 Then(in another terminal):
  
 ```bash
@@ -155,6 +172,8 @@ Check alerts(in a 3rd terminal):
 ```bash
 sudo tail -f /var/log/suricata/fast.log
 ```
+
+![suricata logs tail](./ids_lab_photos/suricata_detection_logs_tail.png)
  
 ---
  
@@ -187,3 +206,15 @@ sudo tail -f /var/log/suricata/fast.log
 ## 7. Useful resource
  
 - [snorpy](https://snorpy.cyb3rs3c.net) -A Web Based Snort Rule Creator
+
+ ***               
+
+<b><i>Continuing the course?</b>
+</br>
+[Click here for the Next Lab](/courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
+
+<b><i>Want to go back?</b>
+</br>
+[Click here for the Previous Lab](/courseFiles/Lab_04-socScripting/socScripting.md)
+
+<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>

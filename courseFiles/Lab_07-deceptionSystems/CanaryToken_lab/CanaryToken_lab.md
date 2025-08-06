@@ -66,6 +66,8 @@ Then go back to your CanaryToken page and copy the JavaScript snippet.
 
 ![Copy JS snippet](Pasted%20Graphic%204.png)
 
+>[!IMPORTANT]
+>
 > ⚠️ **Do NOT close the CanaryToken page after copying the JavaScript!**
 
 Paste the script into the `nano` editor.  
