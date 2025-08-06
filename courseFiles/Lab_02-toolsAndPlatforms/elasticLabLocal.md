@@ -75,7 +75,8 @@ Now if you go over to alerts you can see your Rule's work!
 ## Try to add more rules by yourself or even simulate attacks to better understand the perspectives of both an attacker and a SOC analyst 
 
 
-## You can click [Here](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md) to go back to the lab
+---
+[Back to the Lab](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 
 
