@@ -146,4 +146,5 @@ $netConnections | Add-Content system_info.txt
 ```
 
 ---
+[Back to the Lab](/courseFiles/Lab_04-socScripting/socScripting.md)
 

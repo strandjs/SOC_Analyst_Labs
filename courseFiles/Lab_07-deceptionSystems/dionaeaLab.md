@@ -1,3 +1,5 @@
+# For the Ubuntu VM
+
 ### In this lab we will
 - Observe how it captures malicious connection attempts
 - View logs and captured malware samples
@@ -81,6 +83,9 @@ Most important features
 - Wide Protocol Coverage
 - Python + C Plugin Architecture
 - Visual and Analytical Integration
+
+---
+[Back to the Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
 
 
 

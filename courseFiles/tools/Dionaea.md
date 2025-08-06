@@ -61,10 +61,6 @@ sudo nano ../modules/CMakeLists.txt
 </pre>
 
 ```bash
-nano ~/Desktop/dionaea/build/modules/python/setup.py
-``` 
-- make sure you have: `version = "0.11.0"`
-```bash
 python3 -m venv ../venv
 ```
 ```bash
@@ -90,6 +86,10 @@ mkdir -p venv/lib/python3.12/site-packages/distutils && cd venv/lib/python3.12/s
 cmake ..
 ```
 ```bash
+nano ~/Desktop/dionaea/build/modules/python/setup.py
+``` 
+- make sure you have: `version = "0.11.0"`
+```bash
 make -j$(nproc)
 ```
 ```bash
@@ -100,5 +100,8 @@ sudo nano /usr/local/etc/dionaea/dionaea.cfg
 ```
  - Delete anything emu related from modules and processors, should have 4 references from the start
 
-# I know that was a lot... Now you can move over to the lab!
+## I know that was a lot... Now you can move over to the lab!
 ### [Dionaea Lab](/courseFiles/Lab_07-deceptionSystems/dionaeaLab.md)
+
+---
+[Back to the Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)

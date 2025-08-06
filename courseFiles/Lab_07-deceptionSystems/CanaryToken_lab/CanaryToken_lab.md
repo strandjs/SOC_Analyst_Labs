@@ -123,13 +123,5 @@ Your token should now be triggered!
 
 ![Alert](Pasted%20Graphic%2013.png)
 
-***
-<b><i>Continuing the course?</b>
-</br>
-[Click here for the Next Lab](/courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)</i>
-
-<b><i>Want to go back?</b>
-</br>
-[Click here for the Previous Lab](/courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
-
-<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
+---
+[Back to the Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)

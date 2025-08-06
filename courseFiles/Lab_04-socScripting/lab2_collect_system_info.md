@@ -63,3 +63,6 @@ TCP 192.168.1.100:50329 172.217.9.174:443 ESTABLISHED
 ## Solution
 
 Once you are finished, you can check out the [solution](./lab2_solution_steb_by_step.md). The solution contains step by step guidence!
+
+---
+[Back to the Lab](/courseFiles/Lab_04-socScripting/socScripting.md)

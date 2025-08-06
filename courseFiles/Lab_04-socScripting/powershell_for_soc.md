@@ -121,3 +121,6 @@ resources:
 - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/
 - https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started
 - https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5
+
+---
+[Back to the Lab](/courseFiles/Lab_04-socScripting/socScripting.md)

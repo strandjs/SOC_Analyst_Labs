@@ -46,3 +46,12 @@ Advanced Features
 - **Event Subscriptions** - Collect events from remote computers using Event Forwarding (requires setup via Group Policy)
 - **Export Logs** - Right-click a log → Save All Events As (.evtx, .txt, .csv, .xml)
 - **Task Scheduling** - Right-click an event → Attach Task to This Event to trigger actions (email, script, etc)
+
+
+---
+[Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+
+
+
+
+

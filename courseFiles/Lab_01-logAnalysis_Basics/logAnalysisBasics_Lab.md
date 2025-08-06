@@ -1,6 +1,10 @@
-hayabusa log-metrics --file sysmon.evtx## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
+# For the Ubuntu VM
 
-**If you don't have hayabusa installed follow the tutorial from the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
+## The objective of this lab is to use Hayabusa to analyze Sysmon logs and detect suspicious activity related to process creation, network connections, and authentication events.
+
+**If you want to learn a bit about this tool check the [Hayabusa Documentation](/courseFiles/tools/Hayabusa.md)**
+
+- First things first navigate to hayabusa at `/home/ubuntu/labs/hayabusa_lab/hayabusa/target/release`
 
 - To start off we need to make sure we have the detection rules of hayabusa
 
@@ -10,11 +14,12 @@ hayabusa log-metrics --file sysmon.evtx## The objective of this lab is to use Ha
 
 <img width="527" height="174" alt="image" src="https://github.com/user-attachments/assets/ccf7acb4-342c-45b1-a4b2-ca38b935a450" />
 
-Let's also get the logs that we will be working with and rename them
+Let's also get the logs that we will be working with and rename them if you don't have it already
 
 ```bash
 curl -L -o sysmon.evtx https://raw.githubusercontent.com/sbousseaden/EVTX-ATTACK-SAMPLES/master/AutomatedTestingTools/PanacheSysmon_vs_AtomicRedTeam01.evtx
 ```
+
 
 ```bash
 mv PanacheSysmon_vs_AtomicRedTeam01.evtx sysmon.evtx
@@ -98,6 +103,9 @@ Following up this lead we can get to the same results as earlier, or use it to g
 > Try extracting any encrypted payloads and pulling authentication activity yourself, if there is any, using the documentation of the tool.
 
 ### Also try finding everything you found in this lab by using [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md)
+
+---
+[Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 
 

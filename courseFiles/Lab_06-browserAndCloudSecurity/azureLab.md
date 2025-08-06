@@ -104,5 +104,8 @@
 | summarize Count = count() by Tactic = Column6, Computer = Column4</pre>
 
 
+---
+[Back to the Lab](/courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
+
 
 

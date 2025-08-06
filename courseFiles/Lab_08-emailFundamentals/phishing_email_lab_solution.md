@@ -125,13 +125,5 @@ CEO
 | **Severity Level (Low/Medium/High)** | High – realistic spoof + phishing link + impersonation                       |
 | **Recommended Action**               | Block domain, alert users, report to CERT, blacklist link                    |
 
-***
-<b><i>Continuing the course?</b>
-</br>
-[Click here for the Next Lab](/courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)</i>
-
-<b><i>Want to go back?</b>
-</br>
-[Click here for the Previous Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
-
-<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
+---
+[Back to the Lab](/courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)

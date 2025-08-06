@@ -1,3 +1,5 @@
+### Please go though the documenation and setup for the [Local Version](/courseFiles/tools/Elastic_Doc_Local.md)
+
 ### Now that we have set up **Elastic**, **Kibana** and **Filebeat**, we can finally get our hands dirty and learn how a SOC analysts deals with logs in Elastic
 
 ## GOAL
@@ -80,6 +82,10 @@ Now if you go over to alerts you can see your Rule's work!
 >[!TIP]
 >
 >Try to add more rules by yourself or even simulate attacks to better understand the perspectives of both an attacker and a SOC analyst 
+
+
+---
+[Back to the Lab](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 
 
