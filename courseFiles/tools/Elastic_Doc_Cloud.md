@@ -63,14 +63,14 @@ Elasticsearch is the heart of the Elastic Stack. Combined with Kibana, it powers
 <img width="251" height="236" alt="image" src="https://github.com/user-attachments/assets/5f43c7de-7dbc-4119-b428-07ba5cbea1f0" />
 <br><br>
 
-14. Search for **Windows** and select **Custom Windows Event Logs**
+14. Search for **Windows** and select **Windows**
 
 <img width="1673" height="1005" alt="image" src="https://github.com/user-attachments/assets/a8e15d44-1731-472d-a5ca-be4929f045de" />
 <br><br>
 
-15. Now click on **Add Custom Windows Event Logs**
+15. Now click on **Add Windows**
 
-<img width="1386" height="542" alt="image" src="https://github.com/user-attachments/assets/3f04a237-1072-4123-89ba-2e2465a2aec6" />
+<img width="1417" height="817" alt="image" src="https://github.com/user-attachments/assets/6a5c3cae-03e0-4347-998d-8f03555ceed9" />
 <br><br>
 
 16. Now press on the **Install Elastic Agent** on the popup in the lower middle part of the screen
