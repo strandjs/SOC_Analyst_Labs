@@ -70,6 +70,8 @@ $ tcpdump -r dns.pcap tcp port 389
 1. Apply the filter `ldap`, check Wireshark’s status bar for **Displayed: 14 (7.7%)**.
 2. **Answer:** 14 LDAP messages.
 
+>[!TIP]
+>
 > _Why it matters:_ Knowing volume helps assess session complexity.
 
 ![packets count](https://i.ibb.co/TBWvDWB4/image.png)
