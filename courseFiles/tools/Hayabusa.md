@@ -60,4 +60,5 @@ Get Logon activity summary
 
 # [Hands-On Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysisBasics_Lab.md)
 
+---
 [Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
