@@ -67,7 +67,8 @@ Now if you go over to alerts you can see your Rule's work! If you don't see anyt
 - Use the filter bar to expand your view (e.g. user.name:root)
 - Drag in fields like event.dataset, message, host.name
 - Click the 💾 Save icon to save it
-<img width="1918" height="943" alt="image" src="https://github.com/user-attachments/assets/a6cf43b8-dd9b-4506-9d9e-74a72fb0bdfd" />
+
+<img width="1894" height="974" alt="image" src="https://github.com/user-attachments/assets/b64b52bc-03fc-4917-8c10-b67b365141e6" />
 <br><br>
 
 ## Try to add more rules by yourself or even simulate attacks to better understand the perspectives of both an attacker and a SOC analyst 
