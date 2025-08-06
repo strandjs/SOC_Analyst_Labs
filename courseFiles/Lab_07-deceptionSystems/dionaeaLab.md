@@ -60,6 +60,9 @@ Most important features
 - Python + C Plugin Architecture
 - Visual and Analytical Integration
 
+---
+[Back to the Lab](/courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
+
 
 
 
