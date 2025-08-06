@@ -71,8 +71,7 @@ Several open-source tools and projects help integrate ATT&CK into detection, ana
   An automated red teaming framework developed by MITRE that uses ATT&CK for planning and execution.  
   🔗 https://github.com/mitre/caldera
 
-                                                     
-***                                                       
+                                                                                                      
 
 ---
 [Back to the Lab](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
