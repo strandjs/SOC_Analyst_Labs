@@ -314,3 +314,6 @@ alert tcp any any -> any 389 (
 - https://cloudshark.org/captures/59ea342b5a13/download
 - https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 - https://www.okta.com/identity-101/what-is-ldap/
+
+---
+[Back to the Lab](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)
