@@ -1,0 +1,88 @@
+Delivered-To: rachael@tyrellcorp.io
+Received: by 2002:a05:6808:ec2:0:0:0:0 with SMTP id q2csp351192oiv;
+        Wed, 2 Nov 2022 18:54:45 -0700 (PDT)
+X-Received: by 2002:a05:6402:42c7:b0:461:c375:86b8 with SMTP id i7-20020a05640242c700b00461c37586b8mr27484155edc.40.1667440245649;
+        Wed, 02 Nov 2022 18:50:45 -0700 (PDT)
+X-Google-Smtp-Source: AMsMyM6PtjjuLdfya6QTv+iQ7ou9upfdlg3fTG6wcNuQPbjarcqst188/o/mL5iCQF4AHusxW2ap
+X-Received: by 2002:a05:6402:42c7:b0:461:c375:86b8 with SMTP id i7-20020a05640242c700b00461c37586b8mr27484102edc.40.1667440244410;
+        Wed, 02 Nov 2022 18:50:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1667440244; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jePxQJKJmBwDmvCcgKijJJuJq6Oy7O+qQbhHuAoyVl7wKI7at+8Bz4szg6DXM93Ykn
+         av6gv0xgwYRqSXEoSMzaxWnndyIr3zPX+M09dnvHAX1WbsFV01r3co7b4gZoNireJfNi
+         y5x3do87f+gXvYiZCkSz+H6MvEF7Isuw3d/M4mBMEt3aGe5tqmRwqNCAmpDcjfLCwgpt
+         YOi2Jr8ioNi7RnIj+Rpg4+vROAJMb7DzUCffCmLy+00p4sLFChLBz9PXQY374zOGmLOW
+         pf2jyHI9+8lzD69OqY+UFDjdSTRTjwTsvC5EM8OL6vqQSkitrFajwrTcW3nxZiMmiQ7C
+         t/Gg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:msip_labels:content-language:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :dkim-signature;
+        bh=okSBQ3Up2HTjR1LD9Wj8Tz08J6Dbq5enUMGK0aZGXCk=;
+        b=bSWgEwVCK/SsaGmfikmgZm4GaF2H9Q/3UOpc2ghOtbJUPRqzGBgON4TVwpPxSsUTKs
+         uFiJL0iu/025j8mFi4LTG3OnhtTYObF0e+eB7sJgAM1AGMD10jjopqduLo14GAgKTLmn
+         IJ4tqrhFCOAX2HIh+R2wXXIzxFC6ui2s00tr9WcT1/y9r8tUg2tI4pp0mdNjAg0/dbFQ
+         KdtD30T5KoIvaAroSJBwDzLCnuJNdGQ44LOcXUDOA6ds45GpqvaY9sY0OTxc8Ntp6+T4
+         9uZaISdZcQ+o1dPd6Gr/0Gbn+BP9j7wwWU0djdoFYJIsy6r1zb78l0DBFdPOuwI5TqQ0
+         +IrQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@ennuiconsultingcom.onmicrosoft.com header.s=selector1-ennuiconsultingcom-onmicrosoft-com header.b=IazY5m+R;
+       arc=pass (i=1 spf=pass spfdomain=ennuiconsultingcom.onmicrosoft.com dkim=pass dkdomain=ennuiconsultingcom.onmicrosoft.com dmarc=pass fromdomain=ennuiconsultingcom.onmicrosoft.com);
+       spf=pass (google.com: domain of bob@ennuiconsultingcom.onmicrosoft.com designates 40.107.236.41 as permitted sender) smtp.mailfrom=bob@ennuiconsultingcom.onmicrosoft.com
+Return-Path: <bob@ennuiconsultingcom.onmicrosoft.com>
+Received: from NAM11-BN8-obe.outbound.protection.outlook.com (mail-bn8nam11on2041.outbound.protection.outlook.com. [40.107.236.41])
+        by mx.google.com with ESMTPS id dn11-20020a17090794cb00b007adc4a0aeb5si16316950ejc.873.2022.11.02.18.50.44
+        for <rachael@tyrellcorp.io>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 02 Nov 2022 18:50:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bob@ennuiconsultingcom.onmicrosoft.com designates 40.107.236.41 as permitted sender) client-ip=40.107.236.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ennuiconsultingcom.onmicrosoft.com header.s=selector1-ennuiconsultingcom-onmicrosoft-com header.b=IazY5m+R;
+       arc=pass (i=1 spf=pass spfdomain=ennuiconsultingcom.onmicrosoft.com dkim=pass dkdomain=ennuiconsultingcom.onmicrosoft.com dmarc=pass fromdomain=ennuiconsultingcom.onmicrosoft.com);
+       spf=pass (google.com: domain of bob@ennuiconsultingcom.onmicrosoft.com designates 40.107.236.41 as permitted sender) smtp.mailfrom=bob@ennuiconsultingcom.onmicrosoft.com
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bG4zU7197WibaQ4jBtFUfu4yyWBpbzjzyLeMnKWyT1DiGNf/aiPeCU2yQqxUQzsgkk/Hf3aPI+nGHeCZplMfSKuKzFtLqrp/gadAmKfeAZgtvMA3BBRccEtvvPnd11XJQou8+Rf7gN12GzgMtqYGruzewn+5qyzj1T+TM4I9itFy5I1iVrG7NkNynsh3/cnHmlTeW2dCBE28EAB7aLcInj8yQiOKSHuSdR28XlcDMNiZaWobXWLr8zqbczk9t2VRmoIy8cpO/Ws9DVjGNJb8xIrZWL3fCEPNqKDv81OQ2/iAIYNTI+IlxQt8Oo2bIup51X+ViR1nq5nm8si0q3Kqwg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=okSBQ3Up2HTjR1LD9Wj8Tz08J6Dbq5enUMGK0aZGXCk=;
+ b=RnnaLRQXL9lLaABpYnSmCIoGFl4+aIYj693K7pereQgJ6qwECiXG0lTBsocL/4+cqjD38uF7E1navmxtE0UqNDVorCaPKWWbizwj1gTZyJsHZbfYM09Vn++4KVb9KOxp4J1N2VZ4B5VT7I0woNZZipCIxVCxIZ41chwSIJz2SKi0o9JMyDUNS6TOmh3uQlCB1Y2ZbYHrav24byout+P/RYmbk1HfOebWC0gd8KvKL/+BeKGAS72QYVYLsSflkbLXp8swtsWOa0rDX9B968P15azFvh0ZExdJK9FvdW5QAwJm/HWoH1Zw0WtvOzFrpXOFz6yzI+qOT9s3iFL21M9hWw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ennuiconsultingcom.onmicrosoft.com; dmarc=pass action=none
+ header.from=ennuiconsultingcom.onmicrosoft.com; dkim=pass
+ header.d=ennuiconsultingcom.onmicrosoft.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=ennuiconsultingcom.onmicrosoft.com;
+ s=selector1-ennuiconsultingcom-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=okSBQ3Up2HTjR1LD9Wj8Tz08J6Dbq5enUMGK0aZGXCk=;
+ b=IazY5m+RxrLL5A6hV2ko7CzE4fsdnv8tPxuccWN+LajQ7sxDvyaNP6Rq+DNmYLkT3yIYTk+Tmec7qKbh9Fzv5MrZi75Fbut4kXTU328ONOvU8j+1bGwN//doJxxq6ugzl6g5ZG7WtHbdvw7R4fbKVrIuBJ6H/QZhVwxgwvuRzjY6YQtrbfPn69AgJdaYjH+SU38XSf2TEbjspfCyFYduurdYLm05o63rEPvNqQrktzhgEvT25m8ZgJnWVvAbd3mvU+tK6xc230TMFvo0DT49bGaPF3oUNtrHmcCONiDRzYXuRccZa3ojA4s5UywKEO5T9/VUqbndhd8x1uRND+9lHA==
+Received: from BN6PR08MB2451.namprd08.prod.outlook.com (2603:10b6:404:1d::14)
+ by DM6PR08MB4892.namprd08.prod.outlook.com (2603:10b6:5:4c::33) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5791.22; Thu, 3 Nov
+ 2022 01:50:42 +0000
+Received: from BN6PR08MB2451.namprd08.prod.outlook.com
+ ([fe80::fd1e:9f41:94d8:a637]) by BN6PR08MB2451.namprd08.prod.outlook.com
+ ([fe80::fd1e:9f41:94d8:a637%3]) with mapi id 15.20.5769.021; Thu, 3 Nov 2022
+ 01:50:42 +0000
+From: Herman Schlect <herman@schlectinc.com>
+To: Josh Kamdjou <rachael@tyrellcorp.io>
+Subject: Re: invoice
+Date: Thu, 3 Nov 2022 01:50:41 +0000
+Message-ID:
+ <BN6PR08MB24517AFDD21811833E15E01B85389@BN6PR08MB2451.namprd08.prod.outlook.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=3313050a88a865dd4bd01b79a45d3e95a86aee8c86e93b3260b1546885bd
+
+--3313050a88a865dd4bd01b79a45d3e95a86aee8c86e93b3260b1546885bd
+Content-Type: text/plain; charset=utf-8
+
+Please see details requested here https://downgit.github.io/#/home?url=https://github.com/morriscode/Rule-Test/blob/d20364627a85ed2ff644ae67624161e5ed6479cd/encrypted_iso.zip
+--3313050a88a865dd4bd01b79a45d3e95a86aee8c86e93b3260b1546885bd
+Content-Type: text/html; charset=utf-8
+
+<html>
+Please see details requested <a href="https://downgit.github.io/#/home?url=https://github.com/morriscode/Rule-Test/blob/d20364627a85ed2ff644ae67624161e5ed6479cd/encrypted_iso.zip">here</a>
+</html>
+--3313050a88a865dd4bd01b79a45d3e95a86aee8c86e93b3260b1546885bd--
