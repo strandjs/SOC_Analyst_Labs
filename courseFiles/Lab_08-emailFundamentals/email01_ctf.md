@@ -15,7 +15,7 @@
 
 3. **Obfuscation Technique**\
    Which technique is used by the attachment to deliver or hide the malicious code?\
-   *Answer format:* technique name (e.g., HTML smuggling)
+   *Answer format:* technique name 
 
 4. **JavaScript Function**\
    Identify the name of the JavaScript function embedded in the attachment.\
@@ -76,6 +76,8 @@ Below are detailed steps, pointing to where in the `.eml` file or decoded conten
   ```
   HTML smuggling
   ```
+
+https://attack.mitre.org/techniques/T1027/006/
 
 ### Question 4: JavaScript Function
 
@@ -149,5 +151,3 @@ Below are detailed steps, pointing to where in the `.eml` file or decoded conten
   ```
 ![](./attachments/email01/q7.png)
 ---
-
-

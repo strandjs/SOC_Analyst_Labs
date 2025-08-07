@@ -1,0 +1,208 @@
+Delivered-To: morriscode@gmail.com
+Received: by 2002:aa6:c08b:0:b0:244:2a95:b080 with SMTP id b11csp393234lkp;
+        Thu, 2 Feb 2023 04:03:53 -0800 (PST)
+X-Received: by 2002:a05:6870:a413:b0:15f:be68:501 with SMTP id m19-20020a056870a41300b0015fbe680501mr3065130oal.21.1675339433618;
+        Thu, 02 Feb 2023 04:03:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1675339433; cv=none;
+        d=google.com; s=arc-20160816;
+        b=bb1t0xWloJY2ogGJjQH8eLLOeBzwOGb26tbceHhye7Xupjl/HW5xfn4Qe5qfqMQzt9
+         XzvQ1d9MYB36RTeqGeOZv2mTqY7EgLD6suuZGeg2LEm38eN2/7BJr3tDQggHVr4ehhbU
+         aI5pEAVNoNsqk6L71xjIyXlleG9dKTHzQTfCTYsYefu3nPEESYz3ufwd3QiOW9+VdIPE
+         Wc0AQKyNGGNWvJqraeS98SLyXPxZUWFJqFkzjtk87Oj2Xbby40De4TWfoC8GJ2Ng6/o4
+         dvamG9OfgBocXjpIE/y+UP5iQpVMxJSNxmJqzaOgcGax49sn0yxss3iJIZRFn0WhOlNu
+         h3kQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=H2n+/CwTJxzRRICOylTmmqOfYZh+IY5bFiABqXBy7tk=;
+        b=MA1erLxZqTGZXCCAbLokhk7E5eHCqO14v4hgt4A+Asib3ukwwz35HPmCH0hiZicCC2
+         CGR0wkYsPiXkrQa6W4iY5s5oLongt6Az2KUeA2T+nriL/kxniH/HhW5vNFJumBw/FbOg
+         vO5h+pH79uuV3eG7OE1VJg66P9GrfevzGpiczw4shWeQ8dwvhUHRH18FOhnwhUrHXo8g
+         blRvqSG7BVeqp8aUCNu5WXmAhbg1mOVccXl0SGDSycQZ2pvRiVjWOYEMHZXUd5dJympK
+         x9wm9tyes78hAD7pTfrFLlywdUEQi1UGhksjJNRatXABzn32mcRvUxY8/Phqa8kQx0m9
+         XpPw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=YtshbfKI;
+       spf=pass (google.com: domain of davidgonx728@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=davidgonx728@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <davidgonx728@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ee49-20020a056870c83100b0015fc06a0d5esor1388610oab.29.2023.02.02.04.03.53
+        for <morriscode@gmail.com>
+        (Google Transport Security);
+        Thu, 02 Feb 2023 04:03:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of davidgonx728@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=YtshbfKI;
+       spf=pass (google.com: domain of davidgonx728@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=davidgonx728@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=H2n+/CwTJxzRRICOylTmmqOfYZh+IY5bFiABqXBy7tk=;
+        b=YtshbfKIevwWOmzWm5YL5pbMSfUfGxGE+PmO08dWJUbS36NisWOyxEzp+MiTOJTGLP
+         DPr2a65t8g/pXemSPUkLE44HQoQIooc7J+TACwjlSw/ZPEV3U5/lRBG4M+2/aL79m1Vp
+         aG4tWxQeg2xcEx25VeWinL8zHqCIbsvG7pCD9Bsy4VaM5Gqwt6S7Gthg+qxV7d0I05Dp
+         PhmoocsO3+IN8bDd/DlfFFHd/7u7irvauq1TZ49Fj99NzrS8mYaFBcpmOyWN2VxS7ibt
+         K/LLtwOqwlPl5eCvwVrNOTiwQsJ8im69RKZUMBZMhISQKjXyggTx+Sckor234LTv3Gv6
+         0OZg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=H2n+/CwTJxzRRICOylTmmqOfYZh+IY5bFiABqXBy7tk=;
+        b=TNzWAYQLmC8lP3WD/LooSsToHJIvPVA4YugwhOSJjWKCLUE05Ae7fKSzuKPO3a+bYG
+         NB7bpeUVf0xxXGVpqhyK25kMbWZsnqQUwmHwbUYl1SQlRt/e8iTnyGQ7h4YfnNoCp0U/
+         8YXNkKQSiz/nCEMmt96YqONKTur5GaMRambPxUcNHoXALfB5WjBzYdnBk9GV1pIxFjnF
+         J2DFs7UklpmBNEc38TsEuL1aNZnGr3r0RCH5bgdHc3Gbg59uw/iuz08w/oQ7Y9nZ6TzV
+         WDeHYi8EYH8gM1Y4CCa5YpPQxtCdNV0QNF0/gZPHTHeCTyz1wuolWQ7eJ7beywp+OTJS
+         voIg==
+X-Gm-Message-State: AO0yUKWs7btV842qVdLhjoIVt6OImI44jL82gDuhB3R3qXntaYBq2QGq
+	uoQGQdOWcA99edbXOGtWvrXa0Uiw8LFZwCVER58=
+X-Google-Smtp-Source: AK7set+M/ZtOW/7d3or4pqrdxVnyzJqB5WxeR1nzmXYgY+c5a8TEej8zL/hxBKGqWvDJlKO2ioKRxs6boopX8fd4WpA=
+X-Received: by 2002:a05:6870:47a6:b0:163:745c:eab6 with SMTP id
+ c38-20020a05687047a600b00163745ceab6mr238247oaq.297.1675339432963; Thu, 02
+ Feb 2023 04:03:52 -0800 (PST)
+MIME-Version: 1.0
+From: Stonr Jon <davidgonx728@gmail.com>
+Date: Thu, 2 Feb 2023 17:33:40 +0530
+Message-ID: <CAKwkksV8jiTfRbaiLEb8apemY0cJfoK1qEXetzigSaDkxfpLOw@mail.gmail.com>
+Subject: INVOICE VVDC02022023BRC
+To: nortoncc2023@outlook.com
+Content-Type: multipart/alternative; boundary="000000000000c7b5b305f3b65b85"
+Bcc: morriscode@gmail.com
+
+--000000000000c7b5b305f3b65b85
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for your order, Here is your details
+
+
+
+INVOICE NO. Product Details
+
+
+
+VVDC02022023BRC NORTON Total All Round Security
+
+
+*Order Summary*
+
+
+*INVOICE NUM:* VVDC02022023BRC
+*START DATE:* *2023.02.02*
+*END DATE:* *1 year from START DATE*
+*Payment Mode:* Auto debit from account
+*Status:* Completed
+
+
+*PRODUCT NAME* *Quantity* *Total Amount*
+NORTON Total All Round Security (VVDC02022023BRC) 1 $484.00 USD
+Sub-total $484.00 USD
+Discount 00.00
+Total $484.00 USD
+
+If you wish to not to continue subscription and claim a REIMBURSE then
+please feel free to call our Billing Dept. as soon as possible.
+
+You can Reach us on : * +1 =E2=80=93 ( 808 ) =E2=80=93 ( 400 ) =E2=80=93 83=
+79 *
+
+
+Sincerely,
+
+
+Billing Dept.
+
+--000000000000c7b5b305f3b65b85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><br></div><br><div>Thank you for your order, Here is =
+your details</div>
+<div><br></div><br>
+<br>
+<table width=3D"588px" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+	<tbody><tr>
+		<th align=3D"left">INVOICE NO.</th>
+		<th align=3D"left">Product Details</th>
+	</tr>
+	<tr>
+		<td>=C2=A0<br><br></td>
+		<td>=C2=A0</td>
+	</tr>
+	<tr>
+		<td>VVDC02022023BRC</td>
+		<td>NORTON Total All Round Security</td>
+	</tr>
+</tbody></table>
+<div style=3D"clear:both"></div>
+<br><br>
+<div><strong>Order Summary</strong></div>
+<div><br></div><br>
+<div>
+	<table width=3D"588px" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+	<tbody><tr>
+		<td width=3D"30%"><strong>INVOICE NUM:</strong></td>
+		<td width=3D"30%">VVDC02022023BRC</td>
+		<td width=3D"30%"></td>
+		<td width=3D"10%"></td>
+	</tr>
+	<tr>
+		<td width=3D"30%"><strong>START DATE:</strong></td>
+		<td width=3D"30%"><b>2023.02.02</b></td>
+		<td width=3D"30%">=C2=A0</td>
+		<td width=3D"10%">=C2=A0</td>
+	</tr>
+	<tr>
+		<td width=3D"30%"><strong>END DATE:</strong></td>
+		<td width=3D"30%"><b>1 year from START DATE</b></td>
+		<td width=3D"30%">=C2=A0</td>
+		<td width=3D"10%">=C2=A0</td>
+	</tr>
+	<tr>
+		<td width=3D"30%"><strong>Payment Mode:</strong></td>
+		<td width=3D"30%">Auto debit from account</td>
+		<td width=3D"30%">=C2=A0</td>
+		<td width=3D"10%">=C2=A0</td>
+	</tr>
+	<tr>
+		<td width=3D"30%"><strong>Status:</strong></td>
+		<td width=3D"30%">Completed</td>
+		<td width=3D"30%">=C2=A0</td>
+		<td width=3D"10%">=C2=A0</td>
+	</tr>
+</tbody></table>
+</div>
+<div style=3D"clear:both"></div>
+<br>
+<br>
+<table style=3D"width:588px" cellspacing=3D"0" cellpadding=3D"5" border=3D"=
+0"><tbody><tr><td style=3D"border-bottom:1px solid rgb(0,0,0);background:rg=
+b(204,204,204)"><b>PRODUCT NAME</b></td>
+		<td style=3D"border-bottom:1px solid rgb(0,0,0);background:rgb(204,204,20=
+4)"><b>Quantity</b></td>
+		<td style=3D"border-bottom:1px solid rgb(0,0,0);background:rgb(204,204,20=
+4)" align=3D"right"><b>Total Amount</b></td></tr><tr><td>NORTON Total All R=
+ound Security (VVDC02022023BRC)</td>
+		<td>1</td>
+		<td align=3D"right">$484.00 USD</td></tr><tr><td style=3D"border-bottom:1=
+px solid rgb(0,0,0);padding:10px 5px" colspan=3D"2" align=3D"right">Sub-tot=
+al</td>
+		<td style=3D"padding:10px 5px;border-bottom:1px solid rgb(0,0,0)" align=
+=3D"right">$484.00 USD</td></tr><tr><td style=3D"border-bottom:1px solid rg=
+b(0,0,0);padding:10px 5px" colspan=3D"2" align=3D"right">Discount</td>
+		<td style=3D"padding:10px 5px;border-bottom:1px solid rgb(0,0,0)" align=
+=3D"right">00.00</td></tr><tr><td colspan=3D"2" style=3D"padding:10px 5px" =
+align=3D"right">Total</td><td style=3D"padding:10px 5px" align=3D"right">$4=
+84.00 USD</td></tr></tbody></table><br><br>If
+ you wish to not to continue subscription and claim a REIMBURSE then=20
+please feel free to call our Billing Dept. as soon as possible.<div><br><di=
+v>You can Reach us on=C2=A0:=C2=A0<font size=3D"4" face=3D"arial, sans-seri=
+f"><b>=C2=A0+1=C2=A0=E2=80=93=C2=A0(=C2=A0808=C2=A0)=C2=A0=E2=80=93=C2=A0(=
+=C2=A0400=C2=A0)=C2=A0=E2=80=93=C2=A08379 </b></font></div><div><br></div><=
+br><div>Sincerely,</div><div><br></div><div><br></div><div>Billing Dept.</d=
+iv></div></div>
+
+--000000000000c7b5b305f3b65b85--
