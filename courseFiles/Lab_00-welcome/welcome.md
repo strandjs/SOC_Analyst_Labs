@@ -1,56 +1,47 @@
-# Log Analysis Basics
-### Hands-On Lab : [Log Analysis Basics Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysisBasics_Lab.md)
+# Welcome!
+
+Future defenders, welcome!
+
+The fundamental abilities required to be a successful Security Operations Center (SOC) analyst will be covered in this course. You will participate in practical labs that replicate actual cybersecurity situations.
+
+This course isn't just about technical abilities, but also about your mindset, as you will realize by the last lab. You can't call yourself a professional SOC analyst if you lack a curious nature, because you won't only respond to alerts and triage attacks, but you will need to investigate breaches and get every bit of infomation that you can, and that is not possible without asking yourself the right questions.
+
+## Start Here
+To start this course, you will be learning how to analyze multiple type of logs, especially Sysmon logs. You can do that in an infinite amount of ways, we tried to teach the easiest one.
+
+[First Lab - Log Analysis](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+
+## Getting Support
+We’ll use GitHub Issues to ask questions, report bugs, and suggest improvements — just like in a real-world SOC environment where tracking and documentation are crucial.
+
+### How to Ask for Help or Report a Bug
+1. Go to the GitHub Repository
+- Open the course repository in your browser ***(final URL)***
+
+2. Click on the “Issues” Tab in the top-left
+
+<img width="92" height="36" alt="image" src="https://github.com/user-attachments/assets/147d9dcb-0045-4d39-b797-df6d65353fff" />
+
+- You’ll see a list of existing issues, check if your problem has already been reported
 
 
-Log analysis involves reviewing system and security logs to detect unusual or malicious activity. Each log entry typically includes a timestamp, source, user account, event type, and a unique Event ID.
-Most important IDs are:
-- **4624** = Succesfull Logon
-- **4625** = Failed logon
-- **4688** = Process creation
-- **4670** = Permission changes
+3. Create a New Issue
+- Click `New issue`
+- Fill in the details, including: `What went wrong?`, `What were you doing?`, `What did you expect to happen?`, `Screenshot or terminal output`
 
-Effective log analysis involves:
-- Filtering noise
-- Correlating events over time (easy using special tools like [Hayabusa](/courseFiles/tools/Hayabusa.md)
-- Flagging anomalies like brute-force logins or unusual logon times
+4. Submit the issue
 
 
-
-## Sysmon Logs
-Sysmon (System Monitor) is a Windows system service that logs detailed system activity to the Event Log, beyond what standard logs capture. It’s often used in security monitoring and DFIR.
-Sysmon logs appear under the Microsoft-Windows-Sysmon/Operational and include details like:
-- **Event ID 1** – Process creation (with full command line, parent/child PID)
-- **Event ID 3** – Network connections
-- **Event ID 10** – Process access (used for example in credential dumping detection)
-- **Event ID 11** – File creation
-
-
-## Authentication Logs
-Authentication logs include detailed information about the device used to access the service, the user’s location, and other considerations that might influence risk. Generally, these logs only include information about the following events:
-
-- Successful logins
-- Login attempts
-- Login errors
-- Logouts, with additional information shows whether a logout was manual or due to session expiration.
-
->[!IMPORTANT]
->
->Identity breaches may be detected with the help of this information. For instance, brute force credential-guessing attempts can be detected using authentication logs since they will appear in the audit trail as unsuccessful authentications. They are able to identify the users who were impacted by the breach, but they are unable to determine what those user accounts could access or do. Authorization audit logs are useful in this situation. By using authorization decision logs, we will be able to determine the breach's blast radius.
-
-
-
-## Tools to Learn
-Viewing alerts and logs is key to detecting suspicious activity on a system. Tools like [Hayabusa](/courseFiles/tools/Hayabusa.md) allow analysts to quickly analyze Windows event logs (.evtx), apply detection rules, and generate timelines or alerts for threats such as privilege escalation, malware, or lateral movement as well as the built in [Windows Event Viewer](/courseFiles/tools/WinEventViewer.md).
 
 
 ***                                                       
 
-<b><i>Continuing the course?</b>
-</br>
-[Click here for the Next Lab](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)</i>
 
-<b><i>Want to go back?</b>
-</br>
-[Click here for the Previous Lab](/courseFiles/Lab_00-welcome/welcome.md)
 
-<b><i>Looking for a different lab? </b></br>[Back to Lab Directory](/coursenavigation.md)</i>
+<b><i>Continuing the course?</b> 
+</br>
+[Click here for the Next Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)</i>
+
+<b><i>Looking for a different lab? </b></br> 
+[Back to Lab Directory](/coursenavigation.md)</i>
+
