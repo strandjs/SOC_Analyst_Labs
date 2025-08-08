@@ -15,24 +15,29 @@
 - [Sysmon Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#sysmon-logs)
 - [Authentication Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#authentication-logs)
 - [Tools to Learn](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
+- [Log Analysis Lab](courseFiles/Lab_01-logAnalysis_Basics/logAnalysisBasics_Lab.md)
 
 ***
 ### [Security Tools & Foundational Platforms](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 - [Intro](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#intro)
-- [LimaCharlie](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie-hands-on)
+- [LimaCharlie](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie)
 - [Elastic SIEM Hands-On](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#elastic-siem-hands-on)
 - [Viewing Alerts & Logs](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#viewing-alerts--logs)
 - [Writing & Modifying Basic Detection Rules](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#writing--modifying-basic-detection-rules)
 - [Telemetry Searching](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#telemetry-searching)
+- [Elastic Cloud Lab](courseFiles/Lab_02-toolsAndPlatforms/elasticLabCloud.md)
+- [Elastic Local Lab](courseFiles/Lab_02-toolsAndPlatforms/elasticLabLocal.md)
+- [Lima Charlie Lab part 1](courseFiles/Lab_02-toolsAndPlatforms/lima_charlie_lab_part1.md)
+- [Lima Charlie Lab part 2](courseFiles/Lab_02-toolsAndPlatforms/lima_charlie_lab_part2.md)
 
 ***
 ### [Introduction to Detection & Threat Behavior](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
-- [Intro](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
-- [The MITRE ATT&CK Framework](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#the-mitre-attck-framework)
-- [Mapping Log Events to ATT&CK Techniques](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#mapping-log-events-to-attck-techniques)
-- [Open Source Projects](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#open-source-projects)
+- [Intro Lab](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
+- [The MITRE ATT&CK Framework](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT&CK.md)
+- [Mapping Log Events to ATT&CK Techniques](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT%26CK.md#mapping-log-events-to-attck-techniques)
+- [Open Source Projects](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT%26CK.md#open-source-projects)
 
 ***
 ### [Scripting for SOC Tasks](/courseFiles/Lab_04-socScripting/socScripting.md)
@@ -40,6 +45,10 @@
 - [Intro](courseFiles/Lab_04-socScripting/socScripting.md#intro)
 - [Python Scripting Basics](courseFiles/Lab_04-socScripting/socScripting.md#python-scripting-basics)
 - [Powershell Basics](courseFiles/Lab_04-socScripting/socScripting.md#powershell-basics)
+- [Lab 1 Detect Brute Force Script](courseFiles/Lab_04-socScripting/lab1_detect_brute_force.md)
+- [Lab 1 Detect Brute Force Script Solution](courseFiles/Lab_04-socScripting/lab1_solution_step_by_step.md)
+- [Lab 2 Collect System Info Powershell Script](courseFiles/Lab_04-socScripting/lab2_collect_system_info.md)
+- [Lab 2 Collect System Info Powershell Script Solution](courseFiles/Lab_04-socScripting/lab2_solution_steb_by_step.md)
 
 ***
 ### [Networking & Telemetry 101](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)
@@ -48,6 +57,9 @@
 - [Identifying Network Logs](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#identifying-network-logs)
 - [Examining Packet Captures](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#examining-packet-captures)
 - [Metadata NetFlow vs Full Packet Capture](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#metadata-netflow-vs-full-packet-capture)
+- [Wireshark LDAP Lab](courseFiles/Lab_05-networkingAndTelemetry/wireshark_ldap_lab.md)
+- [Wireshark LDAP Lab Solution](courseFiles/Lab_05-networkingAndTelemetry/wireshark_ldap_lab_solution.md)
+- [IDS Lab](courseFiles/Lab_05-networkingAndTelemetry/ids_lab.md)
 
 ***
 ### [Browser & Cloud Security Fundamentals](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
@@ -56,6 +68,7 @@
 - [OAuth & SSO Attacks](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
 - [Azure Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
 - [M365 Audit Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
+- [Azure Lab](courseFiles/Lab_06-browserAndCloudSecurity/azureLab.md)
 
 ***
 ### [Deception Systems](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
@@ -64,6 +77,9 @@
 - [Generating Traps](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#generating-traps)
 - [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
 - [Legal Notes](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#legal-notes)
+- [Dionaea Lab](courseFiles/Lab_07-deceptionSystems/dionaeaLab.md)
+- [Beelzebub Lab](courseFiles/Lab_07-deceptionSystems/beelzebubLab.md)
+- [CanaryToken Lab](courseFiles/Lab_07-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
 
 ***
 ### [Email Fundamentals](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
@@ -72,6 +88,8 @@
 - [Common Email-Based Attacks](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#common-email-based-attacks)
 - [Email Security Solutions](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#email-security-solutions)
 - [Projects to Try](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#projects-to-try)
+- [Phishing Email Lab](courseFiles/Lab_08-emailFundamentals/phishing_email_lab.md)
+- [Phishing Email Lab Solution](courseFiles/Lab_08-emailFundamentals/phishing_email_lab_solution.md)
 
 ***
 ### [Documentation & Case Notes](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
@@ -80,6 +98,7 @@
 - [Writing an Incident Timeline](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
 - [Writing an Alert Triage Summary](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
 - [Real-World Examples](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
+- [Documentation Lab](courseFiles/Lab_09-documentationAndCaseNotes/documentationLab.md)
 
 ***
 ### [Soft Skills](courseFiles/Lab_10-softSkills/softSkills.md)
