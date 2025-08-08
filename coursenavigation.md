@@ -48,7 +48,6 @@
 - [Lab 1 Detect Brute Force Script](courseFiles/Lab_04-socScripting/lab1_detect_brute_force.md)
 - [Lab 1 Detect Brute Force Script Solution](courseFiles/Lab_04-socScripting/lab1_solution_step_by_step.md)
 - [Lab 2 Collect System Info Powershell Script](courseFiles/Lab_04-socScripting/lab2_collect_system_info.md)
-
 - [Lab 2 Collect System Info Powershell Script Solution](courseFiles/Lab_04-socScripting/lab2_solution_steb_by_step.md)
 
 ***
