@@ -89,6 +89,8 @@
 - [Common Email-Based Attacks](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#common-email-based-attacks)
 - [Email Security Solutions](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#email-security-solutions)
 - [Projects to Try](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md#projects-to-try)
+- [Phishing Email Lab](courseFiles/Lab_08-emailFundamentals/phishing_email_lab.md)
+- [Phishing Email Lab Solution](courseFiles/Lab_08-emailFundamentals/phishing_email_lab_solution.md)
 
 ***
 ### [Documentation & Case Notes](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
