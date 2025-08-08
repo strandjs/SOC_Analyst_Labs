@@ -15,24 +15,29 @@
 - [Sysmon Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#sysmon-logs)
 - [Authentication Logs](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#authentication-logs)
 - [Tools to Learn](courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md#tools-to-learn)
+- [Log Analysis Lab](courseFiles/Lab_01-logAnalysis_Basics/logAnalysisBasics_Lab.md)
 
 ***
 ### [Security Tools & Foundational Platforms](/courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 - [Intro](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#intro)
-- [LimaCharlie](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie-hands-on)
+- [LimaCharlie](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie)
 - [Elastic SIEM Hands-On](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#elastic-siem-hands-on)
 - [Viewing Alerts & Logs](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#viewing-alerts--logs)
 - [Writing & Modifying Basic Detection Rules](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#writing--modifying-basic-detection-rules)
 - [Telemetry Searching](courseFiles/Lab_02-toolsAndPlatforms/toolsAndPlatforms.md#telemetry-searching)
+- [Elastic Cloud Lab](courseFiles/Lab_02-toolsAndPlatforms/elasticLabCloud.md)
+- [Elastic Local Lab](courseFiles/Lab_02-toolsAndPlatforms/elasticLabLocal.md)
+- [Lima Charlie Lab part 1](courseFiles/Lab_02-toolsAndPlatforms/lima_charlie_lab_part1.md)
+- [Lima Charlie Lab part 2](courseFiles/Lab_02-toolsAndPlatforms/lima_charlie_lab_part2.md)
 
 ***
 ### [Introduction to Detection & Threat Behavior](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
-- [Intro](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
-- [The MITRE ATT&CK Framework](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#the-mitre-attck-framework)
-- [Mapping Log Events to ATT&CK Techniques](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#mapping-log-events-to-attck-techniques)
-- [Open Source Projects](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#open-source-projects)
+- [Intro Lab](courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md#intro)
+- [The MITRE ATT&CK Framework](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT&CK.md)
+- [Mapping Log Events to ATT&CK Techniques](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT%26CK.md#mapping-log-events-to-attck-techniques)
+- [Open Source Projects](courseFiles/Lab_03-detectionAndThreatBehavior/MITRE_ATT%26CK.md#open-source-projects)
 
 ***
 ### [Scripting for SOC Tasks](/courseFiles/Lab_04-socScripting/socScripting.md)
@@ -40,6 +45,11 @@
 - [Intro](courseFiles/Lab_04-socScripting/socScripting.md#intro)
 - [Python Scripting Basics](courseFiles/Lab_04-socScripting/socScripting.md#python-scripting-basics)
 - [Powershell Basics](courseFiles/Lab_04-socScripting/socScripting.md#powershell-basics)
+- [Lab 1 Detect Brute Force Script](courseFiles/Lab_04-socScripting/lab1_detect_brute_force.md)
+- [Lab 1 Detect Brute Force Script Solution](courseFiles/Lab_04-socScripting/lab1_solution_step_by_step.md)
+- [Lab 2 Collect System Info Powershell Script](courseFiles/Lab_04-socScripting/lab2_collect_system_info.md)
+
+- [Lab 2 Collect System Info Powershell Script Solution](courseFiles/Lab_04-socScripting/lab2_solution_steb_by_step.md)
 
 ***
 ### [Networking & Telemetry 101](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)
