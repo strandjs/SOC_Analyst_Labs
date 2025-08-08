@@ -58,6 +58,9 @@
 - [Identifying Network Logs](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#identifying-network-logs)
 - [Examining Packet Captures](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#examining-packet-captures)
 - [Metadata NetFlow vs Full Packet Capture](courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md#metadata-netflow-vs-full-packet-capture)
+- [Wireshark LDAP Lab](courseFiles/Lab_05-networkingAndTelemetry/wireshark_ldap_lab.md)
+- [Wireshark LDAP Lab Solution](courseFiles/Lab_05-networkingAndTelemetry/wireshark_ldap_lab_solution.md)
+- [IDS Lab](courseFiles/Lab_05-networkingAndTelemetry/ids_lab.md)
 
 ***
 ### [Browser & Cloud Security Fundamentals](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
@@ -66,6 +69,7 @@
 - [OAuth & SSO Attacks](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
 - [Azure Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
 - [M365 Audit Logs](courseFiles/Lab_06-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
+- [Azure Lab](courseFiles/Lab_06-browserAndCloudSecurity/azureLab.md)
 
 ***
 ### [Deception Systems](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md)
