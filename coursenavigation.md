@@ -99,6 +99,7 @@
 - [Writing an Incident Timeline](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
 - [Writing an Alert Triage Summary](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
 - [Real-World Examples](courseFiles/Lab_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
+- [Documentation Lab](courseFiles/Lab_09-documentationAndCaseNotes/documentationLab.md)
 
 ***
 ### [Soft Skills](courseFiles/Lab_10-softSkills/softSkills.md)
