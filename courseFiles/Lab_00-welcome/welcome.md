@@ -39,8 +39,9 @@ We’ll use GitHub Issues to ask questions, report bugs, and suggest improvement
 
 
 <b><i>Continuing the course?</b>
-
-</br>
-<b><i>Looking for a different lab? </b></br> [Back to Lab Directory](/coursenavigation.md)</i>
-
 [Click here for the Next Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)</i>
+</br>
+
+<b><i>Looking for a different lab? </b></br> 
+[Back to Lab Directory](/coursenavigation.md)</i>
+
