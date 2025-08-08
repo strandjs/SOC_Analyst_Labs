@@ -78,6 +78,9 @@
 - [Generating Traps](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#generating-traps)
 - [Active Defense & Cyber Deception](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
 - [Legal Notes](courseFiles/Lab_07-deceptionSystems/deceptionSystems.md#legal-notes)
+- [Dionaea Lab](courseFiles/Lab_07-deceptionSystems/dionaeaLab.md)
+- [Beelzebub Lab](courseFiles/Lab_07-deceptionSystems/beelzebubLab.md)
+- [CanaryToken Lab](courseFiles/Lab_07-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
 
 ***
 ### [Email Fundamentals](courseFiles/Lab_08-emailFundamentals/emailFundamentals.md)
