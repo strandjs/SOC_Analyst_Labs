@@ -49,7 +49,7 @@ Advanced Features
 
 
 ---
-[Back to the Lab](/courseFiles/Lab_01-logAnalysis_Basics/logAnalysis_basics.md)
+[Back to the Section](/courseFiles/Section_01-logAnalysis_Basics/logAnalysis_basics.md)
 
 
 
