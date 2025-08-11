@@ -2,7 +2,6 @@
 
 Zeek (formerly known as Bro) is a powerful network security monitoring platform. Unlike traditional packet analyzers, Zeek operates as a network security engine that passively monitors traffic and generates rich logs describing network activity. For SOC Analysts, Zeek is invaluable for detecting anomalies, understanding protocol behavior, and performing incident response.
 
-!!I was unable to install and configure zeek so this page was created from resources I found online
 
 ---
 
