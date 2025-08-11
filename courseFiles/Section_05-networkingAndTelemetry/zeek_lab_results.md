@@ -2,7 +2,7 @@
 
 This document is the *completion* of the Zeek lab. It contains the actual commands you ran, the important output excerpts, and short, focused explanations.
 
->![IMPORTANT]
+>[!IMPORTANT]
 >
 >Please check out [Zeek Lab](./zeek_lab.md) before visiting this section!
 
