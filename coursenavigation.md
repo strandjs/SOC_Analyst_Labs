@@ -60,6 +60,8 @@
 - [Wireshark LDAP Lab](courseFiles/Section_05-networkingAndTelemetry/wireshark_ldap_lab.md)
 - [Wireshark LDAP Lab Solution](courseFiles/Section_05-networkingAndTelemetry/wireshark_ldap_lab_solution.md)
 - [IDS Lab](courseFiles/Section_05-networkingAndTelemetry/ids_lab.md)
+ - [Zeek Lab](courseFiles/Section_05-networkingAndTelemetry/zeek_lab.md)
+ - [Zeek Lab Results](courseFiles/Section_05-networkingAndTelemetry/zeek_lab_results.md)
 
 ***
 ### [Browser & Cloud Security Fundamentals](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
