@@ -224,6 +224,17 @@ Packets: 10
 
  [IDS Snort/Suricata Lab](/courseFiles/Section_05-networkingAndTelemetry/ids_lab.md)
 
+ [Zeek Lab](/courseFiles/Section_05-networkingAndTelemetry/zeek_lab.md)
+ [Zeek Lab Results](/courseFiles/Section_05-networkingAndTelemetry/zeek_lab_results.md)
+
+## Tools Documentations
+
+- [Snort](../tools/snort.md)
+- [Suricata](../tools/suricata.md)
+- [tcpdump](../tools/tcpdump.md)
+- [Wireshark](../tools/wireshark.md)
+- [Zeek](../tools/zeek.md)
+
  ***               
 
 <b><i>Continuing the course?</b>
