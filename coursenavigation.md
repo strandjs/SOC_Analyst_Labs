@@ -62,10 +62,10 @@
 - [IDS Lab](courseFiles/Section_05-networkingAndTelemetry/ids_lab.md)
 - [Zeek Lab](courseFiles/Section_05-networkingAndTelemetry/zeek_lab.md)
 - [Zeek Lab Results](courseFiles/Section_05-networkingAndTelemetry/zeek_lab_results.md)
--[Scapy Documentation part 1](/courseFiles/tools/scapy_documentation_part1.md)
--[Scapy Documentation part 2](/courseFiles/tools/scapy_documentation_part2.md)
--[Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
--[Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
+- [Scapy Documentation part 1](/courseFiles/tools/scapy_documentation_part1.md)
+- [Scapy Documentation part 2](/courseFiles/tools/scapy_documentation_part2.md)
+- [Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
+- [Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
 
 
 
