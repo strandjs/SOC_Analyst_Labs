@@ -102,7 +102,8 @@ Explanation:
 
 Also check out [Powershell for SOC](/courseFiles/Lab_04-socScripting/powershell_for_soc.md) for more useful commands to learn.
 
-## Labs
+## Labs and Tools
+
 
 [Lab 1](/courseFiles/Lab_04-socScripting/lab1_detect_brute_force.md)
 
@@ -111,6 +112,15 @@ Also check out [Powershell for SOC](/courseFiles/Lab_04-socScripting/powershell_
 [Lab 2](/courseFiles/Lab_04-socScripting/lab2_collect_system_info.md)
 
 [Lab 2 Solution](/courseFiles/Lab_04-socScripting/lab2_solution_steb_by_step.md)
+
+[Scapy Documentation part 1](/courseFiles/tools/scapy_documentation_part1.md)
+
+[Scapy Documentation part 2](/courseFiles/tools/scapy_documentation_part2.md)
+
+[Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
+
+[Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
+
 
 ***                                                       
 
