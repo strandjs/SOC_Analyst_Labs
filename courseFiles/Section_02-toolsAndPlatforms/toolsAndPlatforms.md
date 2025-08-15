@@ -19,6 +19,59 @@ For a LC hands-on lab, try the 2 part [Lima Charlie Lab](/courseFiles/Section_02
 
 ### LimaCharlie Rules Examples
 
+- DNS to known-bad domain
+```bash
+event: DNS_REQUEST
+op: is
+path: event/DOMAIN_NAME
+value: bad.example
+actions:
+  - action: report
+    name: "DNS to bad.example"
+```
+
+- Process from temp launching PowerShell
+```bash
+event: NEW_PROCESS
+op: and
+rules:
+  - op: contains
+    path: event/FILE_PATH
+    value: \AppData\Local\Temp\
+  - op: ends with
+    path: event/PROC_NAME
+    value: powershell.exe
+actions:
+  - action: report
+    name: "Temp -> PowerShell"
+```
+
+- LSASS access attempt (handle open)
+```bash
+event: HANDLE_REQUEST
+op: and
+rules:
+  - op: ends with
+    path: event/TARGET/PROC_NAME
+    value: lsass.exe
+  - op: is
+    path: event/ACCESS
+    value: PROCESS_VM_READ
+actions:
+  - action: report
+    name: "LSASS read attempt"
+```
+
+- Persistence via Run key
+```bash
+event: REGISTRY_EDIT
+op: starts with
+path: event/REG_PATH
+value: HKCU\Software\Microsoft\Windows\CurrentVersion\Run\
+actions:
+  - action: report
+    name: "Run key persistence"
+```
 
 ## Elastic SIEM Hands-On
 [Elastic SIEM Docs](/courseFiles/tools/Elastic_Doc_Cloud.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
@@ -32,6 +85,22 @@ After setting it up, you can try the Elastic Labs for the [Cloud Version Lab](/c
 event.category:process and event.type:start and
 process.name:("powershell.exe","pwsh.exe") and
 process.command_line:(*"-enc"* or *"-EncodedCommand"* or *"FromBase64String("*)
+```
+
+- Delete Volume Shadow Copies
+```bash
+event.category:process and event.type:start and
+process.name:"vssadmin.exe" and process.command_line:(*delete* and *shadows*)
+```
+
+- Multiple failed logons from one IP (Threshold rule logic)
+```bash
+event.dataset:"windows.security" and winlog.event_id:4625
+```
+
+- New Terms: First-time admin tool seen on a host
+```bash
+event.category:process and process.name:(psexec*.exe or "wmic.exe" or "at.exe" or "schtasks.e
 ```
 
 ## Viewing Alerts & Logs
