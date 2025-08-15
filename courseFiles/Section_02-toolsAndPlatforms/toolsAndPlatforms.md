@@ -17,11 +17,21 @@ LimaCharlie is a cutting-edge cybersecurity operations and infrastructure platfo
 
 For a LC hands-on lab, try the 2 part [Lima Charlie Lab](/courseFiles/Section_02-toolsAndPlatforms/lima_charlie_lab_part1.md)
 
+### LimaCharlie Rules Examples
+
 
 ## Elastic SIEM Hands-On
 [Elastic SIEM Docs](/courseFiles/tools/Elastic_Doc_Cloud.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
 
 After setting it up, you can try the Elastic Labs for the [Cloud Version Lab](/courseFiles/Section_02-toolsAndPlatforms/elasticLabCloud.md) to run on our VM, or the [Local Version Lab](/courseFiles/Section_02-toolsAndPlatforms/elasticLabLocal.md) in case you want to install it locally on your system
+
+### Elastic Rules Examples
+
+```bash
+event.category:process and event.type:start and
+process.name:("powershell.exe","pwsh.exe") and
+process.command_line:(*"-enc"* or *"-EncodedCommand"* or *"FromBase64String("*)
+```
 
 ## Viewing Alerts & Logs
 SOC analysts must interpret alerts in context and verify their validity
