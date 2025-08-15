@@ -27,11 +27,9 @@ After setting it up, you can try the Elastic Labs for the [Cloud Version Lab](/c
 
 ### Elastic Rules Examples
 
-```bash
-event.category:process and event.type:start and
+<pre>event.category:process and event.type:start and
 process.name:("powershell.exe","pwsh.exe") and
-process.command_line:(*"-enc"* or *"-EncodedCommand"* or *"FromBase64String("*)
-```
+process.command_line:(*"-enc"* or *"-EncodedCommand"* or *"FromBase64String("*)</pre>
 
 ## Viewing Alerts & Logs
 SOC analysts must interpret alerts in context and verify their validity
