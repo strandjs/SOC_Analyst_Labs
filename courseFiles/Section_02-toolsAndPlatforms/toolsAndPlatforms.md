@@ -12,14 +12,16 @@ Categories of Security Tools
 
 This lab introduces interns to **foundational tools and platforms** used daily in a SOC environment. Understanding how data flows from endpoints to security platforms—and how to investigate, triage, and act—is key to being an effective SOC analyst
 
-## LimaCharlie
-LimaCharlie is a cutting-edge cybersecurity operations and infrastructure platform made to assist security teams in identifying, addressing, and managing threats on a large scale. With features designed for security engineers and SOC analysts, it provides an adaptable, API-driven substitute for conventional Endpoint Detection and Response (EDR) systems.
+## LimaCharlie Hands-On
+LimaCharlie is a cutting-edge cybersecurity operations and infrastructure platform made to assist security teams in identifying, addressing, and managing threats on a large scale. With features designed for security engineers and SOC analysts, it provides an adaptable, API-driven substitute for conventional Endpoint Detection and Response (EDR) systems
+
+For a LC hands-on lab, try the 2 part [Lima Charlie Lab](/courseFiles/Section_02-toolsAndPlatforms/lima_charlie_lab_part1.md)
 
 
 ## Elastic SIEM Hands-On
-[Elastic SIEM](/courseFiles/tools/Elastic_Doc_Cloud.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
+[Elastic SIEM Docs](/courseFiles/tools/Elastic_Doc_Cloud.md), part of the Elastic Stack (Elasticsearch, Logstash, Kibana), provides a flexible and powerful SIEM solution for log ingestion, search, visualization, and detection
 
-After setting it up, you can try the Elastic Labs for the [Cloud Version](/courseFiles/Section_02-toolsAndPlatforms/elasticLabCloud.md) to run on our VM, or the [Local Version](/courseFiles/Section_02-toolsAndPlatforms/elasticLabLocal.md) in case you want to install it locally on your system
+After setting it up, you can try the Elastic Labs for the [Cloud Version Lab](/courseFiles/Section_02-toolsAndPlatforms/elasticLabCloud.md) to run on our VM, or the [Local Version Lab](/courseFiles/Section_02-toolsAndPlatforms/elasticLabLocal.md) in case you want to install it locally on your system
 
 ## Viewing Alerts & Logs
 SOC analysts must interpret alerts in context and verify their validity
