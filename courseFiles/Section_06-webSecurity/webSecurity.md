@@ -138,3 +138,15 @@ Antivirus alerts on uploaded files</pre>
 <pre>Logs with unusual internal IP requests (e.g., 169.254.169.254)</pre>
 
 **Prevention:** Network segmentation, allowlists(never rely only on denylists)
+
+***
+
+<b><i>Continuing the course?</b>
+</br>
+[Click here for the Next Section](/courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
+
+<b><i>Want to go back?</b>
+</br>
+[Click here for the Previous Section](/courseFiles/Section_05-networkingAndTelemetry/networkingAndTelemetry.md)
+
+<b><i>Looking for a different Section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>
