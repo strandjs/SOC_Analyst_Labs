@@ -150,10 +150,10 @@ Microsoft 365 (M365) is a SaaS suite providing cloud-based email, collaboration,
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_07-deceptionSystems/deceptionSystems.md)</i>
+[Click here for the Next Section](/courseFiles/Section_08-deceptionSystems/deceptionSystems.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Section](/courseFiles/Section_05-networkingAndTelemetry/networkingAndTelemetry.md)
+[Click here for the Previous Section](/courseFiles/Section_06-webSecurity/webSecurity.md)
 
 <b><i>Looking for a different Section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>

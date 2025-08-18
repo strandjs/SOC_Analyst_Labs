@@ -21,7 +21,7 @@
 ### [Security Tools & Foundational Platforms](/courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md)
 
 - [Intro](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#intro)
-- [LimaCharlie](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie)
+- [LimaCharlie Hands-On](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#limacharlie-hands-on)
 - [Elastic SIEM Hands-On](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#elastic-siem-hands-on)
 - [Viewing Alerts & Logs](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#viewing-alerts--logs)
 - [Writing & Modifying Basic Detection Rules](courseFiles/Section_02-toolsAndPlatforms/toolsAndPlatforms.md#writing--modifying-basic-detection-rules)
@@ -67,6 +67,10 @@
 - [Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
 - [Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
 
+***
+### [Web Security](/courseFiles/Section_06-webSecurity/webSecurity.md) 
+
+
 
 
 ***
@@ -88,6 +92,13 @@
 - [Dionaea Lab](courseFiles/Section_07-deceptionSystems/dionaeaLab.md)
 - [Beelzebub Lab](courseFiles/Section_07-deceptionSystems/beelzebubLab.md)
 - [CanaryToken Lab](courseFiles/Section_07-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
+
+
+***
+### [Forensics Fundamentals](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md) 
+
+
+
 
 ***
 ### [Email Fundamentals](courseFiles/Section_08-emailFundamentals/emailFundamentals.md)
