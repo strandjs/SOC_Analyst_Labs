@@ -239,7 +239,7 @@ Packets: 10
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
+[Click here for the Next Section](/courseFiles/Section_06-webSecurity/webSecurity.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
