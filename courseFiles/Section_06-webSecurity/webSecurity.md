@@ -79,11 +79,24 @@ Impossible travel logins
 
 Session reuse from multiple IPs</pre>
 
+[Owasp Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+
 ---
 
 5. **File Upload Vulnerabilities**
 
+**What it is:** Attacker uploads malicious files (e.g., .php shell disguised as .jpg)
 
+**Impact:** Remote code execution, malware hosting
+
+**Detection:**
+<pre>Web logs with suspicious uploads (.php, .jsp, .exe)
+
+Antivirus alerts on uploaded files</pre>
+
+**Prevention:** File type validation, AV scanning, store files outside webroot
+
+[Owasp File Upload Risks](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
 
 ---
 
