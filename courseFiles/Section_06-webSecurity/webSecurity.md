@@ -102,15 +102,39 @@ Antivirus alerts on uploaded files</pre>
 
 6. **Insecure Direct Object References (IDOR)**
 
+**What it is:** Accessing data by modifying IDs in URLs (/user?id=123 → /user?id=124).
 
+**Impact:** Unauthorized data exposure.
+
+**Detection:** 
+<pre>Log anomalies (same user accessing multiple IDs quickly)</pre>
+
+**Prevention:** Enforce access controls at server side.
 
 ---
 
 7. **Remote Code Execution (RCE) & Deserialization**
 
+**RCE:** Attacker executes arbitrary commands on server
 
+**Deserialization attacks:** Exploiting unsafe object parsing
+
+**Impact:** Full system takeover (Log4Shell example)
+
+**Detection:** 
+<pre>Logs with suspicious process executions, unusual outbound connections</pre>
+
+**Prevention:** Input sanitization, safe libraries, timely patching
 
 ---
 
 8. **Server-Side Request Forgery (SSRF)**
 
+**What it is:** Attacker makes server send requests to internal/external systems
+
+**Impact:** Data theft (e.g., AWS metadata service)
+
+**Detection:** 
+<pre>Logs with unusual internal IP requests (e.g., 169.254.169.254)</pre>
+
+**Prevention:** Network segmentation, allowlists(never rely only on denylists)
