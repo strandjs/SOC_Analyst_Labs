@@ -200,10 +200,10 @@ Check out the [phishing_email_lab.md](./phishing_email_lab.md) and also the [sol
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md)</i>
+[Click here for the Next Section](/courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Section](/courseFiles/Section_07-deceptionSystems/deceptionSystems.md)
+[Click here for the Previous Section](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md)
 
 <b><i>Looking for a different section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>
