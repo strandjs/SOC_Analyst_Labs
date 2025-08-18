@@ -34,6 +34,8 @@ WAF/IDS alerts (rules for sqlmap user-agent)
 
 Prevention: Use parameterized queries, ORM, and DB least privilege</pre>
 
+---
+
 2. **Cross-Site Scripting (XSS)**
 
 
