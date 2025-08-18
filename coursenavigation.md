@@ -93,6 +93,13 @@
 - [Beelzebub Lab](courseFiles/Section_07-deceptionSystems/beelzebubLab.md)
 - [CanaryToken Lab](courseFiles/Section_07-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
 
+
+***
+### [Web Security](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md) 
+
+
+
+
 ***
 ### [Email Fundamentals](courseFiles/Section_08-emailFundamentals/emailFundamentals.md)
 
