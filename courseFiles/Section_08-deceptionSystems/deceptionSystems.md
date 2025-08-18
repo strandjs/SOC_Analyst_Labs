@@ -89,7 +89,7 @@ Best advice I can give is use the MITRE Engage framework for designing ethical, 
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_09-emailFundamentals/emailFundamentals.md)</i>
+[Click here for the Next Section](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
