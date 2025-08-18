@@ -38,6 +38,21 @@ Prevention: Use parameterized queries, ORM, and DB least privilege</pre>
 
 2. **Cross-Site Scripting (XSS)**
 
+**What it is:** Attacker injects JavaScript into a web page, which runs in the victim’s browser.
+
+**Types:** Reflected (in URL), Stored (in DB), DOM-based.
+
+**Impact:** Session hijacking, credential theft, phishing.
+
+**Detection (SOC view):**
+
+<pre>Logs with <script>, onerror=, alert(1)
+
+Multiple failed WAF blocks from same IP
+
+Prevention: Output encoding, Content Security Policy (CSP)</pre>
+
+---
 
 3. **Cross-Site Request Forgery (CSRF)**
 
