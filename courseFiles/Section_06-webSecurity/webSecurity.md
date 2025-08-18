@@ -26,7 +26,7 @@ Key aspects
 
 **Impact:** Credential theft, DB dumps, account takeover
 
-**Detection**
+**Detection:**
 <pre>Web server logs with suspicious strings (' OR 1=1, UNION SELECT, --)
 
 WAF/IDS alerts (rules for sqlmap user-agent)
@@ -63,17 +63,41 @@ Prevention: Output encoding, Content Security Policy (CSP)</pre>
 
 Prevention: Anti-CSRF tokens, SameSite cookies</pre>
 
+---
+
 4. **Authentication & Session Attacks**
 
+**Examples:**
+- Brute force/credential stuffing
+- Session fixation
+- Weak password resets
+
+**Detection:**
+<pre>Repeated failed logins from same IP
+
+Impossible travel logins
+
+Session reuse from multiple IPs</pre>
+
+---
 
 5. **File Upload Vulnerabilities**
 
 
+
+---
+
 6. **Insecure Direct Object References (IDOR)**
 
 
+
+---
+
 7. **Remote Code Execution (RCE) & Deserialization**
 
+
+
+---
 
 8. **Server-Side Request Forgery (SSRF)**
 
