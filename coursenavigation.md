@@ -95,7 +95,7 @@
 
 
 ***
-### [Web Security](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md) 
+### [Forensics Fundamentals](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md) 
 
 
 
