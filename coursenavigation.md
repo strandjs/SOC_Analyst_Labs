@@ -67,6 +67,10 @@
 - [Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
 - [Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
 
+***
+### [Web Security](/courseFiles/Section_06-webSecurity/webSecurity.md) 
+
+
 
 
 ***
