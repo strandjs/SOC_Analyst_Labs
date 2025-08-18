@@ -28,11 +28,11 @@ Key aspects
 
 **Detection (SOC view):**
 
-Web server logs with suspicious strings (' OR 1=1, UNION SELECT, --)
+<pre>Web server logs with suspicious strings (' OR 1=1, UNION SELECT, --)
 
 WAF/IDS alerts (rules for sqlmap user-agent)
 
-Prevention: Use parameterized queries, ORM, and DB least privilege.
+Prevention: Use parameterized queries, ORM, and DB least privilege</pre>
 
 2. **Cross-Site Scripting (XSS)**
 
