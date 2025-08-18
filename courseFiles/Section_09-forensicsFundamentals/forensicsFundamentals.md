@@ -2,7 +2,7 @@
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_010-emailFundamentals/emailFundamentals.md)</i>
+[Click here for the Next Section](/courseFiles/Section_10-emailFundamentals/emailFundamentals.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
