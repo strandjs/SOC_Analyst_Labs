@@ -93,6 +93,6 @@ Best advice I can give is use the MITRE Engage framework for designing ethical, 
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Section](/courseFiles/Section_07-deceptionSystems/deceptionSystems.md)
+[Click here for the Previous Section](/courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
 <b><i>Looking for a different section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>
