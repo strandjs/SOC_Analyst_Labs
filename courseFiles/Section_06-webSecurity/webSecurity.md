@@ -22,7 +22,7 @@ Key aspects
 
 **What it is:** Attacker injects malicious SQL into queries to read/modify DB data
 
-**Example:** OR ``'1'='1' --`` in login fields
+**Example:** ``OR '1'='1' --`` in login fields
 
 **Impact:** Credential theft, DB dumps, account takeover
 
