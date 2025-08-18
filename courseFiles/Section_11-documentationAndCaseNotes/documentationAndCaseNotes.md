@@ -93,7 +93,7 @@ Timeline(from public findings)
 ***
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Section_11-softSkills/softSkills.md)</i>
+[Click here for the Next Section](/courseFiles/Section_12-softSkills/softSkills.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
