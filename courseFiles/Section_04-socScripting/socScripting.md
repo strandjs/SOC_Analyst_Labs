@@ -126,10 +126,10 @@ Also check out [Powershell for SOC](/courseFiles/Lab_04-socScripting/powershell_
 
 <b><i>Continuing the course?</b>
 </br>
-[Click here for the Next Section](/courseFiles/Lab_05-networkingAndTelemetry/networkingAndTelemetry.md)</i>
+[Click here for the Next Section](/courseFiles/Section_05-networkingAndTelemetry/networkingAndTelemetry.md)</i>
 
 <b><i>Want to go back?</b>
 </br>
-[Click here for the Previous Section](/courseFiles/Lab_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
+[Click here for the Previous Section](/courseFiles/Section_03-detectionAndThreatBehavior/detectionAndThreatBehavior.md)
 
 <b><i>Looking for a different section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>
