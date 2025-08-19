@@ -18,3 +18,27 @@ To run it do
 ```bash
 python3 vol.py
 ```
+
+## Usage
+
+To list needed plugins and get help you can use
+
+- For **Windows**
+```bash
+python3 vol.py -h | grep windows
+```
+
+- For **Linux**
+```bash
+python3 vol.py -h | grep linux
+```
+
+- For general help
+```bash
+python3 vol.py -h
+```
+
+- For specific commands ( change ``windows.pslist.PsList`` with whatever command you wish )
+```bash
+python3 vol.py windows.pslist.PsList -h
+```
