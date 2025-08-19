@@ -194,6 +194,15 @@ If you don't want to install symbols for every linux dump, you can use a remote 
 (edit volatility3/framework/constants/__init__.py)
 <pre>REMOTE_ISF_URL = "https://raw.githubusercontent.com/leludo84/vol3-linux-profiles/main/banners-isf.json"</pre>
 
+***Or do***
+SYMS='--remote-isf-url https://github.com/Abyss-W4tcher/volatility3-symbols/raw/master/banners/banners.json'
+
+And then all the commands would look like this
+
+```bash
+python3 vol.py -f /path/to/memdump $SYMS linux.pslist.PsList
+```
+
 ### Notes
 Volatility does not provide the ability to acquire memory, for that best use scenario is [LiME](https://github.com/504ensicsLabs/LiME), and for windows [WinPmem](https://github.com/Velocidex/WinPmem) from Velociraptor
 
