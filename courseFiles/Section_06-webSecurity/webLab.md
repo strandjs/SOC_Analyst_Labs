@@ -161,6 +161,25 @@ sqlite3-binary; platform_system=='Windows'
 - Do `Ctrl+x` + `y` + `Enter`
 - Create the virtual environment and install the requirements
 ```bash
+sudo apt update
+```
+```bash
+sudo apt install python3-venv
+```
+- In case that doesn't work do this
+```bash
+curl -fsSL https://archive.kali.org/archive-key.asc \
+| sudo gpg --dearmor -o /usr/share/keyrings/kali-archive-keyring.gpg -y
+```
+```bash
 python -m venv .venv
 ```
 ```bash
+source .venv/bin/activate
+```
+```bash
+pip install -r requirements.txt
+```
+```bash
+python app.py
+```
