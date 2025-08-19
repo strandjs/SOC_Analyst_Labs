@@ -63,5 +63,25 @@ The WHERE clause remains exactly what we wrote: ``username = <value> AND passwor
 
 <img width="754" height="22" alt="image" src="https://github.com/user-attachments/assets/7f1485d7-7899-4715-8a48-6e54e1251ed8" />
 
+## TL;DR
+
+### Why /vuln is vulnerable
+- User input directly concatenated into SQL
+- Database can’t tell syntax from data
+- Payload rewrites the query -> bypasses auth
+
+### Prepared statements separate SQL code from user data
+- Prepared statements separate SQL code from user data
+- Input is always treated as text, never as instructions
+- Query structure stays intact no matter the payload
+
+### SOC Detection Tips
+- Watch for ``OR 1=1``, ``--``, ``UNION SELECT``, ``sleep()`` in logs
+- Repeated failed logins followed by success with odd input
+- SQLi tools (sqlmap) leave signatures in User-Agent and timing
+
+
+---
+[Back to the section](/courseFiles/Section_06-webSecurity/webSecurity.md)
 
 
