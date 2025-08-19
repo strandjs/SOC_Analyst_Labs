@@ -1,4 +1,4 @@
-<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/19125f6f-7feb-4174-ad6a-169bcd569e1d" />## Overview
+## Overview
 FTK Imager is a free forensic tool from AccessData used to preview and capture data in a forensically sound manner. In SOC and IR work, it’s mainly used to acquire disk images, capture volatile memory, and quickly review files without altering the source system
 
 <img width="1422" height="816" alt="image" src="https://github.com/user-attachments/assets/80663ca8-be4e-403a-80b9-e44e4632d6ef" />
