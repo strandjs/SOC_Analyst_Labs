@@ -179,7 +179,7 @@ curl -fsSL https://archive.kali.org/archive-key.asc \
 ---
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 ```
 ```bash
 source .venv/bin/activate
@@ -190,6 +190,10 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+<img width="660" height="288" alt="image" src="https://github.com/user-attachments/assets/5cd1297e-f75d-4124-b7b4-86bb1ca403bf" />
+
+To connect to the site open ``http://10.10.119.212:8000`` **NOTE THAT YOUR IP MAY BE DIFFERENT**
 
 ## Go to [Part 2](/courseFiles/Section_06-webSecurity/webLabPart2.md)
 
