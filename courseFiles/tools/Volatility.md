@@ -19,7 +19,7 @@ To run it do
 python3 vol.py
 ```
 
-## Usage
+## General Usage
 
 To list needed plugins and get help you can use
 
@@ -41,4 +41,47 @@ python3 vol.py -h
 - For specific commands ( change ``windows.pslist.PsList`` with whatever command you wish )
 ```bash
 python3 vol.py windows.pslist.PsList -h
+```
+
+## Windows Usage
+**Usefull commands**
+
+- Lists processes seen in the OS’s active process list (name, PID, PPID, times, etc.)
+```bash
+python3 vol.py -f /path/to/memdump windows.pslist.PsList
+```
+
+- Shows processes in a parent/child tree to visualize lineage
+```bash
+python3 vol.py -f /path/to/memdump windows.pstree.PsTree
+```
+
+- Signature-scans memory to find process objects (including hidden/unlinked/terminated ones)
+```bash
+python3 vol.py -f /path/to/memdump windows.psscan.PsScan
+```
+
+- a
+```bash
+python3 vol.py -f /path/to/memdump windows.
+```
+
+- a
+```bash
+python3 vol.py -f /path/to/memdump windows.
+```
+
+- a
+```bash
+python3 vol.py -f /path/to/memdump windows.
+```
+
+- a
+```bash
+python3 vol.py -f /path/to/memdump windows.
+```
+
+- a
+```bash
+python3 vol.py -f /path/to/memdump windows.
 ```
