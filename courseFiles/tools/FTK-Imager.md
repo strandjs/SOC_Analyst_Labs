@@ -10,7 +10,22 @@ FTK Imager is a free forensic tool from AccessData used to preview and capture d
 - **Evidence Mounting** – Mount acquired images in read-only mode for safe examination
 
 ## Installing FTK Imager
-Get the Setup from [Here](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
+Get the Setup from [Here](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81) adn **run** it
+
+Click **Next**
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/1f62bcb2-2de8-4a87-8469-07a6a2b235ab" />
+
+Accept the terms and click **Next**
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/b5cd08c2-16b9-4134-a1e2-0f89650f94da" />
+
+Install it wherever and include make sure the box is ticked
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/1bae97e1-cdc7-4fdf-9519-b1ef174b9bcd" />
+
+Click ***Install**
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/237f1195-74b1-48a4-b46a-6b3756c0ec94" />
+
+
+
 
 
 
