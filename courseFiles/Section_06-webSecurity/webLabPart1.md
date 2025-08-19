@@ -191,7 +191,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Go to [Part 2](/webLabPart2.md)
+## Go to [Part 2](/courseFiles/Section_06-webSecurity/webLabPart2.md)
 
 ---
 [Back to the section](/courseFiles/Section_06-webSecurity/webSecurity.md)
