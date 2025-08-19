@@ -63,6 +63,13 @@ Practical Use Case:
 - Dump suspicious DLLs for malware analysis
 - Find malicious processes
 
+## Common Artifacts
+- **Windows:** Event Logs, Registry, Prefetch, LNK files
+- **Linux/Unix:** system logs, shell history, crontabs
+- **Web browsers:** cookies, cache, browsing history
+- **Cloud/SaaS:** audit logs, authentication events
+- **Email:** headers, attachments, phishing payloads
+
 ## Workflow Example
 1. **Incident occurs** – suspect machine identified
 2. **Preserve volatile data** – capture RAM dump and active connections
@@ -71,6 +78,11 @@ Practical Use Case:
 5. **Correlate with Volatility findings** – confirm persistence mechanisms, malware behavior
 6. **Document everything** – timestamps, tools used, evidence hashes
 
+## Legal and Ethical Considerations
+- Compliance requirements (GDPR, HIPAA, PCI DSS)
+- Admissibility of evidence in court (documentation standards)
+- Coordination with incident responders, hunters, and external parties
+- Producing clear reports for management or compliance teams
 
 ***
 <b><i>Continuing the course?</b>
