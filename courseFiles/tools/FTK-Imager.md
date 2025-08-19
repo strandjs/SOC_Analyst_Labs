@@ -1,5 +1,8 @@
-## Overview
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/19125f6f-7feb-4174-ad6a-169bcd569e1d" />## Overview
 FTK Imager is a free forensic tool from AccessData used to preview and capture data in a forensically sound manner. In SOC and IR work, it’s mainly used to acquire disk images, capture volatile memory, and quickly review files without altering the source system
+
+<img width="1422" height="816" alt="image" src="https://github.com/user-attachments/assets/80663ca8-be4e-403a-80b9-e44e4632d6ef" />
+
 
 ## Core Features
 - **Disk Imaging** – Create exact, bit-level copies of entire drives, partitions, or removable media
@@ -24,11 +27,13 @@ Install it wherever and include make sure the box is ticked and click **Next**
 
 <img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/1bae97e1-cdc7-4fdf-9519-b1ef174b9bcd" />
 
-Click ***Install**
+Click **Install**
 
 <img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/237f1195-74b1-48a4-b46a-6b3756c0ec94" />
 
+Tick the box and click **Finish**
 
+<img width="496" height="381" alt="image" src="https://github.com/user-attachments/assets/641c66a7-5544-44d8-8641-68ce05d72fef" />
 
 
 
