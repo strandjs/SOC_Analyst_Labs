@@ -77,8 +77,6 @@
 - [SQLi Lab](/courseFiles/Section_06-webSecurity/webSecurity.md#try-this-sections-hands-on-lab)
 
 
-
-
 ***
 ### [Browser & Cloud Security Fundamentals](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
@@ -103,7 +101,14 @@
 ***
 ### [Forensics Fundamentals](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md) 
 
-
+- [Overview](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#overview)
+- [Order of Volatility](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#order-of-volatility)
+- [FTK Imager - Evidence Acquisition](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#ftk-imager---evidence-aquisition)
+- [Autopsy – Evidence Analysis](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#autopsy---evidence-analysis)
+- [Memory Forensics (Volatility Framework)](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#memory-forensics-volatility-framework)
+- [Common Artifacts](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#common-artifacts)
+- [Workflow Example](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#workflow-example)
+- [Legal and Ethical Considerations](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md#legal-and-ethical-considerations)
 
 
 ***
