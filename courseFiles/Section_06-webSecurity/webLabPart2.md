@@ -80,6 +80,7 @@ The WHERE clause remains exactly what we wrote: ``username = <value> AND passwor
 - Repeated failed logins followed by success with odd input
 - SQLi tools (sqlmap) leave signatures in User-Agent and timing
 
+Also a real world example is [Equifax 2017](https://en.wikipedia.org/wiki/2017_Equifax_data_breach) where there was a Data Breach of 147M Records because of SQLi
 
 ---
 [Back to the section](/courseFiles/Section_06-webSecurity/webSecurity.md)
