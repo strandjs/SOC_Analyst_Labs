@@ -208,7 +208,7 @@ python3 vol.py -f /path/to/memdump $SYMS linux.pslist.PsList
 ### Notes
 Volatility does not provide the ability to acquire memory, for that best use scenario is [LiME](https://github.com/504ensicsLabs/LiME), and for windows [WinPmem](https://github.com/Velocidex/WinPmem) from Velociraptor
 
-# Try our [Volatility Lab](/courseFiles/Section_09-forensicsFundamentals/volatilityLab.md)
+# Try our [Volatility Lab](/courseFiles/Section_09-forensicsFundamentals/volatilityLab1.md)
 
 ---
 [Back to the section](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md)
