@@ -197,4 +197,7 @@ If you don't want to install symbols for every linux dump, you can use a remote 
 ### Notes
 Volatility does not provide the ability to acquire memory, for that best use scenario is [LiME](https://github.com/504ensicsLabs/LiME), and for windows [WinPmem](https://github.com/Velocidex/WinPmem) from Velociraptor
 
-Try our [Volatility Lab](/courseFiles/Section_09-forensicsFundamentals/volatilityLab.md)
+# Try our [Volatility Lab](/courseFiles/Section_09-forensicsFundamentals/volatilityLab.md)
+
+---
+[Back to the section](/courseFiles/Section_09-forensicsFundamentals/forensicsFundamentals.md)
