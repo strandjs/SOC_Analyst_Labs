@@ -35,6 +35,8 @@ FTK Imager is an open-source software by AccessData that is used for creating ac
 - Generate MD5/SHA256 hash
 - Save in E01 format for further analysis in Autopsy
 
+If interested check out our [FTK Imager Documentation](/courseFiles/tools/FTK-Imager.md)
+
 ## Autopsy – Evidence Analysis
 **Purpose:** Open-source digital forensics platform for disk and file analysis
 
@@ -62,6 +64,8 @@ Practical Use Case:
 - Capture RAM during live response
 - Dump suspicious DLLs for malware analysis
 - Find malicious processes
+
+Make use of our [Volatility Documentation](/courseFiles/tools/Volatility.md) and hour [Volatility Hands-On Lab](/courseFiles/Section_09-forensicsFunamentals/volatilityLab.md)
 
 ## Common Artifacts
 - **Windows:** Event Logs, Registry, Prefetch, LNK files
