@@ -65,7 +65,7 @@ Practical Use Case:
 - Dump suspicious DLLs for malware analysis
 - Find malicious processes
 
-Make use of our [Volatility Documentation](/courseFiles/tools/Volatility.md) and hour [Volatility Hands-On Lab](/courseFiles/Section_09-forensicsFunamentals/volatilityLab.md)
+Make use of our [Volatility Documentation](/courseFiles/tools/Volatility.md) and hour [Volatility Hands-On Lab](/courseFiles/Section_09-forensicsFundamentals/volatilityLab.md)
 
 ## Common Artifacts
 - **Windows:** Event Logs, Registry, Prefetch, LNK files
