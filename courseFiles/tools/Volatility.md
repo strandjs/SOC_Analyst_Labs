@@ -61,27 +61,45 @@ python3 vol.py -f /path/to/memdump windows.pstree.PsTree
 python3 vol.py -f /path/to/memdump windows.psscan.PsScan
 ```
 
-- a
+- Extracts each process’s command-line arguments from its PEB
 ```bash
-python3 vol.py -f /path/to/memdump windows.
+python3 vol.py -f /path/to/memdump windows.cmdline.CmdLine
 ```
 
-- a
+- Lists DLLs/modules loaded by each process (base, size, path, load time)
 ```bash
-python3 vol.py -f /path/to/memdump windows.
+python3 vol.py -f /path/to/memdump windows.dlllist.DllList
 ```
 
-- a
+- Enumerates open kernel object handles per process (files, registry keys, mutexes, events, etc.)
 ```bash
-python3 vol.py -f /path/to/memdump windows.
+python3 vol.py -f /path/to/memdump windows.handles.Handles
 ```
 
-- a
+- Scans memory for ``FILE_OBJECTs`` to surface file artifacts (not just currently open)
 ```bash
-python3 vol.py -f /path/to/memdump windows.
+python3 vol.py -f /path/to/memdump windows.filescan.FileScan
 ```
 
-- a
+- Scans for kernel ``DRIVER_OBJECTs`` (can reveal hidden/unlinked drivers)
 ```bash
-python3 vol.py -f /path/to/memdump windows.
+python3 vol.py -f /path/to/memdump windows.driverscan.DriverScan
 ```
+
+- Flags process memory regions that look like injected code (exec-perms, not image-backed)
+```bash
+python3 vol.py -f /path/to/memdump windows.malware.malfind.Malfind
+```
+
+- Detects likely process hollowing (lists processes whose image has been replaced in memory)
+```bash
+python3 vol.py -f /path/to/memdump windows.malware.hollowprocesses.HollowProcesses
+```
+
+- Lists System Service Descriptor Table entries (index, function, owning driver) to help spot SSDT hooks
+```bash
+python3 vol.py -f /path/to/memdump windows.ssdt.SSDT
+```
+
+## Linux Usage
+**Usefull commands**
