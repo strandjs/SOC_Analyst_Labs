@@ -139,7 +139,7 @@ Antivirus alerts on uploaded files</pre>
 
 **Prevention:** Network segmentation, allowlists(never rely only on denylists)
 
-## Try this section's [Hands-on Lab](/courseFiles/Section_06-webSecurity/webLab.md)
+## Try this section's [Hands-on Lab](/courseFiles/Section_06-webSecurity/webLabPart1.md)
 
 ***
 

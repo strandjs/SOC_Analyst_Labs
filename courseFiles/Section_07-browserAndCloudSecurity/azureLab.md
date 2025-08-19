@@ -105,7 +105,7 @@
 
 
 ---
-[Back to the section](/courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
+[Back to the section](/courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
 
 
