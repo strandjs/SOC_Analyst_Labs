@@ -80,24 +80,24 @@
 
 
 ***
-### [Browser & Cloud Security Fundamentals](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md)
+### [Browser & Cloud Security Fundamentals](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md)
 
-- [Browser Extension Attacks](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md#browser-extension-attacks)
-- [OAuth & SSO Attacks](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
-- [Azure Logs](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
-- [M365 Audit Logs](courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
-- [Azure Lab](courseFiles/Section_06-browserAndCloudSecurity/azureLab.md)
+- [Browser Extension Attacks](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md#browser-extension-attacks)
+- [OAuth & SSO Attacks](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md#oauth--sso-attacks)
+- [Azure Logs](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md#azure-logs)
+- [M365 Audit Logs](courseFiles/Section_07-browserAndCloudSecurity/browserAndCloudSecurity.md#m365-audit-logs)
+- [Azure Lab](courseFiles/Section_07-browserAndCloudSecurity/azureLab.md)
 
 ***
-### [Deception Systems](courseFiles/Section_07-deceptionSystems/deceptionSystems.md)
+### [Deception Systems](courseFiles/Section_08-deceptionSystems/deceptionSystems.md)
 
-- [Intro to Deception Techniques](courseFiles/Section_07-deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
-- [Generating Traps](courseFiles/Section_07-deceptionSystems/deceptionSystems.md#generating-traps)
-- [Active Defense & Cyber Deception](courseFiles/Section_07-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
-- [Legal Notes](courseFiles/Section_07-deceptionSystems/deceptionSystems.md#legal-notes)
-- [Dionaea Lab](courseFiles/Section_07-deceptionSystems/dionaeaLab.md)
-- [Beelzebub Lab](courseFiles/Section_07-deceptionSystems/beelzebubLab.md)
-- [CanaryToken Lab](courseFiles/Section_07-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
+- [Intro to Deception Techniques](courseFiles/Section_08-deceptionSystems/deceptionSystems.md#intro-to-deception-techniques)
+- [Generating Traps](courseFiles/Section_08-deceptionSystems/deceptionSystems.md#generating-traps)
+- [Active Defense & Cyber Deception](courseFiles/Section_08-deceptionSystems/deceptionSystems.md#active-defense--cyber-deception)
+- [Legal Notes](courseFiles/Section_08-deceptionSystems/deceptionSystems.md#legal-notes)
+- [Dionaea Lab](courseFiles/Section_08-deceptionSystems/dionaeaLab.md)
+- [Beelzebub Lab](courseFiles/Section_08-deceptionSystems/beelzebubLab.md)
+- [CanaryToken Lab](courseFiles/Section_08-deceptionSystems/CanaryToken_lab/CanaryToken_lab.md)
 
 
 ***
@@ -107,32 +107,32 @@
 
 
 ***
-### [Email Fundamentals](courseFiles/Section_08-emailFundamentals/emailFundamentals.md)
+### [Email Fundamentals](courseFiles/Section_10-emailFundamentals/emailFundamentals.md)
 
-- [Identifying Phishing](courseFiles/Section_08-emailFundamentals/emailFundamentals.md#identifying-phishing)
-- [Common Email-Based Attacks](courseFiles/Section_08-emailFundamentals/emailFundamentals.md#common-email-based-attacks)
-- [Email Security Solutions](courseFiles/Section_08-emailFundamentals/emailFundamentals.md#email-security-solutions)
-- [Projects to Try](courseFiles/Section_08-emailFundamentals/emailFundamentals.md#projects-to-try)
-- [Phishing Email Lab](courseFiles/Section_08-emailFundamentals/phishing_email_lab.md)
-- [Phishing Email Lab Solution](courseFiles/Section_08-emailFundamentals/phishing_email_lab_solution.md)
-
-***
-### [Documentation & Case Notes](courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md)
-
-- [Case Notes — The Analyst’s Daily Log](courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md#case-notes---the-analysts-daily-log)
-- [Writing an Incident Timeline](courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
-- [Writing an Alert Triage Summary](courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
-- [Real-World Examples](courseFiles/Section_09-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
-- [Documentation Lab](courseFiles/Section_09-documentationAndCaseNotes/documentationLab.md)
+- [Identifying Phishing](courseFiles/Section_10-emailFundamentals/emailFundamentals.md#identifying-phishing)
+- [Common Email-Based Attacks](courseFiles/Section_10-emailFundamentals/emailFundamentals.md#common-email-based-attacks)
+- [Email Security Solutions](courseFiles/Section_10-emailFundamentals/emailFundamentals.md#email-security-solutions)
+- [Projects to Try](courseFiles/Section_10-emailFundamentals/emailFundamentals.md#projects-to-try)
+- [Phishing Email Lab](courseFiles/Section_10-emailFundamentals/phishing_email_lab.md)
+- [Phishing Email Lab Solution](courseFiles/Section_10-emailFundamentals/phishing_email_lab_solution.md)
 
 ***
-### [Soft Skills](courseFiles/Section_10-softSkills/softSkills.md)
+### [Documentation & Case Notes](courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md)
 
-- [Ask Questions](courseFiles/Section_10-softSkills/softSkills.md#ask-questions)
-- [Explain Your Process](courseFiles/Section_10-softSkills/softSkills.md#explain-your-process)
-- [Start a Blog](courseFiles/Section_10-softSkills/softSkills.md#start-a-blog)
-- [Learn & Teach](courseFiles/Section_10-softSkills/softSkills.md#learn--teach)
-- [Final Exercise](courseFiles/Section_10-softSkills/softSkills.md#final-exercise)
+- [Case Notes — The Analyst’s Daily Log](courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md#case-notes---the-analysts-daily-log)
+- [Writing an Incident Timeline](courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-incident-timeline)
+- [Writing an Alert Triage Summary](courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md#writing-an-alert-triage-summary)
+- [Real-World Examples](courseFiles/Section_11-documentationAndCaseNotes/documentationAndCaseNotes.md#real-world-examples)
+- [Documentation Lab](courseFiles/Section_11-documentationAndCaseNotes/documentationLab.md)
+
+***
+### [Soft Skills](courseFiles/Section_12-softSkills/softSkills.md)
+
+- [Ask Questions](courseFiles/Section_12-softSkills/softSkills.md#ask-questions)
+- [Explain Your Process](courseFiles/Section_12-softSkills/softSkills.md#explain-your-process)
+- [Start a Blog](courseFiles/Section_12-softSkills/softSkills.md#start-a-blog)
+- [Learn & Teach](courseFiles/Section_12-softSkills/softSkills.md#learn--teach)
+- [Final Exercise](courseFiles/Section_12-softSkills/softSkills.md#final-exercise)
 
 ***
 
