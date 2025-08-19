@@ -49,6 +49,11 @@
 - [Lab 1 Detect Brute Force Script Solution](courseFiles/Section_04-socScripting/lab1_solution_step_by_step.md)
 - [Lab 2 Collect System Info Powershell Script](courseFiles/Section_04-socScripting/lab2_collect_system_info.md)
 - [Lab 2 Collect System Info Powershell Script Solution](courseFiles/Section_04-socScripting/lab2_solution_steb_by_step.md)
+- [Scapy Documentation part 1](/courseFiles/tools/scapy_documentation_part1.md)
+- [Scapy Documentation part 2](/courseFiles/tools/scapy_documentation_part2.md)
+- [Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
+- [Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
+
 
 ***
 ### [Networking & Telemetry 101](/courseFiles/Section_05-networkingAndTelemetry/networkingAndTelemetry.md)
@@ -62,13 +67,14 @@
 - [IDS Lab](courseFiles/Section_05-networkingAndTelemetry/ids_lab.md)
 - [Zeek Lab](courseFiles/Section_05-networkingAndTelemetry/zeek_lab.md)
 - [Zeek Lab Results](courseFiles/Section_05-networkingAndTelemetry/zeek_lab_results.md)
-- [Scapy Documentation part 1](/courseFiles/tools/scapy_documentation_part1.md)
-- [Scapy Documentation part 2](/courseFiles/tools/scapy_documentation_part2.md)
-- [Scapy Lab](/courseFiles/Section_04-socScripting/scapy_lab.md)
-- [Scapy Lab solution](/courseFiles/Section_04-socScripting/scapy_lab_solution.md)
 
 ***
 ### [Web Security](/courseFiles/Section_06-webSecurity/webSecurity.md) 
+
+- [Overview](/courseFiles/Section_06-webSecurity/webSecurity.md#overview)
+- [Types of Attacks](/courseFiles/Section_06-webSecurity/webSecurity.md#types-of-attacks)
+- [Common Web Attacks](/courseFiles/Section_06-webSecurity/webSecurity.md#common-web-attacks)
+- [SQLi Lab](/courseFiles/Section_06-webSecurity/webSecurity.md#try-this-sections-hands-on-lab)
 
 
 
