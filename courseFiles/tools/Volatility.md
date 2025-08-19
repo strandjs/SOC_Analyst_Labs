@@ -195,7 +195,9 @@ If you don't want to install symbols for every linux dump, you can use a remote 
 <pre>REMOTE_ISF_URL = "https://raw.githubusercontent.com/leludo84/vol3-linux-profiles/main/banners-isf.json"</pre>
 
 ***Or do***
+```bash
 SYMS='--remote-isf-url https://github.com/Abyss-W4tcher/volatility3-symbols/raw/master/banners/banners.json'
+```
 
 And then all the commands would look like this
 
