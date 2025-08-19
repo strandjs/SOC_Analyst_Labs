@@ -166,11 +166,18 @@ sudo apt update
 ```bash
 sudo apt install python3-venv
 ```
-- In case that doesn't work do this
+
+---
+
+- In case that doesn't work do this then continue
+
 ```bash
 curl -fsSL https://archive.kali.org/archive-key.asc \
 | sudo gpg --dearmor -o /usr/share/keyrings/kali-archive-keyring.gpg -y
 ```
+
+---
+
 ```bash
 python -m venv .venv
 ```
