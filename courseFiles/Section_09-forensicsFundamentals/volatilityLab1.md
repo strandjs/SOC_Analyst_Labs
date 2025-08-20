@@ -8,4 +8,18 @@ This is the 1st of 4 parts
 
 ## Start
 
-In this lab you will be given 4 different memory dumps located   
+In this lab you will be given 4 different memory dumps located in ``~/labs/volatility3``, they all have malware inside and your task is to find where is the malware and which process it is, we will be using **$IMG** for the dump path and file, and **$SYMS** for the remote ISF URL
+
+# Setup
+
+```bash
+IMG=~/labs/volatility3/stage1.lime
+```
+```bash
+SYMS='--remote-isf-url https://github.com/Abyss-W4tcher/volatility3-symbols/raw/master/banners/banners.json'
+```
+
+The commands will be in this template:
+```bash
+python3 vol.py -f "$IMG" $SYMS linux.something
+```
