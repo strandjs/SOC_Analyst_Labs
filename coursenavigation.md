@@ -74,7 +74,6 @@
 - [Overview](/courseFiles/Section_06-webSecurity/webSecurity.md#overview)
 - [Types of Attacks](/courseFiles/Section_06-webSecurity/webSecurity.md#types-of-attacks)
 - [Common Web Attacks](/courseFiles/Section_06-webSecurity/webSecurity.md#common-web-attacks)
-- [SQLi Lab](/courseFiles/Section_06-webSecurity/webSecurity.md#try-this-sections-hands-on-lab)
 - [Browser Malware Documentation](/courseFiles/Section_06-webSecurity/browser_malware.md)
 - [Browser Malware Lab](/courseFiles/Section_06-webSecurity/browser_malware_lab.md)
 
