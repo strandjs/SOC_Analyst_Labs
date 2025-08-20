@@ -59,7 +59,14 @@ lsof shows only normal TTY pipes + /etc/sudoers — no open sockets, no executab
 
 So ``1071`` itself is just the ``sudo`` wrapper, it spawned something else (the malware) that then daemonized and detached
 
-The real payload must be in another PID, let's check processes right after **15:33:50**
+The real payload must be in another PID, let's check processes right after **15:33:50** so we will do ``linux.pslist.PsList``
+
+<img width="1195" height="45" alt="image" src="https://github.com/user-attachments/assets/ded6cab2-a74d-4496-8e65-e662c9fd3136" />
+
+We see that ``kworker/5:2`` was spawned not even a second later than the launcher, that is our malware, and that is more than enough proof the system was infected
+
+
+
 
 
 
