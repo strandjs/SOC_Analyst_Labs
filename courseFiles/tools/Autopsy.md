@@ -1,4 +1,4 @@
-Autopsy is one of the most widely used open-source digital forensics platforms. It is built on top of The Sleuth Kit (TSK) and provides a graphical interface for investigating digital evidence. Its modular design allows analysts to process disk images, extract artifacts, and generate reports in a streamlined, repeatable fashion
+**Autopsy** is one of the most widely used open-source digital forensics platforms. It is built on top of The Sleuth Kit (TSK) and provides a graphical interface for investigating digital evidence. Its modular design allows analysts to process disk images, extract artifacts, and generate reports in a streamlined, repeatable fashion
 
 In Security Operations Center (SOC) workflows, Autopsy is often leveraged for:
 - Incident response investigations (e.g., analyzing compromised endpoints)
