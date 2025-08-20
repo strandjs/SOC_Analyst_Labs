@@ -51,6 +51,6 @@ Finally using ``linux.envars.Envars --pid 1209`` reveals exactly how the process
     /tmp/kworker &
     sleep 999999</pre>
 
-You see the attacker used ``unshare`` (to isolate namespaces), mounted ``/pro``c, then ran **nc** to listen silently on 5555, plus launched ``/tmp/kworker``
+You see the attacker used ``unshare`` (to isolate namespaces), mounted ``/proc``, then ran **nc** to listen silently on 5555, plus launched ``/tmp/kworker``
 
 The presence of /tmp/kworker ties into the persistence/stealth part of Stage 3
