@@ -8,7 +8,7 @@ This is the 1st of 4 parts
 
 ## Start
 
-In this lab you will be given 4 different memory dumps located in ``~/labs/volatility3``, they all have malware inside and your task is to find where is the malware and which process it is, we will be using **$IMG** for the dump path and file, and **$SYMS** for the remote ISF URL
+In this lab you will be given 4 different linux memory dumps located in ``~/labs/volatility3``, they all have malware inside and your task is to find where is the malware and which process it is, we will be using **$IMG** for the dump path and file, and **$SYMS** for the remote ISF URL
 
 # Setup
 
