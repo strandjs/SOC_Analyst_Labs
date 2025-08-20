@@ -28,3 +28,13 @@ python3 vol.py -f "$IMG" $SYMS linux.something
 Try to find the malware using the commands in the [Volatility Documentation](/courseFiles/tools/Volatility.md) and then scroll down to see what you should've looked for
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Stage 1 is all about a obvious process called ``evilminerd`` running visibly in the system
+
+You can detect it using ``linux.pslist.PsList``, the name standing out immediately
+
+**Notes** 
+
+Obvious malware is often trivial to spot
+
+Basic **process enumeration** is key to and usually the first step to any memdump analysis
