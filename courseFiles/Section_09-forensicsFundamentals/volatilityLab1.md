@@ -23,3 +23,8 @@ The commands will be in this template:
 ```bash
 python3 vol.py -f "$IMG" $SYMS linux.something
 ```
+
+## Your turn
+Try to find the malware using the commands in the [Volatility Documentation](/courseFiles/tools/Volatility.md) and then scroll down to see what you should've looked for
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
