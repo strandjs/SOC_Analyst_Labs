@@ -51,6 +51,8 @@ Practical Use Case:
 - Run a keyword search for suspicious domains or filenames
 - Reconstruct a timeline of user activity around an incident
 
+Check out our [Autopsy Documentation](/courseFiles/tools/Autopsy.md)
+
 ## Memory Forensics (Volatility Framework)
 **Purpose:** Extract and analyze volatile memory from live systems or dumps
 
