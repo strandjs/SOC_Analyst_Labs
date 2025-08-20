@@ -33,6 +33,8 @@ WAF/IDS alerts (rules for sqlmap user-agent)
 
 Prevention: Use parameterized queries, ORM, and DB least privilege</pre>
 
+### Try this SQL Injection [Hands-on Lab](/courseFiles/Section_06-webSecurity/webLabPart1.md)
+
 ---
 
 2. **Cross-Site Scripting (XSS)**
@@ -142,7 +144,6 @@ Antivirus alerts on uploaded files</pre>
 ## Browser malware
 Check it out and do the lab for it [Here](/courseFiles/Section_06-webSecurity/browser_malware.md)
 
-## Try this SQL Injection [Hands-on Lab](/courseFiles/Section_06-webSecurity/webLabPart1.md)
 
 ***
 
