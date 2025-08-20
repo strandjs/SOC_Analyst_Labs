@@ -5,3 +5,7 @@
 This lab should be done as a continuation of the [Volatility Documentation](/courseFiles/tools/Volatility.md)
 
 This is the 1st of 4 parts
+
+## Start
+
+In this lab you will be given 4 different memory dumps located   
