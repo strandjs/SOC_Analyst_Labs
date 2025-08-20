@@ -31,6 +31,8 @@ Try to find the malware using the commands in the [Volatility Documentation](/co
 
 Stage 1 is all about a obvious process called ``evilminerd`` running visibly in the system
 
+<img width="1174" height="65" alt="image" src="https://github.com/user-attachments/assets/0197ede6-fc02-4c37-ba04-daa4837b6cf8" />
+
 You can detect it using ``linux.pslist.PsList``, the name standing out immediately
 
 **Notes** 
