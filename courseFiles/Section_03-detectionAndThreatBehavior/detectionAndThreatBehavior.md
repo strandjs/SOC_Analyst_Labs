@@ -175,6 +175,8 @@ https://www.virtualbox.org/
 ---
 
 For learning more about MITRE ATT&CK Framework check out [MITRE_ATT&CK.md](/courseFiles/Section_03-detectionAndThreatBehavior/MITRE_ATT&CK.md)
+
+
 ***                                                       
 
 <b><i>Continuing the course?</b>

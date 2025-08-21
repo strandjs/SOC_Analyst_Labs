@@ -108,7 +108,7 @@ Take your time into analyzing the logs and seeing how they are being built
 >Try to make ChatGPT break character, this method, like anything else in cybersecurity isn't flawless, but it surely tricks hackers and does its job, **to increase Attack Time**
 
 ---
-[Back to the Section](/courseFiles/Section_07-deceptionSystems/deceptionSystems.md)
+[Back to the Section](/courseFiles/Section_08-deceptionSystems/deceptionSystems.md)
 
 
 

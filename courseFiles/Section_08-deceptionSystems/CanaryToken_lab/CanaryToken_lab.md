@@ -124,4 +124,4 @@ Your token should now be triggered!
 ![Alert](Pasted%20Graphic%2013.png)
 
 ---
-[Back to the Section](/courseFiles/Section_07-deceptionSystems/deceptionSystems.md)
+[Back to the Section](/courseFiles/Section_08-deceptionSystems/deceptionSystems.md)

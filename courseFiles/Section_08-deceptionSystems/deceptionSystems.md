@@ -43,7 +43,7 @@ Active defense shifts from passive monitoring to proactive engagement, it includ
 
 By upsetting adversary decision cycles and making them doubt the reliability of their information and actions, these tactics enhance conventional defenses
 
-Another tool that we introduce through a hands-on lab is on [beelzebub](/courseFiles/Section_07-deceptionSystems/beelzebubLab.md), and advanced SSH honeypot
+Another tool that we introduce through a hands-on lab is on [beelzebub](/courseFiles/Section_08-deceptionSystems/beelzebubLab.md), an advanced SSH honeypot
 
 ## Legal Notes
 ### Legality of Deception
