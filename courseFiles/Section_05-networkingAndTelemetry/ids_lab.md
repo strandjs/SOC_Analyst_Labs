@@ -207,14 +207,6 @@ sudo tail -f /var/log/suricata/fast.log
  
 - [snorpy](https://snorpy.cyb3rs3c.net) -A Web Based Snort Rule Creator
 
- ***               
 
-<b><i>Continuing the course?</b>
-</br>
-[Click here for the Next Section](/courseFiles/Section_06-browserAndCloudSecurity/browserAndCloudSecurity.md)</i>
-
-<b><i>Want to go back?</b>
-</br>
-[Click here for the Previous Section](/courseFiles/Section_04-socScripting/socScripting.md)
-
-<b><i>Looking for a different section? </b></br>[Back to Section Directory](/coursenavigation.md)</i>
+---
+[Back to the section](/courseFiles/Section_05-networkingAndTelemetry/networkingAndTelemetry.md)
