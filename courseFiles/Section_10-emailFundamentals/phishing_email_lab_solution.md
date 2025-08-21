@@ -126,4 +126,4 @@ CEO
 | **Recommended Action**               | Block domain, alert users, report to CERT, blacklist link                    |
 
 ---
-[Back to the Section](/courseFiles/Section_08-emailFundamentals/emailFundamentals.md)
+[Back to the Section](/courseFiles/Section_10-emailFundamentals/emailFundamentals.md)
