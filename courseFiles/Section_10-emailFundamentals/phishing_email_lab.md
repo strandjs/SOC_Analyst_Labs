@@ -120,4 +120,4 @@ Fill out this incident response template:
 Once you finish, go check out the [solution](./phishing_email_lab_solution.md).
 
 ---
-[Back to the Section](/courseFiles/Section_08-emailFundamentals/emailFundamentals.md)
+[Back to the Section](/courseFiles/Section_10-emailFundamentals/emailFundamentals.md)
