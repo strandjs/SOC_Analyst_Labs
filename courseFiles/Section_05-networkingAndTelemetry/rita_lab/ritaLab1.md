@@ -2,7 +2,7 @@
 
 # For the Network Threat Hunting VM
 
-During these parts you will be going through 7 packs of data and you will have to answer some questions for each, you will find the answers if you keep scrolling down
+During these parts you will be going through 7 datasets and you will have to answer some questions for each, you will find the answers if you keep scrolling down
 
 You can view all of them via
 ```bash
