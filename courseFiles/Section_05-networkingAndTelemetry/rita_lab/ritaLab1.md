@@ -3,7 +3,7 @@
 During these parts you will be going through 7 packs of data
 
 
-## slow\_steady\_beacon
+## slow_steady_beacon
 
 **Dataset:** Cobalt Strike — HTTP, Delay 30s, Jitter 0
 
