@@ -14,6 +14,9 @@ rita list
 ## slow\steady\beacon
 
 **Dataset Description:** Cobalt Strike - HTTP, Delay 30s, Jitter 0
+```bash
+rita view slow_steady_beacon
+```
 
 1. Which internal host IP is beaconing?
 
