@@ -11,7 +11,7 @@ rita list
 <img width="657" height="203" alt="image" src="https://github.com/user-attachments/assets/6599e66c-6678-42c5-bec7-bbabd1043bf9" />
 
 
-## slow\steady\beacon
+## slow_steady_beacon
 
 **Dataset Description:** Cobalt Strike - HTTP, Delay 30s, Jitter 0
 ```bash
