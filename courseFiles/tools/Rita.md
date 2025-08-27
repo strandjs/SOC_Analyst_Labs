@@ -88,7 +88,7 @@ rita list
 ```bash
 rita view <datasetname>
 ```
-This command will open a menu that should look similar like the one below:
+This command will open a menu that should look similar to the one below:
 
 [](./attachments/rita_view.png)
 
