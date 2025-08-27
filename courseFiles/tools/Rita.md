@@ -90,7 +90,7 @@ rita view <datasetname>
 ```
 This command will open a menu that should look similar to the one below:
 
-[](./attachments/rita_view.png)
+![](./attachments/rita_view.png)
 
 >Most of the previous commands used in RITA v4 were replaced by this command and this menu.
 
