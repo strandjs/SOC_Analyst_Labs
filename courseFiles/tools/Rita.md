@@ -92,6 +92,8 @@ This command will open a menu that should look similar to the one below:
 
 ![](./attachments/rita_view.png)
 
+>![IMPORTANT]
+>
 >Most of the previous commands used in RITA v4 were replaced by this command and this menu.
 
 - For navigation help press:
