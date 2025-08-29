@@ -63,7 +63,8 @@ Then hit Ctrl+O to save the file and Ctrl+X to exit Nano.
 sudo suricata -c /etc/suricata/suricata.yaml -i lo
 ```
 
-![suricata start](./ids_lab_photos/start_suricata.png)
+<img width="644" height="112" alt="image" src="https://github.com/user-attachments/assets/26c0b848-78b3-4470-bc2b-8badef146814" />
+
 
 Then(in another terminal):
  
