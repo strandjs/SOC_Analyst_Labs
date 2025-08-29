@@ -86,7 +86,7 @@ Press Ctrl+O to write out and save then Ctrl+X to exit.
 ###  B. Run Snort 
  
 ```bash
-sudo snort -c /home/ubuntu/labs/ids_lab/snort3-3.8.1.0/lua/snort.lua -R ~/labs/ids_lab/rules/local.rules -i lo -A alert_fast 
+snort -c /etc/snort/snort.lua -R ~/labs/ids_lab/rules/local.rules -i lo -A alert_fast
 ```
  
 - `-c`: config file
