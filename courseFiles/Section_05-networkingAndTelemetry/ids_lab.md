@@ -12,8 +12,14 @@ Learn how to:
 ---
  
 ## 1. Install IDS Tools on Kali
+
+`sudo su -`
+
+`wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg`
  
 ### Install Snort (via apt)
+
+`apt get install snort`
 
 >it should already be installed!
  
