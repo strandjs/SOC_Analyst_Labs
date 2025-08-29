@@ -42,6 +42,8 @@ snort -V
  
 `apt-get install suricata`
 
+If you get any popups just tab to select OK and keep the default values.
+
 Verify:
  
 ```bash
