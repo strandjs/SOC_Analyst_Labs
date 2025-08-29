@@ -71,6 +71,10 @@ Then(in another terminal):
 ```bash
 ping 127.0.0.1
 ```
+
+<img width="459" height="113" alt="image" src="https://github.com/user-attachments/assets/601b9292-3a5a-40f8-a025-690a2cc2a731" />
+
+
  
 Check alerts(in a 3rd terminal):
  
