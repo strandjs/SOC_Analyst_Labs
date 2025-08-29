@@ -78,6 +78,9 @@ alert icmp any any -> any any (msg:"[Snort3] ICMP Ping Detected"; sid:1000001; r
  
 ![Snort rule 1](./ids_lab_photos/nano_snort_rule.png)
 
+Press Ctrl+O to write out and save then Ctrl+X to exit.
+
+
 ---
  
 ###  B. Run Snort 
