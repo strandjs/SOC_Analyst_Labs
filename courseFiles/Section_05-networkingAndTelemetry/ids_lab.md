@@ -94,7 +94,9 @@ Update full Suricata ruleset
 <img width="660" height="322" alt="image" src="https://github.com/user-attachments/assets/fad4799a-46c6-45b9-bf4b-bca8a599f059" />
 
 
+Remember, you can always read in a packet capture as well.
 
+`suricata -c /etc/suricata/suricata.yaml -r`
  
 ## 5.Skills You're Practicing
  
