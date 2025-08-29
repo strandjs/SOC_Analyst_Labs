@@ -1,4 +1,4 @@
-# IDS Lab — Using Snort & Suricata
+# IDS Lab — Using Suricata
  
 ## Lab Goals
  
