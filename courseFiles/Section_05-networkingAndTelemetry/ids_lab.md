@@ -91,6 +91,9 @@ Update full Suricata ruleset
 
 `sudo suricata-update`
 
+<img width="660" height="322" alt="image" src="https://github.com/user-attachments/assets/fad4799a-46c6-45b9-bf4b-bca8a599f059" />
+
+
 
  
 ## 5.Skills You're Practicing
