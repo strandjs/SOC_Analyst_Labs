@@ -38,8 +38,7 @@ snort -V
  
 ### Install Suricata
  
-
->it should already be installed!
+`apt-get install suricata`
 
 Verify:
  
