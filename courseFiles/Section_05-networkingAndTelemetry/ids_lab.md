@@ -52,6 +52,8 @@ Paste:
 ```suricata
 alert icmp any any -> any any (msg:"[Suricata] ICMP Ping Detected"; itype:8; sid:2000001;)
 ```
+
+Then hit Ctrl+O to save the file and Ctrl+X to exit Nano.
  
 ---
  
