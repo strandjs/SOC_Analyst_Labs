@@ -82,7 +82,8 @@ Check alerts(in a 3rd terminal):
 sudo tail -f /var/log/suricata/fast.log
 ```
 
-![suricata logs tail](./ids_lab_photos/suricata_detection_logs_tail.png)
+<img width="661" height="247" alt="image" src="https://github.com/user-attachments/assets/a2d19793-4cd4-460e-9151-5e5e3e91a46d" />
+
  
 ---
 
