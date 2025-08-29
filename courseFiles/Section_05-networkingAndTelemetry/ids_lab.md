@@ -33,7 +33,8 @@ Verify:
 suricata --build-info
 ```
 
-![Suricata version](./ids_lab_photos/suricata_version.png)
+<img width="645" height="104" alt="image" src="https://github.com/user-attachments/assets/87693277-2be8-4198-b10f-0766c241878f" />
+
 
 
 
