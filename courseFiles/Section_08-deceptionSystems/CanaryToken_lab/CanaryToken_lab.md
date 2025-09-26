@@ -124,4 +124,4 @@ Your token should now be triggered!
 ![Alert](Pasted%20Graphic%2013.png)
 
 ---
-[Back to the Section]([/courseFiles/Section_08-deceptionSystems/deceptionSystems.md](https://github.com/strandjs/IntroLabs/blob/master/IntroClassFiles/navigation.md))
+<b><i>Looking for a different lab? </br>[Lab Directory](/IntroClassFiles/navigation.md)</i></b>
