@@ -31,6 +31,9 @@ git clone https://github.com/mariocandela/beelzebub.git
 
 ### Deployment
 - Make sure you are into **/opt/beelzebub/**
+```bash
+cd /opt/beelzebub/
+```
 
 ```bash
 nano docker-compose.yml
