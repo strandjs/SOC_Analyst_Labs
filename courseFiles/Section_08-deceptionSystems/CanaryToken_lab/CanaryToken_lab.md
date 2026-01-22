@@ -92,6 +92,8 @@ cd ..
 
 Start the honeypot server:  
 
+`python3 owa_pot.py`
+
 ![Start honeypot](Pasted%20Graphic%208.png)
 
 ---
